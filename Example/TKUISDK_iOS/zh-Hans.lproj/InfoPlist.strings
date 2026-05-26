@@ -1,2 +1,19 @@
-/* Localized versions of Info.plist keys */
+/* 
+  InfoPlist.strings
+  EduClass
+
+  Created by lyy on 2018/5/9.
+  Copyright © 2018年 talkcloud. All rights reserved.
+*/
+CFBundleDisplayName = "拓课云Plus";
+/*权限声明*/
+NSPhotoLibraryUsageDescription = "教室中需要选择本地图片您是否允许访问相册";
+NSCameraUsageDescription = "教室中需要进行视频通话以及拍摄您是否允许打开相机";
+NSPhotoLibraryAddUsageDescription  = "教室中需要上传图片您是否允许添加图片";
+NSMicrophoneUsageDescription  = "教室中需要发送语音消息及发言您是否允许打开麦克风";
+NSLocationWhenInUseUsageDescription = "建议您开启跟踪权限，该权限将根据您所处位置配置最优服务器。开启后，您也可以前往\“应用权限-位置信息 中随时关闭\"";
+NSLocationAlwaysAndWhenInUseUsageDescription ="建议您开启跟踪权限，该权限将根据您所处位置配置最优服务器。开启后，您也可以前往\“应用权限-位置信息 中随时关闭\"";
+NSLocationAlwaysUsageDescription ="建议您开启跟踪权限，该权限将根据您所处位置配置最优服务器。开启后，您也可以前往\“应用权限-位置信息 中随时关闭\"";
+
+
 

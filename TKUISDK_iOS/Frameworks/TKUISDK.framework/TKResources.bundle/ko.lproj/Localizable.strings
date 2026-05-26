@@ -1,0 +1,1020 @@
+/*
+ Meetings.strings
+ Meetings
+ 
+ Created by macmini on 15/2/3.
+ Copyright (c) 2015年 macmini. All rights reserved.
+ */
+
+// 개인정보 보호 동의서의 사용자 동의서, 프로젝트명, 회사명
+"TKProjectName" = "Talk-Cloud+";
+"TKLog.SubTitle" = "전문 오디오 및 비디오 풀씬 솔루션 서비스 제공업체";
+"TKLog.NoPWD" = "  방에 비밀번호가 없으면 비밀번호를 입력할 필요가 없습니다   ";
+"TKCompanyName" = "Beijing Tuoke Network Technology Co., Ltd.";
+"Login.EnterRoom" = "교실 입장";
+"Login.setting" = "설정";
+"button_ok" = "확인";
+"HUD.EnteringClass" = "교실 입장";
+"Error.NoMeeting" = "교실 번호가 존재하지 않습니다";
+"Error.NoLiving" = "라이브 방송이 존재하지 않습니다";
+"Error.NotSupportThisType" = "이 유형의 라이브 방송은 지원되지 않습니다. 컴퓨터로 로그인하십시오.";
+"Error.ServerExpired" = "서버가 만료되었습니다!";
+"Error.CheckmeetingFail" = "회의 확인 실패";
+"Error.CheckserverInformationFail" = "서버 정보를 가져오지 못했습니다.";
+"Error.CompanyFreeze" = "회사가 동결되었습니다!";
+"Error.CompanyTrialHasEnded" = "회사 평가판이 종료되었습니다";
+"Error.RoomDeletedOrExpired" = "교실이 삭제되었거나 만료되었습니다!";
+"Error.SignError" = "실패했습니다. 관리자에게 문의하십시오";
+"Error.TimeError" = "장치 시간대 또는 시간 설정이 잘못되었습니다";
+"Error.MemberOverRoomLimit" = "교실의 학생 수가 제한을 초과했습니다.";
+"Error.NeedPwd" = "이 교실에는 암호가 필요합니다. 암호를 입력하십시오!";
+"Error.NeedPwd.teacher" = "교사 암호를 입력하십시오";
+"Error.NeedPwd.student" = "학생 암호를 입력하십시오";
+"Error.NeedPwd.tourCourse" = "투어 암호를 입력하십시오";
+"Error.pointOverRun" = "엔터프라이즈 포인트 오버런";
+"Error.aliveClassPointOverRun" = "생방송이 상한선에 도달하여 일시적으로 입장할 수 없습니다.";
+"Error.PwdError" = "암호를 잘못 입력했습니다. 다시 입력하십시오.";
+"Error.AuthIncorrect" = "인증 오류!";
+"Error.NSF" = "패키지 잔고가 부족합니다. 관리자에게 연락하여 재충전하십시오";
+"Error.ClassHasCancel" = "현재 클래스가 취소되었습니다.";
+"Error.WaitingForNetwork" = "네트워크를 일시적으로 사용할 수 없습니다. 나중에 다시 시도하십시오.";
+"Error.default" = "알 수 없는 오류: ***, 고객 서비스에 문의하십시오";
+"Error.Reenter" = "재진입";
+//즉각적인
+"Prompt.inputPlaceholder" = "교실 암호를 입력하십시오";
+
+"Prompt.ExceptionReport" = "예외 보고서";
+"Prompt.prompt" = "수업 종료 알림";
+"Prompt.kick" = "3분 후에 교실에 입장하세요";
+
+"Prompt.stuHasKicked" = "교실을 나가도록 요청받았습니다. 3분 후에 교실에 들어오세요!";
+
+"Prompt.OK" = "확인";
+"Prompt.Quit" = "확인";
+"Prompt.Cancel" = "취소";
+"Prompt.Know" = "그것을 알고";
+"Prompt.Quite" = "종료하겠습니까?";
+"Prompt.nicknameNotNull" = "별명은 비워둘 수 없습니다";
+"Prompt.RoomIDNotNull" = "클래스룸 ID는 비워둘 수 없습니다.";
+"Prompt.AliveClassNotSupportTeacherUser" = "모바일 클라이언트는 현재 대규모 수업을 지원하지 않습니다.\nPC 클라이언트 또는 크롬 브라우저를 사용하여 로그인하십시오";
+"Prompt.devicetPrompt" = "현재 장치 구성이 낮고 두 개의 비디오 채널만 제공합니다.";
+"Prompt.onlyNumber" = "교실 번호는 숫자만 가능합니다.";
+"Prompt.underPlatformTime" = "너무 자주 클릭하십시오";
+
+"Prompt.WeiQiTitle" = "확인 메시지";
+"Prompt.WeiQiContent" = "닫는 것이 확실합니까?";
+"Prompt.changeLine" = "네트워크 라인";
+"Prompt.changeLineTitle" = "선호하는 네트워크";
+"Prompt.latertry" = "나중에 다시 시도하세요";
+
+// State
+"State.connecting" = "연결 중";
+"State.updating" = "데이터 업데이트";
+"State.Connecting" = "연결 중...";
+"State.Updating" = "데이터 업데이트...";
+"State.WaitingForNetwork" = "오프라인";
+"State.ConnectFailure" = "연결 실패!";
+"State.ConnectException" = "네트워크 예외!";
+"State.ConnectLocked" = "회의실이 잠겨 있습니다!";
+"State.Retry" = "다시 연결";
+"State.Reconnecting" = "교실에 연결 중";
+
+"NetStatus.Title" = "네트워크 상태";
+"NetStatus.MineStatus" = "내 네트워크 상태";
+"NetStatus.OtherStatus" = "다른 사람의 네트워크 상태";
+"NetStatus.UpAndDownLinkNetwork" = "업링크 및 다운링크 네트워크";
+"NetStatus.PacketLoss" = "패킷 손실률";
+"NetStatus.NetworkDelay" = "네트워크 지연";
+"NetStatus.NickName" = "별명";
+"NetStatus.Recheck" = "다시 확인";
+"NetStatus.NoStudentsOnStage" = "현재 무대에 있는 학생이 없습니다.";
+
+
+"Translate.sysL"                     = "운영 체제 언어";
+"Set.msgHint"    = "메시지 알림";
+"Set.other"      = "다른";
+//翻译语言
+"Translate.Title"                    = "채팅 영역 번역 언어";
+"Disable.Microphone"                 = "마이크 비활성화";
+"Disable.Camera"                     = "카메라 비활성화";
+"AutoAdjustMicVolume"                = "마이크 볼륨 자동 조정";
+"Room.msgHint"                       = "명단 메시지 알림";
+"Video.Mirror"                       = "비디오 미러링";
+"RoomSet.eyeshield"                  = "안구 보호 모드";
+"RoomSet.rollbackCamera"             = "카메라";
+"SetButton.front"                    = "앞쪽";
+"SetButton.later"                    = "뒤";
+//位置信息
+"Location.Title"                     = "위치 정보";
+//镜像
+"Mirror.OnlyFront.FacingCamera"    = "전면 카메라만";
+"Mirror.Open"    = "전면 및 후면 카메라";
+"Mirror.Close"   = "폐쇄";
+
+//学生禁用摄像头
+"IncitesOpenCamera.content"  = "카메라를 켜도록 초대받았습니다. 켜져 있습니까?";
+"IncitesOpenCamera.open"     = "켜다";
+"IncitesOpenCamera.close"    = "열려 있지 않음";
+"CameraClose.hint"           = "카메라가 비활성화되어 교실에 비디오를 표시할 수 없습니다.";
+"WaitUpPlatform.content"     = "무대에 오기를 기다리며";
+"WaitAuthorization.content"  = "승인 대기 중";
+
+
+"KickOut.ChairmanKick" = "회장이 회의에서 초대했습니다...";
+"KickOut.Repeat" = "(***) 이 방에서 나가도록 요청받았습니다!";
+"KickOut.Repeat2"= "같은 계정으로 교실에서 나가도록 요청받았습니다";
+"KickOut.Cancel" = "현재 코스가 취소되었습니다";
+"KickOut.Finished" = "선생님이 오랫동안 자리를 비우셨고 자동으로 퇴실 조치되었습니다.";
+"KickOut.SentOutClassroom" = "선생님이 교실 밖으로 초대했습니다!";
+
+"State.isInBackGround" = "학생이 홈 버튼을 눌렀습니다";
+
+"State.teacherInBackGround" = "사용자가 홈 버튼을 눌렀습니다";
+//역할
+"Role.Me" = "나";
+"Role.Teacher" = "교사";
+
+"Role.Student" = "학생/청중";
+
+"Role.Auditor" = "감사관";
+
+"Role.Patrol" = "수업/현장 순찰";
+"Role.Parent"  = "수호자";
+"Role.Assistant" = "보조 교사";
+//말하다
+"Say.say" = "말하기";
+"Say.to" = "타인에게";
+"Say.all" = "소유주";
+"Say.sendTo" = "다음으로 보내기";
+"Say.VersionTooLow" = "버전이 너무 낮음";
+"Say.private" = "（개인 편지）";
+"Say.toMe" = "%@ 가 내게 말했다";
+"Say.ISay" = "내가 %@에게 말했다";
+"Say.Role.Teacher" = "  선생님  ";
+"Say.Role.Assistant" = "  보조 교사  ";
+
+//단추
+"Button.send" = "보내기";
+"Button.closed" = "닫기";
+"Button.chat" = "채팅";
+//클래스.시작
+"Class.Begin" = "클래스.";
+
+"Class.Over" = "수업이 끝났습니다";
+
+"Button.AllReward" = "모든 보상";
+"Button.ResetVideo" = "비디오 재설정";
+"Button.VideoCollection" = "비디오 컬렉션";
+"Button.VideoCollectionTips" = "무대에 있는 학생들의 비디오 모음";
+"Button.VideoCollectionHasBelowVersionUser" = "낮은 버전의 학생은 이 기능에 응답하지 않습니다!";
+"Button.Microphone" = "마이크";
+"Button.MicrophoneContent" = "무대에 있는 학생에게 유효함";
+"Button.MicrophoneContent1" = "모두에게";
+"Button.CoursewareDoodle" = "코스웨어 낙서";
+"Button.TurnPage" = "코스웨어 페이지 넘기기";
+"Button.TurnPageContent" = "켜진 후 모든 학생은 다른 사람과 동기화하지 않고 로컬로 코스웨어를 탐색할 수 있습니다.";
+"Button.VideoIsolation" = "비디오 분리";
+"Button.VideoIsolationContent" = "켜져 있으면 모든 학생은 자신과 교사의 비디오만 볼 수 있습니다.";
+"Button.AudioIsolation" = "오디오 격리";
+"Button.AudioIsolationContent" = "켜져 있으면 모든 학생은 교사의 음성만 들을 수 있습니다.";
+"Button.StudentVideoIsolationContent" = "선생님과 내 비디오만 보기";
+"Button.StudentAudioIsolationContent" = "교사의 목소리만 듣기";
+
+"Button.allControllerAudio" = "스피커";
+"Button.allControllerAudioContent" = "닫은 후 모든 학생은 교사 및 코스웨어와 같은 교실의 모든 소리를 들을 수 없습니다.";
+"Button.allControllerOpenAudio" = "스피커 모두 열기";
+"Button.allControllerCloseAudio" = "스피커를 모두 닫기";
+
+"Button.FocusModeTittle"  = "집중 모드";
+"Button.FocusModeContent"    = "켜면 학생 클라이언트 창이 상단에 설치되고 이동단 전환 프로그램은 자동으로 교실에서 종료됩니다.";
+"Button.FocusModeOpenToast"   = "교실 집중 모드가 켜져 있습니다. 백그라운드 실행을 전환하면 교실이 자동으로 종료됩니다.";
+
+"Button.allControllerDrawAuthority" = "화필권";
+"Button.allControllerDrawAuthorityContent" = "오픈 후, 모든 학생은 자동으로 무대 위의 붓을 권한을 수여합니다";
+
+"Button.MuteAudio" = "무대에 있는 모든 마이크가 닫혀 있습니다.";
+"Button.MuteAll" = "올 온 스테이지 오픈 밀 ";
+"Button.Reward" = "모든 방에 대한 보상";
+"Button.Reset" = "무대에서 모두 재설정";
+"Button.canturnpage" = "모든 방 페이지 넘기기";
+"Button.cannotturnpage" = "방은 페이지를 모두 넘길 수 없습니다.";
+
+"Button.ShutUpAll" = "모두 종료";
+"Button.CancelShutUpAll" = "무음 끄기";
+"Button.CanAllDraw" = "무대에 있는 모든 사람들이 낙서를 엽니다.";
+"Button.CancelAllDraw" = "무대에 있는 모두 낙서를 닫습니다.";
+
+"Button.ChooseLayout" = "레이아웃 선택";
+"Button.RightLayout" = "오른쪽으로 비디오";
+"Button.LeftLayout" = "왼쪽에 있는 비디오";
+"Button.oneLeftLayout" = "왼쪽에 있는 비디오";
+"Button.oneRightLayout" = "오른쪽으로 비디오";
+"Button.DoubleLayout" = "이중 분할 레이아웃";
+"Button.VideoLayout" = "비디오 레이아웃";
+"Button.ManyLayout.Speaker" = "스피커 비디오";
+"Button.ManyLayout.Free" = "화이트보드 강조 표시";
+"Button.ManyLayout.WhiteBoard" = "突出白板";
+"Button.ManyLayout.VideoTop" = "비디오 상단";
+"Button.ManyLayout.VideoDown" = "비디오 다운";
+"Button.OneLayout.VideoIPadLeft" = "왼쪽에 있는 이야기";
+"Button.OneLayout.VideoIPadRight" = "동영상 오른쪽에 채팅하다";
+"Button.ClassBegin" = "클래스에서";
+"Button.ClassIsOver" = "수업 종료";
+
+"Button.RaiseHand" = "손을 들어";
+"Button.RaiseHandCancle"= "손을 들어";
+
+"Button.OpenAudio" = "오디오를 닫으려면 클릭하십시오";
+"Button.CloseAudio" = "오디오를 열려면 클릭하십시오";
+"Button.OpenVideo" = "비디오를 닫으려면 클릭하십시오";
+"Button.CloseVideo" = "비디오를 열려면 클릭하십시오";
+"Button.UpPlatform" = "다운하려면 클릭하십시오";
+"Button.DownPlatform" = "단계로 이동하려면 클릭하십시오.";
+"Button.AllowDoodle" = "인증을 활성화하려면 클릭하십시오.";
+"Button.CancelDoodle" = "인증을 닫으려면 클릭하십시오";
+"Button.GiveCup" = "트로피 보내기";
+"Button.RemoveCup" = "트로피 제거";
+"Button.RestoreAll" = "모두 재설정";
+"Button.RestorePosition" = "비디오 재설정";
+"Button.SwitchVideo" = "비디오 전환";
+"Button.turnpagedefault" = "페이지 넘김 없음";
+"Button.turnpageselect" = "페이지 넘기기 허용";
+"Button.shareScreenOpen" = "데스크톱 공유 허용";
+"Button.shareScreenClose" = "데스크톱 공유 금지";
+"Button.nameSort" = "이름";
+"Button.typeSort" = "유형";
+"Button.timeSort" = "시간";
+"Button.openBrushAuthority" = "학생이 붓을 펼칠 수 있는 권한";
+"Button.closeBrushAuthority" = "학생이 붓 권한을 닫다";
+
+"Button.playbackSpeed" = "배속";
+
+"Action.EndClassNotice" = "수업 알림에서 나가십시오";
+
+"Action.EndClsDesByAssist" = "***수업을 끝내려면 클릭하세요. 이 수업은 종료되었습니다.";
+
+"Action.EnterRoom" = "교실에 참여하세요!";
+
+"Action.ExitRoom" = "교실을 나가십시오!";
+
+"Prompt.EndClass1M" = "수업 종료까지 1분 남았습니다. 적당한 시간을 정해주세요~";
+
+"Prompt.RoomToBeClosed" = "교실이 곧 닫힙니다.";
+
+"Prompt.ClassToBegin" = "수업 시간까지 1분 남았습니다. 준비하십시오.";
+
+"Prompt.timeoutStart.one" = "시간 초과";
+"Prompt.timeoutStart.two" = "분, 서둘러서 수업을 시작하십시오";
+
+"Prompt.timeoutReadyEnd.one" = "시간 초과되었습니다";
+"Prompt.timeoutReadyEnd.two" = "분, 강의실이 열립니다.";
+
+"Prompt.timeoutReadyEnd.three" = "분 후에 자동으로 닫힙니다!";
+"Title.DocumentList" = "코스웨어";
+"Title.QueryFiles" = "이 교실의 모든 코스웨어 쿼리";
+"Title.NoFiles" = "아직 코스웨어가 없습니다. 코스웨어를 업로드하십시오.";
+"Title.NoResult" = "죄송합니다. 아무것도 발견되지 않았습니다.";
+"Title.CoursewareInUse" = "사용 중인 코스웨어";
+"Title.Cloud" = "클라우드 디스크";
+"Title.ClassResources"      = "교실 자원";
+"Title.PersonalResources"   = "개인 자원";
+"Title.PublicResources"     = "공공 자원";
+"Title.iCloud"              = "iCloud";
+"Title.MediaList" = "미디어 라이브러리";
+"Title.ControlList" = "작업";
+"Title.TrophySend" = "트로피 보내기";
+"Title.Maxtrophies"         = "학생의 트로피가 상한선에 도달했습니다.";
+"Title.UserList" = "명단";
+"Title.AreaList" = "선호하는 네트워크";
+"Button.remindKnow" = "알았다";
+"Prompt.timeoutEnd" = "교실이 곧 닫힙니다";
+"Title.uploadFile" = "코스웨어 업로드";
+
+"Title.whiteBoard" = "화이트보드";
+"Prompt.CanotOn" = "학생의 오디오 및 비디오 장비를 사용할 수 없습니다. 장치가 비활성화되었을 수 있습니다. 학생에게 장치를 활성화하도록 상기시켜 주십시오.";
+
+"Prompt.FinishClass" = "수업을 끝내겠습니까?";
+
+"Prompt.KickOutStudent" = "이 학생을 추방하시겠습니까?";
+
+"Prompt.delClassFile" = "이 파일을 삭제하겠습니까?";
+"Prompt.CancelAssociate"    = "연결을 취소하시겠습니까?";
+"Prompt.CancelAssociateFail"= "파일 연결 해제에 실패했습니다!";
+"Prompt.exceed" = "교실의 발언자가 제한을 초과했습니다.";
+"Prompt.ClassEnd" = "수업이 종료되었습니다!";
+
+"Prompt.ClassEndTime" = "수업은 몇 분 안에 끝납니다. 시간을 적절하게 조정하십시오.";
+"Prompt.ClassEndThreeMin" = "수업 종료까지 3분 남았습니다. 준비하십시오.";
+"Prompt.ClassEndFiveMin" = "수업이 %d 분 남았습니다, 잠시 뒤에 종료됩니다.";
+"Prompt.ClassEndTenSec" = "교실은 %@초 후에 자동으로 종료됩니다.";
+
+"Prompt.UnableUseControl" = "클래스가 아직 시작되지 않았으며 필드 제어 기능을 일시적으로 사용할 수 없습니다.";
+
+"Prompt.NeedPhotoalbum" = "%@가 iPhone의 \"설정-개인 정보-사진\" 옵션에서 사진에 접근하도록 허용하십시오.";
+"Prompt.NeedCamera" = "%@가 iPhone의 \"설정-프라이버시-카메라\" 옵션에서 카메라에 접근하도록 허용하십시오.";
+"Prompt.NeedMicrophone.Title" = "녹음할 수 없음";
+"Prompt.NeedMicrophone" = "%@가 iPhone의 \"설정-프라이버시-마이크\" 옵션에서 전화기 마이크에 접근하도록 허용하십시오.";
+"Prompt.Sure" = "좋음";
+"Prompt.NeedCameraNeedMicrophone" = "iPhone의 \"설정-개인정보\" 옵션에서 %@가 카메라와 마이크에 액세스하도록 허용하세요. ";
+"Prompt.CameraNotAvailable" = "카메라를 사용할 수 없습니다.";
+
+"Prompt.DeviceIsntWorking" = "장비가 비정상적입니다. 로그아웃 후 교실 재입장을 권장합니다.";
+"Prompt.SpeakerIsntWorking" = "스피커의 음량이 비교적 낮으니 음량을 크게 조절하는 것을 권장합니다.";
+"Prompt.RoomSocketError" =  "방 연결에 실패했습니다. 종료했다가 다시 들어가세요";
+"Prompt.MicrophoneNoPermission" = "마이크를 사용할 수 없습니다";
+"Prompt.MicrophoneNoPermission.content" = "장비의 “설정-프라이버시-마이크” 옵션에서 %@ 휴대폰 마이크에 접근할 수 있도록 허용해 주시고, 인증 후 교실 재입장을 권장합니다.";
+"Prompt.ToSetting" = "설정으로 바로 가기";
+"Login.permission" = "권한 관리";
+"Login.toSetting" = "설정으로 가세요";
+"Login.permissionCameraName" = "카메라 권한";
+"Login.permissionCameraDetail" = "사진을 찍거나 동영상을 녹화하는 데 쓰인다";
+"Login.permissionMicrophoneName" = "마이크 권한";
+"Login.permissionMmicrophoneDetail" = "음성 커뮤니케이션에 사용됩니다.";
+"Login.permissionLocationName" = "위치 정보 권한";
+"Login.permissionLocationDetail" = "위치 정보를 얻는 데 사용된다";
+"Login.permissionPhotoName" = "앨범 권한";
+"Login.permissionPhotoDetail" = "사진이나 동영상을 볼 때 사용한다";
+"Prompt.CameraNoPermission" = "카메라를 사용할 수 없습니다";
+"Prompt.NoCameraPermission" = "카메라 사용 권한이 없습니다";
+"Prompt.CameraNoPermissionContent" = "장비의 “설정-개인정보-카메라“ 옵션에서 %@ 휴대폰 카메라에 접근할 수 있도록 허용해 주시고, 인증 후 교실에 재입장하시는 것을 권장합니다.";
+"Prompt.EnterRoomFail" = "회의실 입력 오류";
+"Prompt.EnterRoomExccedLimit" = "인원 상한선을 초과하다";
+
+"Prompt.CameraBeingUsed" = "카메라가 사용 중입니다. 카메라를 사용해야 하는 응용 프로그램만 유지하고 다른 응용 프로그램을 닫는 것이 좋습니다.";
+"Prompt.MicrophoneBeingUsed" = "마이크가 사용 중입니다. 마이크를 사용해야 하는 응용 프로그램만 유지하고 다른 응용 프로그램을 닫는 것이 좋습니다.";
+"Prompt.CoursewareLoadFail" = "기기의 성능이 부족하여 코스웨어 로드에 실패했습니다. 기기 교체를 권장합니다.";
+
+"Prompt.VA.Undetect" = "장치가 감지되지 않음";
+"Prompt.VA.Permissions" = "무단 허가";
+"Prompt.VA.Occupied" = "장비가 점령";
+"Prompt.VA.Abnormal" = "장치가 비정상입니다. 장치를 다시 선택해야 합니다.";
+"Prompt.VA.Interrupt" = "장치 중단";
+"Prompt.VA.Default" = "장치가 비정상입니다";
+"Prompt.SubscribeFail.content" = "네트워크 문제가 있어 오디오와 비디오를 표시할 수 없습니다. 라우터를 확인하신 후 교실을 나갔다가 다시 들어오시기 바랍니다.";
+"Prompt.RoomSocketError" = "네트워크 문제입니다. 방 연결에 실패했습니다. 종료했다가 다시 들어가세요.";
+
+"Prompt.SignInTitle" = "로그인";
+"Prompt.SignIn" = "지금 로그인";
+"Prompt.SignInSuccessful" = "로그인 성공";
+"Prompt.SignInEnd" = "로그인이 종료되었습니다";
+"Prompt.NoNotice" = "아직 발표 내용이 없음";
+"Prompt.qaAnswer" = "화자가 귀하의 질문에 답변했습니다. 가서 살펴보세요~";
+
+"Title.notice" = "공지";
+"Title.chatArea" = "채팅 영역";
+"Title.qaArea" = "질문 및 답변";
+"Title.qaMe" = "내";
+"Title.qaPublic" = "공개됨";
+"Title.qaPullRefresh" = "새로고침하려면 당김";
+"Title.qaReleaseRefresh" = "업데이트 데이터 릴리스";
+"Title.qaRefreshLoading" = "로드 중...";
+"Title.qaQuestion" = "질문";
+"Title.qaMyQuestion" = "내";
+"Title.qaChatButtonTitle" = "여기에 질문할 질문을 입력하십시오";
+"Title.noMoreData" = "더 이상 데이터 없음";
+"Title.qaIconTitle" = "내";
+"Title.qaDisableChat" = "질문을 할 수 없습니다.";
+"Title.SignInSecond" = "초";
+
+"Prompt.queSubmitSuccess" = "제출 성공";
+"Prompt.queStopAnswer" = "질문이 응답을 위해 중지되었습니다.";
+
+"Prompt.Questionaire" = "보기 위해 설문지를 클릭하기 시작했습니다.";
+"Prompt.QuestionaireKeyWord"= "보려면 클릭하십시오";
+
+"Title.AlivePeopleUnit" = "사람";
+
+"Action.Title" = "사진 업로드";
+"Action.ChoosePhoto" = "사진 앨범 업로드";
+"Action.Choose" = "선택";
+"Action.ChooseAll" = "모두 선택";
+"Action.ChooseDone" = "완료";
+"Action.Search" = "검색";
+"Action.Cancel" = "취소";
+"Action.SearchResult" = "%@ 총 결과";
+
+// 가이드
+"Guid.Done" = "알았습니다";
+"Guid.NextStep" = "다음";
+"Guid.chooseTitle" = "앞으로 더 이상 프롬프트가 표시되지 않습니다.";
+"Guid.FileList.StepTitle" = "코스웨어 기능 영역";
+"Guid.FileList.FirstStepContent" = "여기에서 강의실에 있는 코스웨어를 볼 수 있습니다.";
+"Guid.FileList.SecondStepContent" = "여기에서 로컬 코스웨어를 업로드하거나 클라우드 디스크 코스웨어를 추가할 수 있습니다.";
+
+"Guid.TopSpeed.Alter" = "현재 패킷 손실률이 너무 높음/CPU 장치 성능이 충분하지 않습니다. 최고 속도 모드를 켜는 것이 좋습니다.";
+
+
+"Guid.JoinRoom.StepTitle" = "방 기능";
+"Guid.JoinRoom.FullControlGuideHint" = "현장 제어에서 교실 관리를 위한 많은 기능이 있어 교실의 질서를 빠르게 유지할 수 있습니다.";
+"Guid.JoinRoom.FirstStepContent" = "현재 수업 상태가 여기에 표시됩니다. ‘시작되지 않음’ 또는 ‘수업이 이미 시작됨’";
+"Guid.JoinRoom.SecondStepContent" = "수업 버튼을 클릭하면 학생들이 회원님을 볼 수 있습니다.";
+"Guid.JoinRoom.ThirdStepContent" = "도구 상자에는 교육 경험을 향상시키는 데 도움이 되는 많은 교실 및 교실 대화형 도구가 있습니다.";
+"Guid.JoinRoom.ForthStepContent" = "여기에서 가르칠 기존 코스웨어 콘텐츠를 업로드하거나 선택할 수 있습니다.";
+"Guid.JoinRoom.FivthStepContent" = "명단은 강의실 주문 관리 기능을 제공합니다.";
+"Guid.JoinRoom.SixStepContent" = "화면 비율이나 선호도에 따라 나에게 맞는 방 레이아웃을 선택할 수 있습니다.";
+
+"Guid.JoinRoom.ClickVideoGuideHint" = "비디오와 마이크를 전환하려면 자신의 비디오를 클릭하십시오.";
+"Guid.JoinRoom.ClickVideoGuideHintVideo" = "비디오를 전환하려면 자신의 비디오를 클릭하십시오.";
+"Guid.JoinRoom.ClickVideoGuideHintMicrophone" = "마이크를 켜고 끄려면 자신의 비디오를 클릭하십시오.";
+
+"Guid.JoinRoom.SlideResizeVideo" = "비디오 크기를 조정하려면 왼쪽 또는 오른쪽으로 드래그하세요.";
+"Guid.JoinRoom.SlideHiddenCourseware" = "두 손가락을 벌리면 코스웨어 확대";
+"Guid.JoinRoom.SlideHiddenCoursewareLiF" = "에서만";
+"Guid.JoinRoom.SlideHiddenCoursewareLiB" = "모드는 정적 코스웨어를 지원합니다.";
+
+"Guid.JoinRoom.CoursewareOperating" = "코스웨어 작업";
+"Guid.JoinRoom.CoursewareOperatingGuideHint" = "이 도구를 사용하여 화이트보드와 코스웨어를 작동할 수 있습니다.";
+
+"Guid.JoinRoom.VideoOperating" = "비디오 작업";
+"Guid.JoinRoom.VideoOperatingGuideHint" = "비디오 창을 클릭하여 자신이나 단일 학생을 제어하십시오.";
+
+"Guid.JoinRoom.RaiseHandOfClass" = "수업에 참여하기";
+"Guid.JoinRoom.RaiseHandOfClassHint" = "수업 중에 문제가 발생하면 손 들기 버튼을 계속 누르고 있을 수 있습니다. 교사는 제 시간에 손을 드는 동작을 볼 것입니다.";
+"Guid.JoinRoom.ChangeLayout" = "레이아웃 변경";
+"Guid.JoinRoom.ChangeLayoutHint" = "화면 비율이나 선호도에 따라 나에게 맞는 방 레이아웃을 선택할 수 있습니다.";
+
+"FileList.FileNumber" = "%@파일";
+
+
+//선생님 업로드 사진
+"UploadPhoto.TakePhoto" = "사진 찍기";
+"UploadPhoto.FromGallery" = "앨범";
+"UploadPhoto.Error" = "사진 업로드 오류";
+"Prompt.enterBackGround" = "배경 입력";
+"Prompt.enterForeGround" = "포그라운드 복원";
+"Prompt.HaveEnterBackground" = "백그라운드 모드로 전환됨";
+"Prompt.HaveBackForground" = "일반 모드로 돌아감";
+"Prompt.BackgroundCouldNotOnStage" = "응용 프로그램이 백그라운드에서 실행 중이며 준비할 수 없습니다.";
+"Prompt.NetworkError" = "현재 네트워크를 사용할 수 없습니다. 응용 프로그램을 확인하고 다시 시작하십시오";
+"Prompt.ServerRequst" = "서버를 초기화하는 중입니다. 나중에 클릭하십시오.";
+
+"Prompt.StudentUdpError" = "학생은 UDP를 통해 서버와 통신할 수 없으며 무대에 있을 수 없습니다.";
+
+"Prompt.StudentTcpError" = "서버와의 통신이 비정상적이며 스테이지에 있을 수 없습니다.";
+"Prompt.StudentNetworkOccuredError" = "사용자와 서버 간의 UDP 통신이 비정상적이며 단계에 있을 수 없습니다.";
+"Prompt.StudentUdpOnStageError" = "방화벽 때문에 사용자와 서버 간의 UDP 통신을 설정할 수 없으며 스테이지에 있을 수 없습니다.";
+"Prompt.NotRepeatChat" = "채팅 영역에서 화면을 밀지 마십시오";
+"Prompt.AbnormalityReport" = "우리가 더 잘할 수 있도록 이상 보고서를 보내겠습니까?";
+"Prompt.BanChat" = "말하기가 금지되었습니다";
+"Prompt.BanChatInView" = "모두 음소거";
+"Prompt.CancelBanChatInView" = "모든 차단 취소";
+
+"Prompt.TimeError" = "장치의 시간이 올바르지 않아 서버에 연결할 수 없습니다. 확인하십시오.";
+
+"Title.PublicDocuments" = "공개 문서";
+"Title.ClassroomDocuments" = "교실 문서";
+
+"userList.onStage" = "무대 위에";
+"userList.underStage" = "무대 뒤에서";
+"userList.LisofHandsup" = "손 목록";
+
+"userList.Handdown" = "핸드다운";
+
+"userList.shangtai" = "하차하려면 클릭하십시오";
+"userList.xiatai" = "클릭하여 스테이지로 이동";
+"userList.videoOpen" = "비디오를 닫으려면 클릭하십시오";
+"userList.videoClose" = "비디오를 열려면 클릭하십시오";
+"userList.increaseTrophy"     = "   트로피 보내기";
+"userList.decreaseTrophy"     = "   트로피 제거";
+"userList.fayan" = "말하기";
+"userList.jinyan" = "음소거";
+"userList.delete" = "방에서 나가기";
+"userList.uploadopen" = "이미지 업로드 허용";
+"userList.uploadclose" = "이미지 업로드가 금지되어 있습니다.";
+"userList.shareScreenOpen" = "데스크톱 공유 허용";
+"userList.shareScreenClose"= "데스크톱 공유 금지";
+"userList.blacklistadd" = "블랙리스트에 추가";
+"userList.blacklistremove" = "블랙리스트에서 제거";
+
+
+"userList.countExceedOnStageLimit" = "교실 발표자의 수가 제한을 초과했습니다.";
+"userList.beSpeakerFial" = "무대에 있는 사람의 수가 상한을 초과하여 스피커로 설정할 수 없습니다.";
+
+
+"Label.addFile" = "코스웨어 추가";
+
+"Label.handsup_tips" = "길게 누르십시오. 놓지 마십시오.";
+
+"Label.speaker" = "스피커";
+"Res.btn.start" = "응답";
+"Res.btn.get" = "잡혔습니다";
+"Res.btn.notget" = "놓친";
+"Res.btn.getting" = "응답 중 응답";
+"Res.btn.t.get" = "누군가 그것을 움켜잡았다";
+"Res.readyget" = "대답 준비";
+"Res.unStarted" = "시작하지 않았습니다";
+
+"Res.lab.start" = "응답하려면\n시작 버튼을 클릭하십시오.";
+"Res.lab.iget" = "축하합니다";
+"Res.lab.noget" = "아무도 대답하지 않습니다";
+"Res.lab.getting" = "응답...";
+"Res.lab.speak" = "말하기";
+"Res.lab.reGet" = "답변 재개";
+"Res.lab.userLeave" = "학생이 교실을 나갔습니다";
+"Res.lab.micErr" = "학생의 마이크가 고장나서 말할 수 없습니다";
+"Res.lab.onStage" = "학생이 무대에 올랐고 마이크는 정상적으로 작동합니다";
+
+"Res.lab.Rapid" = "빠른";
+"Res.lab.Medium" = "중간 속도";
+"Res.lab.Slow" = "느린";
+
+"netstate.RoomID" = "방 번호: ";
+
+"netstate.Packet" = "패킷 손실률: ";
+"netstate.Ping" = "네트워크 지연: ";
+
+//작은 도구
+
+"tool.noUse" = "클래스가 아직 시작되지 않았으며 도구 상자 기능을 일시적으로 사용할 수 없습니다.";
+"tool.zhuanpanAllowed" = "무대에 있는 학생들이 턴테이블을 사용하도록 허용";
+
+"tool.datiqiqi" = "선택 문제";
+"tool.zhuanpan" = "턴테이블";
+"tool.jishiqi" = "타이머";
+"tool.qiangdaqi" = "응답자";
+"tool.xiaobaiban" = "작은 화이트보드";
+"tool.shipinLunpan" = "비디오 룰렛";
+"tool.CallRoll" = "점호";
+"tool.WeiQi"    = "가다";
+"tool.screenShare" = "데스크탑 공유";
+"tool.redPacket" = "Red Packet";
+
+"tool.roomLayout" = "방 레이아웃";
+"tool.cameraTurn" = "카메라 돌리기";
+
+"tool.videoLoopStart" = "비디오 캐러셀이 시작 중입니다";
+"tool.videoLoopEnd" = "비디오 캐러셀이 종료되었습니다";
+"tool.videoLoopPause"      = "동영상 캐러셀이 일시중지됨";
+"tool.videoLoopContinue"   = "동영상 캐러셀은 계속됩니다";
+"tool.videoLoopTerminated" = "비디오 캐러셀이 종료되었습니다.";
+
+"tool.videoRouletteEquipTips" = "학생 xxx가 사용하는 장치가 이 기능을 지원하지 않는다는 것을 시스템이 감지했습니다!";
+"tool.videoRouletteVersionTips" = "시스템이 xxx 학생이 사용하는 이전 버전이 이 기능을 지원하지 않음을 감지했습니다!";
+"tool.fabudati" = "답변 질문 게시";
+"tool.tianjia" = "답 추가";
+"tool.shanchu" = "답변 삭제";
+"tool.zhengquedaan" = "정답";
+"tool.CorrectRate" = "정확한 비율";
+"tool.datirenshu" = "응답한 질문 수";
+"tool.ren" = "인";
+"tool.time" = "시간 사용";
+"tool.detail" = "세부 사항";
+"tool.tongji" = "통계";
+
+"tool.end" = "답변 종료";
+"tool.nodata" = "아직 데이터가 없습니다!";
+"tool.publish" = "답변 게시";
+"tool.didpublish" = "게시됨";
+"tool.restart" = "다시 시작";
+"tool.submit" = "답변 제출";
+"tool.tosubmit"   = "커밋";
+"tool.submitted" = "제출됨";
+"tool.wodedaan" = "내 답변";
+"tool.wodedaan.nosubmit"   = "커밋되지 않음";
+"tool.leastanswer" = "최소 1개의 정답을 설정하십시오!";
+"tool.start" = "시작";
+"tool.alreadyAnswer" = "이미 대답하다(%d)";
+"tool.noAnswer" = "미답(%d)";
+"tool.datiqiqi.chooseQuestion"   = "다중 선택";
+"tool.datiqiqi.judgeQuestion"   = "OX퀴즈";
+"tool.datiqiqi.judgeQuestionNotice"   = "True 또는 False를 클릭하여 정답을 사전 설정합니다";
+"tool.datiqiqi.teacher.chooseQuestion.title" = "설정 옵션：";
+"tool.datiqiqi.teacher.chooseQuestion.smallTitle" = "알파벳 기본 설정 정답 클릭 (복수 선택)";
+"tool.datiqiqi.teacher.judgeQuestion.title" = "정답을 설정하다：";
+"tool.datiqiqi.teacher.input.placeholder" = "당신은 여기에 설명을 추가할 수 있습니다";
+"tool.datiqiqi.teacher.finish" = "발표";
+"tool.datiqiqi.student.Title" = "문제를 풀다";
+"tool.datiqiqi.student.submit" = "제출";
+"tool.dragVideo.showVideo" = "비디오 확대";
+"tool.dragVideo.hiddenVideo" = "비디오 축소";
+
+"MiniWB.Dispense" = "모두 배포";
+"MiniWB.Recycle" = "모든 재활용";
+"MiniWB.Redispense" = "모두 배포";
+
+"MiniWB_Stu.Dispense" = "디스펜스";
+"MiniWB_Stu.Recycle" = "재활용";
+"MiniWB_Stu.Redispense" = "배포";
+"MiniWB.TeacherRecycleMWB" = "선생님이 작은 화이트보드를 재활용했습니다";
+
+"TKFileScreenShotAlert" = "코스웨어 영역의 스크린샷";
+
+// 장비 검사
+"TKDeviceCheck.Latency" = "지연";
+"TKDeviceCheck.Upload" = "업로드 속도";
+"TKDeviceCheck.Download" = "다운로드 속도";
+"TKDeviceCheck.Influence"            = "팁: 과정 진행 상황은 현재 네트워크 변동의 영향을 받을 수 있습니다.";
+"TKDeviceCheck.NetCheck"            = "네트워크 감지";
+"TKDeviceCheck.CameraTest" = "카메라";
+"TKDeviceCheck.Ecter" = "확인";
+"TKDeviceCheck.VideoPreview" = "비디오 미리보기";
+"TKDeviceCheck.MicrophoneTest" = "마이크";
+"TKDeviceCheck.MicrophoneReminder" = "마이크에 대고 말하십시오. 녹색 변동이 보이면 마이크가 정상임을 의미합니다.";
+"TKDeviceCheck.SpeakerTest" = "볼륨";
+"TKDeviceCheck.SpeakerReminder" = "티칭 효과를 보장하려면 시스템 볼륨을 80% 이상으로 조정하십시오.";
+"TKDeviceCheck.CameraOnReminder" = "카메라가 켜져 있고 비디오가 정상적으로 표시됩니다.";
+"TKDeviceCheck.CameraOffReminder" = "카메라가 비활성화되어 강의실에 비디오를 표시할 수 없습니다.";
+"TKDeviceCheck.MicrophoneOffReminder" = "마이크가 비활성화되어 교실에서 사용자의 목소리를 들을 수 없습니다";
+"TKDeviceCheck.isShowDeviceCheckView" = "교실에 입장할 때마다 현재 감지 페이지 표시";
+"TKDeviceCheck.conformDeviceReminderFornt" = "현재 장치는 ";
+"TKDeviceCheck.conformDeviceReminderBack" = "수업의 효과를 보장하기 위해 일대다 교실의 학생들은 교사와 자신의 비디오만 볼 수 있습니다.";
+
+"TKHelp.help" = "도움말";
+"TKHelp.loading" = "로드 중";
+"TKHelp.contactus" = "문의하기";
+
+"TKLive.Loading" = "라이브 신호가 도로에 있습니다. 잠시만 기다려 주십시오...";
+
+"TKNavi.EndClassState" = "시작되지 않음";
+"Tips.switchcourseware" = "코스웨어 전환";
+"Tips.turningpage" = "페이지 넘기기";
+
+
+"Tips.WaterMark" = "해적 행위는 조사되어야 합니다";
+"Tips.WaterMarkPlayBack" = "재생 녹화 중";
+
+"TKFileOption.Remove" = "제거";
+"TKFileOption.CancelAssociate" = "연결 해제";
+"TKFileOption.Associate" = "교실로 연결";
+"TKFileOption.Rename" = "이름 변경";
+"TKFileOption.Rename.Hint" = "자신이 아닌 경우 업로드된 파일의 이름을 변경할 수 없습니다.";
+"TKFileOption.Rename.filecategory" = "클라우드 디스크 관련 파일의 이름을 변경할 수 없습니다.";
+
+"TKFileOption.Delete.Hint" = "자신이 아닌 경우 업로드된 파일을 삭제할 수 없습니다.";
+"TKFileOption.CancelAssociate.Hint" = "소유자가 아니므로 연결을 취소할 수 없습니다.";
+"TKFileOption.Delete.filecategory" = "클라우드 디스크 관련 파일을 삭제할 수 없습니다.";
+"TKFileOption.Root" = "뿌리";
+"TKFileOption.onlyDoc" = "파일만 표시";
+"TKFileOption.All" = "모두";
+"TKFileOption.Location" = "현재 위치:";
+
+"FileList.FileUse" = "사용";
+"FileList.FileUsing" = "사용 중";
+
+
+"aLiveClass.liveSet" = "사용자가 장비를 테스트하고 있습니다. 기다려 주십시오";
+"aLiveClass.notStart" = "생방송이 시작되지 않았습니다.";
+"aLiveClass.hasEnd" = "생방송이 종료되었습니다";
+"aLiveClass.NavOnClass" = "라이브 방송";
+"aLiveClass.NetworkErrorTip" = "네트워크가 비정상입니다. 네트워크를 확인하고 교실에 다시 입장하십시오...";
+
+"aLiveClass.EnterPlayback" = "재생 시작";
+"aLiveClass.PlaybackList" = "재생 목록";
+"aLiveClass.PlaybackWatch" = "재생 보기";
+"aLiveClass.BackClassroom" = "클래스룸으로 돌아가기";
+
+"aLiveClass.ViewNoPlayback" = "아직 재생되지 않음";
+"aLiveClass.ListNoPlayback" = "아직 재생되지 않음...";
+"aLiveClass.CancelShare" = "공유 취소";
+
+"CompatibilityOldVersion.Speaker" = "사용자가 이전 버전을 사용하고 있기 때문에 이 기능을 정상적으로 사용할 수 없습니다. 가능한 한 빨리 최신 버전으로 업데이트하도록 사용자에게 상기시켜 주십시오.";
+"CompatibilityOldVersion.More" = "사용자가 이전 버전을 사용하고 있기 때문에 일부 기능을 정상적으로 사용할 수 없습니다. 가능한 한 빨리 최신 버전으로 업데이트하도록 사용자에게 상기시켜 주십시오.";
+"CompatibilityOldVersion.PaintAuthorization" = "사용자가 이전 버전을 사용하고 있기 때문에 ‘페인트 권한 부여’가 켜져 있으면 페이지 넘김 및 파일 업로드 기능도 켜집니다.";
+"CompatibilityOldVersion.CanTurnPage" = "이전 버전을 사용하는 사용자는 이 기능을 정상적으로 사용할 수 없습니다. 가능한 한 빨리 최신 버전으로 업데이트하십시오.";
+
+"Beauty.Set" = "미용 설정";
+"Beauty.Animation" = "애니메이션 소품";
+
+"Blacklist.title" = "블랙리스트";
+"Blacklist.addtip" = "저는 블랙리스트에 추가되었으며 채팅 영역에서 말할 수 없습니다.";
+"Blacklist.oldversiontip" = "사용자가 이전 버전을 사용하고 있기 때문에 이 기능을 정상적으로 사용할 수 없으므로 가능한 한 빨리 최신 버전으로 업데이트하도록 사용자에게 상기시켜 주십시오.";
+
+
+"Button.Assemble" = "조립";
+"Button.Dissolve"= "해제";
+"Button.TotheLargeClass"= "대규모 클래스로 이동";
+"Alter.JumpingToLargeClass" = "큰 클래스 클래스로 점프";
+"Alter.JumpingToSmallClass" = "소규모 클래스로 점프";
+"Alter.ToLargeClassAlter" = "소수 학급 학생을 큰 학급으로 모아서 수업을 하시겠습니까?";
+"Alter.AssembleAlter" = "소규모 학급에서 대 학급까지 모든 학생을 모아 수업을 하시겠습니까?";
+"Alter.DismissAlter" = "소규모 학급 학생을 모두 원래 수업으로 되돌리시겠습니까?";
+"Alter.ExistSpeaker" = "무대에 오르기 전에 발표자를 취소하십시오";
+"Alter.RoomForbinJoin" = "일시적으로 교실에 입장할 수 없습니다. 교실 입장 시간은 *****입니다.";
+
+"TimeCountsown.Notice" = "타이머 설정은 10초 미만일 수 없습니다.";
+"TimeCountsown.5SecNotice" = "5초 미만인 경우 타이머를 일시 중지할 수 없습니다.";
+
+"GroupingView.Grouping" = "그룹화";
+"GroupingView.HandGrouping" = "수동 그룹화";
+"GroupingView.Hand" = "수동";
+"GroupingView.Auto" = "임의";
+"GroupingView.Num" = "그룹화 보기:";
+"GroupingView.RandomGrouping" = "임의의 그룹화";
+"GroupingView.RandomGroupingNum" = "임의의 그룹화 번호:";
+"GroupingView.StartGrouping" = "그룹화 시작";
+"GroupingView.AddGrouping" = "그룹화 추가";
+"GroupingView.Clean" = "정리";
+"GroupingView.Dele" = "삭제";
+"GroupingView.UnGroupingHineTetx" ="그룹에 들어가지 않은 학생은 교실에 남게 되며 다음과 같은 상황이 발생할 수 있습니다.\n1, 그룹 완료 후 입장,\n2, 모바일 브라우저를 통해 입장,\n3, 하단 버전: 앱 버전이 업그레이드되지 않았습니다. ;\N4. 저전력 소비: 장비가 구식이거나 구성이 낮습니다.";
+"GroupingView.GroupingMode" = "그룹화 모드:";
+"GroupingView.StartGrouping" = "그룹화 시작";
+"GroupingView.Regroup" = "재그룹화";
+"GroupingView.StartDiscussion" = "토론 시작";
+"GroupingView.JixuDiscussion" = "토론 계속";
+"GroupingView.SyncVideo" = "교사 오디오 및 비디오 동기화";
+"GroupingView.FinishDiscussion" = "토론 종료";
+"GroupingView.UnGrouping" = "그룹 해제";
+"GroupingView.UnGroupingStudent" = "그룹 해제된 학생";
+"GroupingView.CanNotGrouping.Version" = "학생의 버전이 너무 낮아 일시적으로 그룹화에 참여할 수 없습니다.";
+"GroupingView.CanNotGrouping.MobileBrowser" = "학생이 모바일 브라우저로 로그인되어 있으며 일시적으로 그룹화에 참여할 수 없습니다.";
+"GroupingView.CanNotGrouping.Low" = "학생의 장치 구성이 낮아 일시적으로 그룹화에 참여할 수 없습니다.";
+"GroupingView.JoinDiscussion" = "토론 참여";
+"GroupingView.ExitDiscussion" = "토론 종료";
+"GroupingView.View" = "방관자";
+"GroupingView.ExitView" = "사이드라인에서 나가기";
+"GroupingView.Nobody.HintText" = "그룹 해제된 학생에서 구성원을 선택하십시오";
+"GroupingView.Grouping.Title" = "그룹 토론 진행 중";
+"GroupingView.Grouping.Unit" = "%@(%d그룹 )";
+"GroupingView.Grouping.Name" = "%lu그룹(%lu)";
+"GroupingView.Grouping.chat"    = "현재만 표시 %lu 그룹 채팅 정보";
+"GroupingView.Alter.NumberLimite" = "이 기능은 2-200명이 있는 방으로 제한됩니다.";
+"GroupingView.Alter.Beforeclass" = "그룹화 기능은 클래스 이전에 지원되지 않습니다!";
+"GroupingView.Alter.GroupDiscussing" = "토론 중";
+"GroupingView.Alter.Note" = "특별 참고 사항";
+"GroupingView.Alter.MoreThanPeople" = "각 그룹은 최대 %d명의 사람들이 동시에 오디오와 비디오를 켤 수 있도록 지원하며, 추가 부분은 무대 아래에서만 볼 수 있습니다.";
+"GroupingView.Alter.SureButton" = "확인";
+"GroupingView.Alter.DeleInfo" = "그룹에 학생이 있습니다. 그룹을 삭제하겠습니까?";
+"GroupingView.Alter.DeleTitle" = "그룹 삭제";
+"GroupingView.Alter.QuitInfo" = "종료 후 이 그룹화 계획은 저장되지 않습니다. 그룹화를 종료하겠습니까?";
+"GroupingView.Alter.QuitTitle" = "그룹화 종료";
+"GroupingView.Alter.BeginSession" = "%@에 학생이 없습니다. 토론을 시작하시겠습니까?";
+"GroupingView.Alter.BeginSessionUnit" = "[%d 그룹]";
+"GroupingView.Alter.ContinueGroup" = "그룹화 계속";
+"GroupingView.Alter.ContinueGroupHint" = "기존 그룹화 구성표에 따라 그룹 토론을 계속하겠습니까?";
+"GroupingView.Alter.EndGroupHint" = "그룹 토론을 종료하겠습니까?";
+"GroupingView.Alter.AddMax" = "그룹화가 상한선에 도달하여 더 많은 그룹을 추가할 수 없습니다.";
+"GroupingView.Alter.NoUnGroupingStudent" = "아직 그룹 해제 학생이 없습니다";
+"GroupingView.Alter.NoBodyStudent" = "아직 학생이 없음";
+"GroupingView.Alter.Zanbu" = "아직 아님";
+"GroupingView.Alter.LowVersion" = "낮은 버전의 학생은 그룹화에 참여할 수 없습니다. 가능한 한 빨리 버전을 업그레이드하십시오!\n\n";
+"GroupingView.Alter.LowDevice" = "오래된 장비를 가진 학생은 그룹화에 참여할 수 없습니다. 가능한 한 빨리 장비를 교체하십시오!\n\n";
+"GroupingView.Alter.dissatisfy" = "현재 방은 그룹화 조건을 충족하지 않으며 일시적으로 사용할 수 없습니다.";
+
+
+//아름다움
+"Beauti.SetTitle" = "미용 설정";
+"Beauti.PropsTitle" = "애니메이션 소품";
+
+"ClassEnd.title" = "수업 종료";
+"ClassEnd.info" = "코스가 종료되었으며 나중에 녹화가 생성되며 코스 다시보기를 볼 수 있습니다.";
+"ClassEnd.numTitle" = "방 번호";
+"ClassEnd.timeTitle" = "클래스 종료";
+"Button.LeaveClass" = "클래스룸 나가기";
+"ClassBegin.NoticeTitle" = "수업 시간까지 아직 있습니다.";
+"ClassBegin.NoticeInfo" = "%d분";
+
+"ClassEndAlter.Title" = "수업 종료 알림";
+"ClassBeginAlter.Title" = "수업 알림";
+"ClassEndAlter.Confirm" = "확인했습니다";
+"ClassEndAlter.Notice" = "현재 수업은 수업 종료 시간에 도달했습니다. 교실은 %d분 후에 자동으로 닫힙니다. 준비하십시오!";
+
+"Prompt.LeaveClassEarlyPrompt" = "수업을 끝내기 위해 미리 설정된 하교 시간에 아직 도달하지 않았습니다. 수업을 일찍 하교할지 여부를 확인하십시오.";
+
+"ClassBeginAlter.days" = "일";
+"ClassBeginAlter.distanceStart" = "클래스까지의 거리";
+"ClassBeginAlter.reachTime" = "수업 시간이 다 되었습니다. 수업을 시작하겠습니다!";
+"ClassBeginAlter.notStart" = "아직 아님";
+"ClassBeginAlter.start" = "클래스 시작";
+
+
+"Alert.PrivacyPolicy" = "앱을 계속 사용하려면 ‘사용자 계약’ 및 ‘개인정보 보호정책’에 동의해야 합니다~";
+"Alert.agree" = "동의로 이동";
+"Alert.disagree" = "동의하지 않음";
+"Alert.exit" = "종료";
+"Alert.NetWorkVpn" = "현재 네트워크 상태이상입니다. 장비에서 프록시 소프트웨어가 사용되는지 확인하고, 수업을 원활히 진행하기 위해 프록시를 꺼주세요.";
+
+//음성 평가
+"SpeechEvaluation.title"             = "다음을 읽으십시오";
+"SpeechEvaluation.hintTitle"         = "힌트";
+"SpeechEvaluation.hintContent"       = "재녹화하면 녹화된 내용이 지워집니다. 재녹화 여부를 확인해 주세요.";
+"SpeechEvaluation.reset"             = "재녹음";
+"SpeechEvaluation.authorizationTip"  = "평가하기 전에 마이크를 승인하십시오.";
+"SpeechEvaluation.authorization"     = "공인 마이크";
+"SpeechEvaluation.submitManual"      = "성공적으로 제출되었습니다. 평가 결과를 기다리십시오.";
+"SpeechEvaluation.submitAuto"        = "카운트다운이 종료되었습니다. 자동 제출되었습니다. 평가 결과를 기다려주세요.";
+"SpeechEvaluation.retryContent"      = "제출에 실패했습니다. 다시 시도해 주세요.";
+"SpeechEvaluation.retry"             = "다시 제출";
+"SpeechEvaluation.submitFail"        = "제출에 실패했습니다";
+"SpeechEvaluation.contactingAdmin"   = "다시 시도하지 못했습니다. 선생님이나 관리자에게 문의하세요.";
+"SpeechEvaluation.noRecord"          = "평가가 종료되었으며 시스템에서 음성 입력을 감지하지 못했습니다.";
+"SpeechEvaluation.oneStar"           = "Nice Try";
+"SpeechEvaluation.twoStar"           = "Great";
+"SpeechEvaluation.threeStar"         = "Very Good";
+"SpeechEvaluation.fourStar"          = "Wonderful";
+"SpeechEvaluation.fiveStar"          = "Excellent";
+
+///워밍업 비디오 관련
+"Warm.OtherIssue" = "기타 문제 설명";
+"Warm.ReportIssues" = "비정상적 문제 보고";
+"Warm.Report" = "신고";
+"Warm.ReportSuccess" = "성공 보고";
+"Warm.ReportFail" = "나중에 다시 시도하십시오";
+"Warm.AddProblem" = "예외 문제를 추가하십시오";
+"Warm.Repeat5Seconds" = "180초 이내에 작업을 반복하지 마십시오.";
+"Warm.Repeat180Seconds" = "이미 작업표를 제출했으니 %d초 내에 다시 조작하지 마십시오";
+"Warm.MaxWordsLimit" = "140단어 이하";
+
+"Warm.MyProblemNone" = "없음";
+"Warm.MyProblem" = "나의 특이한 문제";
+"Warm.StudentProblem" = "학생 문제";
+"Warm.StuChooseTips" = "학생 선택";
+"Warm.NoStuTips" = "비정상적 문제가 있는 학생을 선택하십시오";
+"Warm.NoStudents" = "없음";
+
+"ClassRoom.noJoin" = "이동 단말기는 이 ID로 강의실 입장을 지원하지 않습니다.";
+"ClassRoom.onlookerNonsupport" = "현재 회의실은 감사자 상태를 지원하지 않습니다.";
+
+"Prompt.SensitiveWord" = "보낸 콘텐츠에 차단된 민감한 단어가 포함되어 있습니다.";
+"RedPacket_go" = "켜기";
+"RedPacket_unit" = "조각";
+"RedPacket_end" = "핸드 속도가 느리고 빨간색 패킷 전달이 끝났습니다.";
+"RedPacket_sendTitle" = "%@%@이(가) 배포한 레드 패킷";
+"RedPacket_overdue" = "빨간색 패킷이 만료되었습니다.";
+"RedPacket_general" = "보통 보너스";
+"RedPacket_luck" = "행운의 돈";
+"RedPacket_num" = "봉투의 갯수";
+"RedPacket_redunit" ="개";
+"RedPacket_coinnum" ="하나의 빨간 봉투 토큰의 갯수입니다";
+"RedPacket_wellcome" ="빨리 클릭해서 수령하세요";
+"RedPacket_send" ="금품을 나누어주다";
+"RedPacket_onlook"="현재 관중 수 %ld";
+"RedPacket_cointotalnum" = "모두";
+"RedPacket_coinuni" = "";
+"RedPacket_coinnum_alert" = "총 토큰은 보너스 개수보다 커야 한다";
+"SynchorEditable" = "동기식 공동 편집-편집 가능";
+"SynchorCannotBeEditede" = "동기식 공동 편집";
+
+
+"WeRecord.WhiteBoard" = "화이트보드";
+"WeRecord.BlackBoard" = "칠판";
+"WeRecord.GreenBoard" = "그린보드";
+"WeRecord.MattsBook" = "티안 지가";
+"WeRecord.EnglishBook" = "영어 책";
+"WeRecord.Axis" = "좌표 축";
+"BurshTool.TextSize" =  "글꼴 크기";
+"BurshTool.BorderThick" = "와이어프레임 두께";
+"BurshTool.PaintThick" =  "브러시 두께";
+"BurshTool.MoreColor" = "더많은 색상";
+"BurshTool.AddToCustomDish" = "사용자 정의 요리에 추가";
+"BurshTool.CustomDish" = "맞춤 견본";
+
+"Alter.OnWhiteBoardMaxNum" = "화이트보드 영역으로 드래그한 동영상의 최대 개수는 %d 개이므로 드래그를 계속할 수 없습니다.";
+"Alter.AssembleMaxNum" = "화이트보드 영역 %d 의 최대 비디오 수를 초과하여 비디오 컬렉션을 일시적으로 사용할 수 없습니다.";
+"Choisissez.langue" = "번역 언어 선택";
+"iCloud.login" = "먼저 iCloud에 로그인하십시오.";
+"iCloud.videoUpLoad" = "이 형식 파일은 현재 지원되지 않습니다. mp3, mp4 형식을 업로드하는 것이 좋습니다.";
+"Choisissez.area" = "지역 선택";
+
+"Document.Convert" = "전송 실패";
+"Document.Converting" = "변환 중";
+"Document.Oversize"   = "파일 크기가 제한을 초과합니다. 파일 크기는 초과할 수 없습니다";
+
+"NavBarNetwork.upload" = "Uplink network";
+"NavBarNetwork.download" = "Downlink network";
+
+"NavBarNetwork.up" = "Up";
+"NavBarNetwork.down" = "Down";
+"NavBarNetwork.notice" = "The quality of the class may still be affected by the current network fluctuations";
+"NavBarNetwork.roomId" = "Room id";
+"TKPreload.downloading" = "코스웨어 로드 중";
+
+//-----云直播
+"SplitLiveClass.State.Reconnecting" = "라이브 룸에 입장";
+"SplitLiveClass.Label.roomid" = "채널 번호";
+"SplitLiveClass.netstate.RoomID" = "채널 번호: ";
+"SplitLiveClass.ClassEnd.numTitle" = "채널 번호";
+"SplitLiveClass.NavBarNetwork.roomId" = "채널 번호";
+"SplitLiveClass.ClassEnd.title"   = "생방송이 종료되었습니다";
+"SplitLiveClass.ClassEnd.info"   = "생방송이 종료되었으며 추후 녹화가 진행되며 관련 재생을 시청하실 수 있습니다.";
+"SplitLiveClass.ClassEnd.timeTitle" = "생방송 시간";
+"SplitLiveClass.Action.ExitRoom"           = "스튜디오를 떠나!";
+"SplitLiveClass.Button.LeaveClass"    = "스튜디오를 떠나";
+"SplitLiveClass.aLiveClass.BackClassroom" = "라이브 룸으로 돌아가기";
+
+//桌面共享
+"ScreenShare.MobileBrowser.toast" = "사용자는 모바일 브라우저를 사용하고 있으므로 이 기능을 사용할 수 없으며 앱/PC를 사용하여 교실에 입장하라는 메시지가 표시됩니다.";
+"ScreenShare.SysVersionLow.toast" = "현재 시스템 버전이 iOS 12.0 미만이며, 화면 생중계 기능을 일시적으로 사용할 수 없습니다. 화면 라이브 기능을 사용하려면 기기의 시스템 버전을 iOS 12.0 이상으로 업그레이드하도록 선택할 수 있습니다.";
+"ScreenShare.CanShare.tips" = "권한이 있습니다. 데스크톱 공유를 위해 여기를 클릭하세요.";
+"ScreenShare.Stop" = "공유 중지";
+"ScreenShare.OnStageMax.toast" = "현재 무대의 최대 인원에 도달하여 데스크탑 공유가 일시적으로 불가능합니다!";
+
+"GroupPhotp.title" = "단체사진";
+"GroupPhotp.timeTip" = "사진 찍을 수 있는 남은 시간";
+"GroupPhotp.UnJoin" = "참여하지 않음";
+"GroupPhotp.Join" = "가입하다";
+"GroupPhotp.TakePic" = "사진";
+"GroupPhotp.TakeNewPic" = "사진을 찍지 않다";
+"GroupPhotp.TakeNewPic" = "다시 사진을 찍어";
+"GroupPhotp.Upload" = "사진 업로드";
+"GroupPhotp.UploadSucceed" = "사진이 성공적으로 업로드되었습니다";
+"GroupPhotp.UnTakePicHint" = "참고: 사진을 찍지 않으려면 클릭하면 닉네임 형식으로 사진 사진에 나타납니다.";
+
+//白板截图
+"WhiteBoradScreenshot.MaximumLengthText" = "최대 50페이지 미만 저장";
+"WhiteBoradScreenshot.SaveSuccess" = "저장 성공";
+"WhiteBoradScreenshot.SaveFail" = "저장 실패";
+"WhiteBoradScreenshot.loading" = "로드 중...";
+
+// 时移
+"LiveTimeMoveEndClass.back" = "생방송으로 돌아가다";
+"TKLive.TimeMoveLimitTips"  = "생방송 시간은 90초 미만이며 재생을 지원할 수 없습니다.";
+"TKLive.TimeMoveLimitTips1"  = "타임시프트 생성 시간은 생방송 후 90초로 현재 인터벌이 부족하여 해당 위치로 다시 점프했습니다.";
+
+"TKCoursewareSync" = "동시 스크롤";
+
+//问卷相关
+"Prompt.quesSubmitSuccess"        = "성공적으로 제출됨";
+"Prompt.quesStopAnswer"           = "설문이 종료되었습니다";
+"Prompt.Questionaire"             = "설문조사 시작 보려면 클릭";
+"Prompt.QuestionaireKeyWord"      = "보려면 클릭";
+"Questionaire.association"        = "동무";
+"Questionaire.associationed"      = "연결됨";
+"Questionaire.associationTitle"   = "동무 질문 사항";
+"Questionaire.pptConntennt"       = "없음：%@";
+"Questionaire.searchPlaceholder"  = "질문명을 입력해주세요";
+"Questionaire.repud"              = "다시 게시";
+"Questionaire.remove"             = "없애다";
+"Questionaire.public"             = "해제";
+"Questionaire.result"             = "发결과 보내기";
+"Questionaire.resulted"           = "전송 된";
+"Questionaire.end"                = "답 중지";
+"Questionaire.look"               = "시사";
+"Questionaire.nodata"             = "데이터 없음";
+"Questionaire.questionNum"        = "모두 %@문제";
+"Questionaire.removeConfirm"      = "제거 여부 확인";
+"Questionaire.questionCount"      = "제출된 서류 %@ 사람들";
+"Questionaire.endToasting"        = "종료";
+"Questionaire.endResponse"        = "설문이 종료되었습니다";
+"Questionaire.pubToast"           = "이미 답변 중인 설문지가 있습니다. 먼저 종료해 주세요.";
+"Questionaire.closeToast"         = "현재 표시된 설문지를 닫으십시오.";
+"Questionaire.associationErr"     = "코스웨어 연결이 잘못되었습니다. 다시 연결하십시오.";
+
+// app升级
+"A new version is available!" = "새 버전을 사용할 수 있습니다!";
+
+"%@ %@ is now available. You have %@. Would you like to download(%@) it now?" = "%1$@ %2$@ 사용할 수 있습니다. 당신은 %3$@ 수 있습니다. 당신은 지금 (%4$@)를 다운로드 하시겠습니까?";
+
+"Update" = "새롭게하다";
+
+"Skip This Version" = "이 버전 건너뛰기";
+
+"Remind Me Later" = "나중에";
+
+"Release Notes" = "배포 정보";
+
+"Live.paused" = "Live paused";
+"Roomtime" = "교실 온라인 시간";
+"RoomOnlinetime" ="효과적인 온라인 시간";
+
+"Screen.Sharing" = "데스크톱 공유";
+"Screen.StopShare" = "멈추다";
+"Record.afterClass" = "수업 후 녹음";
+"Record.Recording" = "교실 녹음";
+//"Prompt.Layout.assistantCanPublish" = "조교가 무대에 오를 수 있는 공간이나 듀얼 카메라가 설치된 공간은 배치를 변경할 수 없습니다.";
+"Prompt.Layout.VideoCollection" = "영상 수집 시 레이아웃을 변경할 수 없습니다.";
+"Prompt.Layout.NoMainLayout" = "선생님이 화이트보드를 배치하고 있으며, 라이브 방송 내용의 무결성을 보장하기 위해 메인 강의 영상을 전환할 수 없습니다.";
+"Prompt.Layout.NoFreeLayout" = "교사가 화이트보드를 배치합니다. 생방송 콘텐츠의 무결성을 보장하기 위해 무료 동영상을 전환할 수 없습니다.";
+"Prompt.Layout.NoVideoLayout" = "교사는 라이브 방송 콘텐츠의 무결성을 보장하기 위해 화이트보드를 레이아웃합니다. 비디오 레이아웃은 전환할 수 없습니다.";
+"Prompt.Layout.GroupNoLayot" = "그룹 토론 중에는 레이아웃을 변경할 수 없습니다.";
+"Prompt.Layout.NoLayout" = "레이아웃을 변경할 수 없습니다.";
+"Layout.ReSet" = "재설정";
+
+//语音答题
+"SpeechEvaluation.pubTitle"          = "음성 답변";
+"SpeechEvaluation.pubLanguageTitle"  = "언어 유형 설정";
+"SpeechEvaluation.pubTimeTitle"      = "응답 시간을 설정하세요";
+"SpeechEvaluation.pubDefTime"        = "20s";
+"SpeechEvaluation.start"             = "시작";
+"SpeechEvaluation.translate"         = "음성을 텍스트로";
+"SpeechEvaluation.Empty"             = "학생 제출을 기다리는 중...";
+"SpeechEvaluation.roomNum"           = "방에 있는 사람의 수：";
+"SpeechEvaluation.submitNum"         = "제출된：";
+"SpeechEvaluation.unsubmitNum"       = "제출되지 않음：";
+"SpeechEvaluation.tile"              = "작업 요구사항에 따라 큰 소리로 읽어주세요.";
+"SpeechEvaluation.noRecognition"     = "텍스트가 인식되지 않음";
+"SpeechEvaluation.language.en"       = "영어 ";
+"SpeechEvaluation.language.zh"       = "중국어";
+"SpeechEvaluation.language.ja"       = "일본어";
+"SpeechEvaluation.language.ko"       = "한국인";
+"SpeechEvaluation.language.fr"       = "프랑스 국민";
+"SpeechEvaluation.language.id"       = "인도네시아 인";
+"SpeechEvaluation.language.vi"       = "베트남 사람";
+"SpeechEvaluation.language.es"       = "스페인 사람";
+"voiceAnswer.reset"                  = "다시 녹음하다";
+"voiceAnswer.submit"                 = "제출하다";
+"voiceAnswer.hintContent"            = "다시 녹음하면 녹음된 내용이 지워집니다. 다시 녹음할지 확인해주세요.";
+// 4.17.10
+"TKTestDocumentLowVersionTip"            = "학생 클라이언트 버전이 낮아 정상적으로 볼 수 없는 것으로 감지되었습니다. 코스웨어를 열기 전에 업그레이드하도록 안내해 주세요.";
+"TKSubtitle" = "자막";
+"TKForbidStudentUploadImage" = "학생들이 사진을 올리는 것을 금지하다";
+"TKForbidStudentUploadImageTip" = "이 기능은 4.18.0 이상 버전에서만 작동합니다.교사와 조교가 동시에 조작을 한다";
+"TKLowVersionTip" = "이전 버전의 클라이언트는이 기능을 지원하지 않습니다. 학생들에게 업그레이드하도록 알려 주십시오";
+"Button.Mouse" = "마우스";
+"Button.MouseClose"          = "마우스를 켜려면 누르십시오";
+"Button.MouseSelect"         = "클릭해서 마우스 닫기";
+"Button.MouseAllSelect"         = "전체 마우스 켜기";
+"Button.MouseAllClose"         = "마우스 모두 닫기";
+"PlayBack.Speed"         = "배 속도";
+"TKMiniWBCloseTip"         = "서판이 닫혔다";
+"TKLogin.transfiniteWords" = "텍스트가 제한을 초과함";
+

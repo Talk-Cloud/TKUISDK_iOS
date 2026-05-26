@@ -1,0 +1,22 @@
+/*
+ Meetings.strings
+ Meetings
+ 
+ Created by macmini on 15/2/3.
+ Copyright (c) 2015年 macmini. All rights reserved.
+ */
+
+"TKPreload.downloading" = "코스웨어 로드 중";
+"TKPreload.unzipping" = "코스웨어 압축 풀기";
+"TKPreload.skip" = "건너뛰기";
+"tool.noUse" = "네트워크가 비정상이고 코스웨어가 느리게 로드됩니다.";
+
+"SSL.Error_Title" = "SSL Error";
+"TKWhiteboard.SSL_Error" = "귀하의 네트워크에 안전문제가 존재하여 네트워크 요청이 비법적으로 차단되였습니다.[확인]을 클릭하면 시스템에서 자동으로 서버 네트워크 전환이 수행되며,이 기간 동안 수동으로 장치 네트워크를 변경하는 작업은 여전히 적용됩니다.";
+"TKWhiteboard.SSL_Error_End" = "귀하의 네트워크 환경은 안전하지 않으며 네트워크 요청이 불법적으로 가로채졌습니다. 다른 네트워크로 전환하세요!";
+
+"Prompt.Restricted" = "네트워크가 제한되었습니다! 「사이트 허용」을 클릭하여 권한을 부여한 후 5~8초 기다렸다가 나갔다가 다시 들어오시면 정상적으로 사용하실 수 있습니다.";
+"Prompt.prompt" = "수업 종료 알림";
+"Prompt.OK" = "확인";
+"TKWhiteBoard.HoldReplay" = "답변 대기 중";
+

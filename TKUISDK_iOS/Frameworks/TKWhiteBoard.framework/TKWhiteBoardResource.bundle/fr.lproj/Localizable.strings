@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  libMeetings
+
+  Created by miniMac on 16/2/24.
+  Copyright © 2016年 macmini. All rights reserved.
+*/
+
+// 用户协议,隐私协议中的项目名和公司名
+/*
+ Meetings.strings
+ Meetings
+ 
+ Created by macmini on 15/2/3.
+ Copyright (c) 2015年 macmini. All rights reserved.
+ */
+
+"TKWhiteboard.loading" = "Le réseau est anormal et le didacticiel se charge lentement";
+
+"SSL.Error_Title" = "SSL Error";
+"TKWhiteboard.SSL_Error" = "Votre réseau présente un risque de sécurité et les demandes internet sont interceptées illégalement; En cliquant sur [ok], le système effectuera automatiquement la commutation du réseau du serveur. La commutation manuelle du réseau de l’appareil pendant cette période est toujours en vigueur.";
+"TKWhiteboard.SSL_Error_End" = "Votre environnement réseau n'est pas sécurisé et la requête réseau est interceptée illégalement. Veuillez passer à un autre réseau !";
+
+"Prompt.Restricted" = "Le réseau est limité ! Veuillez d’abord cliquer sur « Autoriser le site » pour l’autorisation, attendre 5 à 8 secondes, puis quitter et revenir pour l’utiliser normalement.";
+"Prompt.prompt" = "Conseils";
+"Prompt.OK" = "Confirm";
+"TKWhiteBoard.HoldReplay" = "En attente de soutenance";
+

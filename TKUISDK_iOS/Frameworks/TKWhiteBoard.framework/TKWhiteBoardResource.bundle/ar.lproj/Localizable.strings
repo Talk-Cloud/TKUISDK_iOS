@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  libMeetings
+
+  Created by miniMac on 16/2/24.
+  Copyright © 2016年 macmini. All rights reserved.
+*/
+
+// 用户协议,隐私协议中的项目名和公司名
+/*
+ Meetings.strings
+ Meetings
+ 
+ Created by macmini on 15/2/3.
+ Copyright (c) 2015年 macmini. All rights reserved.
+ */
+
+"TKPreload.downloading" = "جارٍ تحميل المحتوى";
+"TKPreload.unzipping"   = "جارٍ فك ضغط المحتوى";
+"TKPreload.skip"        = "تخطي";
+"tool.noUse" = "الدرس لم يبدأ بعد، لا يمكن استخدام صندوق الأدوات";
+"TKWhiteboard.loading" = "الشبكة غير طبيعية، تحميل المحتوى بطيء.";
+
+"SSL.Error_Title" = "خطأ SSL";
+"TKWhiteboard.SSL_Error" = "شبكتك بها مخاطر أمنية، تم اعتراض الطلب بشكل غير قانوني؛ انقر【تأكيد】للتبديل التلقائي للخادم، التبديل اليدوي للشبكة لا يزال فعالاً.";
+"TKWhiteboard.SSL_Error_End" = "بيئة شبكتك غير آمنة، تم اعتراض الطلب بشكل غير قانوني، يرجى التبديل لشبكة أخرى!";
+
+"Prompt.Restricted" = "الشبكة محدودة! يرجى النقر أولاً على «السماح للموقع» لمنح الإذن، وانتظار 5–8 ثوانٍ، ثم الخروج والدخول مرة أخرى لاستخدامه بشكل طبيعي.";
+"Prompt.prompt" = "تنبيه";
+"Prompt.OK" = "تأكيد";
+"TKWhiteBoard.HoldReplay" = "قيد انتظار المناقشة";

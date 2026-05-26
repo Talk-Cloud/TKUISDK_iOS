@@ -19,3 +19,4 @@ FOUNDATION_EXPORT const unsigned char TKUISDKVersionString[];
 #import "TKAPPSetConfig.h"
 #import "TKEduClassManager.h"
 #import "TKEduRoomDelegate.h"
+

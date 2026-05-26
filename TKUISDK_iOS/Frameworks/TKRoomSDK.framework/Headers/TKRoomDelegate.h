@@ -18,6 +18,11 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerJoinRoomFailedNotificati
 FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotification;
 
 #pragma mark - TKRoomManagerDelegate
+@class TKRoomUser;
+@class TKVideoStats;
+@class TKAudioStats;
+@class TKVideoFrame;
+@class TKAudioFrame;
 @protocol TKRoomManagerDelegate<NSObject>
 
 @optional
@@ -25,11 +30,6 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotific
     成功进入房间
  */
 - (void)roomManagerRoomJoined;
-
-/**
-    成功进入分组
- */
-- (void)roomManagerGroupJoined;
 
 /**
     已经离开房间
@@ -53,20 +53,24 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotific
 
  @param code 警告码
  */
-- (void)roomManagerDidOccuredWaring:(TKRoomWarningCode)code;
+- (void)roomManagerDidOccuredWaring:(NSInteger)code;
 
 /**
     有用户进入房间
     @param peerID 用户ID
     @param inList true：在自己之前进入；false：在自己之后进入
  */
-- (void)roomManagerUserJoined:(NSString *)peerID inList:(BOOL)inList;
+- (void)roomManagerUserJoined:(NSString *)peerID inList:(BOOL)inList TK_Deprecated("Will did deprecated, please use '- (void)roomManagerRoomUserJoined:inList:'");
 
+- (void)roomManagerRoomUserJoined:(TKRoomUser *)roomUser inList:(BOOL)inList;
+
+- (void)roomManagerOptionalServer:(NSArray <NSString *> *)servers;
 /**
     有用户离开房间
     @param peerID 用户ID
  */
-- (void)roomManagerUserLeft:(NSString *)peerID;
+- (void)roomManagerUserLeft:(NSString *)peerID  TK_Deprecated("Will did deprecated, please use '- (void)roomManagerUserLeft: reason:'");
+- (void)roomManagerUserLeft:(NSString *)peerID reason:(TKUserOfflineReason)reason;
 
 /**
     自己被踢出房间
@@ -110,6 +114,21 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotific
 - (void)roomManagerOnUserVideoStatus:(NSString *)peerID
                             deviceId:(NSString *)deviceId
                                state:(TKMediaState)state;
+
+/**
+ 禁用音频设备
+ @param peerId 用户ID
+ @param isDisable 是否禁用
+ */
+//- (void)onAudioDeviceDisableStateChanged:(NSString *)peerId isDisable:(BOOL) isDisable;
+
+/**
+ 禁用视频设备
+ @param peerId 用户ID
+ @param isDisable 是否禁用
+ */
+- (void)onVideoDeviceDisableStateChanged:(NSString *)peerId isDisable:(BOOL) isDisable;
+
 /**
  用户音频状态变化的通知，
  
@@ -378,6 +397,8 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotific
  @param type 采集源
  */
 - (void)onRenderVideoFrame:(TKVideoFrame *)frame uid:(NSString *)peerId deviceId:(NSString *)deviceId sourceType:(TKMediaType)type;
+
+
 @end
 
 

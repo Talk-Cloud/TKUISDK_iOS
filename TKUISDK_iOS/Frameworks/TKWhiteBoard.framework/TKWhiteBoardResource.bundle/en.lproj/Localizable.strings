@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  libMeetings
+
+  Created by miniMac on 16/2/24.
+  Copyright © 2016年 macmini. All rights reserved.
+*/
+
+"TKPreload.downloading" = "Loading courseware";
+"TKPreload.unzipping"   = "unzipping the file";
+"TKPreload.skip"        = "skip";
+"tool.noUse" = "Class hasn't started yet. The toolbox function can't be used temporarily";
+"TKWhiteboard.loading" = "Network issues, slow file loading";
+
+"SSL.Error_Title" = "SSL Error";
+"TKWhiteboard.SSL_Error" = "There are security risks to your network and the network request has been illegally intercepted. Click [OK] to automatically switch the server network, meanwhile, the manual switching will still be effective.";
+"TKWhiteboard.SSL_Error_End" = "Your network environment is not secure and the network request is illegally intercepted. Please switch to another network!";
+
+"Prompt.Restricted" = "Network access is restricted! Please tap \"Allow website\" to grant permission, wait 5–8 seconds, then exit and re-enter to use normally.";
+"Prompt.prompt" = "Prompt";
+"Prompt.OK" = "ok";
+"TKWhiteBoard.HoldReplay" = "Waiting for defense";
+

@@ -10,6 +10,7 @@
 
 @interface TKUtils : NSObject
 
+#pragma mark - device
 /**
  获取cpu核数
  */
@@ -31,9 +32,11 @@
 + (unsigned long long)getTotalMemory;
 
 /**
- 获取当前App内存使用
+ 获取当前App实际物理内存占用  bytes
  */
 + (uint64_t)getResidentMemory;
 
++ (uint64_t)totalMemoryUsage;
 
++ (NSString *)generateUserSigWithApiCategory:(NSString *)apiCategory userSigParams:(NSArray<NSString *> *)userSigParams;
 @end

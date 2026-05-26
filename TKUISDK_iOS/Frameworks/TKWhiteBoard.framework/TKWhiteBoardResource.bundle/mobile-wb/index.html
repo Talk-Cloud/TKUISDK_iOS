@@ -1,0 +1,182 @@
+<!doctype html><html lang="en" update-time="2025-07-17 12:04:43" version="1.1.9"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-touch-fullscreen" content="yes"/><meta name="full-screen" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta name="format-detection" content="telephone=no"/><meta name="format-detection" content="address=no"/><meta http-equiv="Cache-Control" content="no-siteapp"/><title>Document</title><style>html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .doc-iframe-ele {
+            width: 1px;
+            min-width: 100%;
+            height: 1px;
+            min-height: 100%;
+        }
+
+        .page-timeout-loading {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #FFF;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        .page-timeout-loading .page-loading-img {
+            width: 48px;
+            height: 48px;
+            background: url('data:image/png;base64,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') no-repeat center/100% 100%;
+            animation: preloader_spin 1s infinite linear;
+            -webkit-animation: preloader_spin 1s infinite linear;
+        }
+
+        .page-timeout-loading .page-loading-text {
+            padding: 0 30px;
+            word-break: break-all;
+        }
+
+        @keyframes preloader_spin { 0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);} }
+        @-webkit-keyframes preloader_spin { 0% {-webkit-transform: rotate(0deg);} 100% {-webkit-transform: rotate(360deg);}}
+
+
+        /* .test-btn{
+            position:relative;
+            z-index: 1;
+        } */</style></head><body><script>var isDebug = 'false';
+        if (isDebug !== 'true') {
+            var getRealBool = function(value) {
+                if (typeof value !== 'string' || !['true', 'false'].includes(value)) return value;
+                return value === 'true';
+            };
+            var getUrlParams = function(keys) {
+                var queryStr = window.location.search.substring(1);
+                var querys = queryStr
+                    .split('&')
+                    .map(function(query) {
+                        if (query.indexOf('=') !== -1) {
+                            return query.split('=');
+                        }
+                        return undefined;
+                    })
+                    .filter((query) => !!query)
+                    .reduce((prev, curr) => {
+                        var obj = { [curr[0]]: getRealBool(curr[1]) };
+                        return Object.assign(prev, obj);
+                    }, {});
+                if (typeof keys === 'string') return querys[keys];
+                return querys;
+            };
+
+            !(function(c,b,d,a){c[a]||(c[a]={});c[a].config={
+                pid:"gmrq0xqykz@2869ea645bf34eb",
+                appType:"web",
+                imgUrl:"https://arms-retcode.aliyuncs.com/r.png?",
+                sendResource:true,
+                enableLinkTrace:true,
+                behavior:true,
+                release: "1.1.9" || 'no-version', // 应用版本号
+                uid: getUrlParams('userid'), // 用户id 
+                c1: getUrlParams('serial'), // 自定义字段的配置项 - 教室号(错误详情中显示)
+                c2: getUrlParams('userid'), // 自定义字段的配置项 - 用户id(错误详情中显示)
+                c3: getUrlParams('username'), // 自定义字段的配置项 - 用户名称(错误详情中显示)
+            };
+            with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+            })(window,document,"./bl.js","__bl");
+        }</script><div class="main-container" id="mainContainer"><iframe id="docIframeEle" width="1px" height="1px" class="doc-iframe-ele" src="" frameborder="0" allow="autoplay" allowfullscreen="true" scrolling="no"></iframe><div id="pageTimeoutLoading" class="page-timeout-loading"><span class="page-loading-img"></span> <span id="pageLoadingText" class="page-loading-text">网络异常，课件加载缓慢。</span></div></div><script>try {
+            window.TKGlobal = {
+                emit: null,
+                clientType: '',
+                log: undefined,
+                error: undefined,
+            };
+            console.info('[mobile-wb info] execute index.html');
+            if (window.JSWhitePadInterface || window.JSVideoWhitePadInterface) {
+                window.TKGlobal.clientType = 'android';
+            } else if (window.webkit && window.webkit.messageHandlers) {
+                window.TKGlobal.clientType = 'ios';
+            } else {
+                window.TKGlobal.clientType = 'web';
+                console.error('[mobile-wb error] JSWhitePadInterface or webkit.messageHandlers does not exist');
+                // window.alert('JSWhitePadInterface or webkit.messageHandlers does not exist')
+            }
+            /**
+             * 触发需要调用的原生方法
+             * @param {String} funcName 触发的方法名称
+             * @param {Object} params 调用方法的传入的参数
+             */
+            window.TKGlobal.emit = function (funcName, params) {
+                var data = [undefined, null].includes(params) ? '' : params;
+                if (typeof data === 'object') {
+                    try {
+                        data = JSON.stringify(data);
+                    } catch (e) {
+                        console.error('JSON.stringify:params is not json!');
+                    }
+                }
+                if (window.TKGlobal.clientType === 'android') {
+                    if (window.JSWhitePadInterface && window.JSWhitePadInterface[funcName]) {
+                        window.JSWhitePadInterface[funcName](data);
+                    } else {
+                        window.alert(`emit:window.JSWhitePadInterface.${funcName} is not exist!`);
+                    }
+                } else if (window.TKGlobal.clientType === 'ios') {
+                    if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers[funcName]) {
+                        window.webkit.messageHandlers[funcName].postMessage({ data });
+                    } else {
+                        window.alert(`emit:window.webkit.messageHandlers.${funcName}.postMessage is not exist!`);
+                    }
+                }
+            }
+
+            function printLogMessage(data) {
+                const msg = `${data}`;
+                window.TKGlobal.emit('printLogMessage', msg);
+            }
+
+            window.TKGlobal.log = function (msg) {
+                if (typeof msg !== 'string') { return; }
+                printLogMessage(` H5 log: ${msg}`);
+            }
+
+            window.TKGlobal.error = function (msg) {
+                if (typeof msg !== 'string') { return; }
+                printLogMessage(` H5 error: ${msg}`);
+            }
+
+            window.TKGlobal.log('The page code starts executing');
+
+            const reloadPageTimer = setTimeout(() => {
+                window.TKGlobal.log('start reloading');
+                window.location.reload();
+            }, 8 * 1000);
+
+            window.onload = function (params) {
+                var version = document.documentElement.getAttribute('version');
+                window.TKGlobal.log(`The page triggers onload,H5 version: ${version},clientType: ${window.TKGlobal.clientType}`);
+                console.info('[mobile-wb info] start load main.js');
+
+                var scriptTag = document.createElement('script');
+                scriptTag.src = './main.js';
+                scriptTag.addEventListener('load', () => {
+                    clearTimeout(reloadPageTimer);
+                    window.TKGlobal.log('main.js Loaded successfully' + ' width:' + window.innerWidth + ' height:' + window.innerHeight)
+                });
+                scriptTag.addEventListener('error', (e) => {
+                    window.TKGlobal.error('main.js Failed to load, error:', e)
+                });
+                document.body.appendChild(scriptTag);
+            }
+        } catch (e) {
+            console.error('[mobile-wb error] index error:', e);
+        }</script></body></html>

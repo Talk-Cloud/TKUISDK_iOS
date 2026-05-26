@@ -1,0 +1,6 @@
+framework module Pods_TKScreenRecorder {
+  umbrella header "Pods-TKScreenRecorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

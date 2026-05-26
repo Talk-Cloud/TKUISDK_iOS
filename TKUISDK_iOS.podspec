@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKUISDK_iOS'
-  s.version          = '4.2.4'
+  s.version          = '4.18.3.3'
   s.summary          = 'A short description of TKUISDK_iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,21 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Talk-Cloud/TKUISDK_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   # s.source_files = 'TKUISDK_iOS/Classes/**/*'
   
   s.ios.vendored_frameworks = 'TKUISDK_iOS/Frameworks/*.framework'
-  s.resources = ['TKUISDK_iOS/Bundles/*.bundle']
+  # 资源已内嵌在各 .framework 的 .bundle 中，无需单独声明 s.resources
+  # 与 use_frameworks! 配合使用；勿开启 static_framework，否则与动态 vendored framework 链接易冲突
   s.static_framework = true
   
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 arm64e' }
+
+  # 三方库
+  s.dependency 'lottie-ios', '2.5.3'
+  s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
   
   # s.resource_bundles = {
   #   'TKUISDK_iOS' => ['TKUISDK_iOS/Assets/*.png']
@@ -44,15 +51,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
-  
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 arm64e' }
-  
-  s.dependency 'SSZipArchive', '2.1.3'
-  s.dependency 'Masonry', '1.1.0'
-  s.dependency 'SakuraKit', '1.0.0'
-  s.dependency 'Bugly', '2.5.0'
-  s.dependency 'MJRefresh', '3.4.3'
-  s.dependency 'UMCCommon', '7.1.1'
+
   
 end

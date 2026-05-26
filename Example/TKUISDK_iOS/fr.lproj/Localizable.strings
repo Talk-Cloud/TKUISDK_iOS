@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  TKUIDEMO
+
+  Created by Frank on 2022/6/22.
+  Copyright © 2022 李合意. All rights reserved.
+*/
+"TKProjectName" = "Talk-Cloud+";
+"TKLog.SubTitle" = "Fournisseur de services professionnels de solutions audio et vidéo complètes";
+"TKLog.NoPWD" = "  Si la salle ne dispose pas de mot de passe, il n’est pas nécessaire de le renseigner   ";
+"TKCompanyName"  = "Pékin Tuoke Network Technology Co., Ltd.";
+"TKScreenShare.Stop" = "You have stopped screen sharing";
+"Role.Teacher" = "Enseignant/Animateur";
+"Role.Student" = "étudiants/public";
+"Role.Auditor" = "Auditeurs";
+"Role.Patrol"  = "Patrouille de classe/sur le terrain";
+"Role.Parent"  = "Les gardiens";
+"Role.Assistant" = "assistant";
+
+"Login.OnlineSchool" = "Connexion à l'école en ligne";
+"Login.EnterRoom" = "Entrer en classe";
+"Login.nickName"  = "nom";
+"Login.Role"      = "Rôle";
+"Login.setting"   = "Paramètre";
+"Login.userAgreement" = "Accord de l'utilisateur";
+"Login.privacyAgreement" = "Politique de confidentialité";
+"Login.deviceDetection" = "Activer la détection de périphérique";
+"Login.deviceDetectionRe" = "Une fois allumé, chaque fois que vous utilisez 'TalkCloud+', l'appareil sera automatiquement détecté";
+"Login.versionUpdate" = "mise à jour de la nouvelle version";
+"Login.next" = "L'étape suivante";
+"Login.passwordError" = "mauvais mot de passe";
+"Login.forgetPasswordAlter" = "Si vous ne connaissez pas le mot de passe, veuillez contacter votre professeur";
+"Login.transfiniteWords" = "Débordement de texte";
+"Login.aboutUS" = "à propos de nous";
+"Login.userPrivacyAgreementButton" = "confirmer";
+"Login.userPrivacyDisagreementButton" = "désaccord";
+"Login.userPrivacyAgreementAlterTitle" = "Contrat de service et politique de confidentialité";
+"Login.userPrivacyAgreementAlter" = "Bienvenue sur TalkCloud+ ! Nous attachons une grande importance à vos informations personnelles et à la protection de votre vie privée, et vous rappelons en particulier de lire et de bien comprendre les termes du 'Contrat d'utilisation' et de la 'Politique de confidentialité'. Si vous acceptez les « Accords d'utilisation » et la « Politique de confidentialité », veuillez cliquer sur « Accepter » pour commencer à utiliser nos produits et services, et nous ferons de notre mieux pour protéger la sécurité de vos informations personnelles. \n\nAfin de vous fournir un service de partage en un clic, notre produit intègre Umeng + U-Share SDK, Umeng + SDK doit collecter l'adresse Mac de votre appareil, le code d'identification unique de l'appareil (IMEI/Android ID/IDFA/OPENUDID / GUID, informations IMSI de la carte SIM) et les informations publiques du compte social que vous devez partager pour compléter le service de partage en un clic. Et calibrez la précision des données de rapport par emplacement géographique pour fournir des services anti-triche de base. Pour la sécurité de vos informations, nous avons conclu des accords de confidentialité sur la sécurité des données avec des fournisseurs de services SDK tiers, et ces sociétés respecteront strictement nos exigences en matière de confidentialité et de sécurité des données. Nous ne partagerons pas vos informations personnellement identifiables avec elle, sauf si nous avons votre consentement. Afin que vous compreniez mieux les types et les utilisations des données collectées par [Umeng+], et comment protéger vos informations personnelles, vous pouvez vous connecter à https://www.umeng.com/policy pour comprendre la confidentialité [Umeng+]. politique.";
+
+"Login.userPrivacyAgreementAlterRed" ="Afin de vous fournir un service de partage en un clic, notre produit intègre Umeng + U-Share SDK, Umeng + SDK doit collecter l'adresse Mac de votre appareil, le code d'identification unique de l'appareil (IMEI/Android ID/IDFA/OPENUDID/GUID, SIM informations IMSI de la carte) et les informations publiques du compte social que vous devez partager pour compléter le service de partage en un clic. Et calibrez la précision des données de rapport par emplacement géographique pour fournir des services anti-triche de base. Pour la sécurité de vos informations, nous avons conclu des accords de confidentialité sur la sécurité des données avec des fournisseurs de services SDK tiers, et ces sociétés respecteront strictement nos exigences en matière de confidentialité et de sécurité des données. Nous ne partagerons pas vos informations personnellement identifiables avec elle, sauf si nous avons votre consentement. Afin que vous compreniez mieux les types et les utilisations des données collectées par [Umeng+], et comment protéger vos informations personnelles, vous pouvez vous connecter à https://www.umeng.com/policy pour comprendre la confidentialité [Umeng+]. politique.";
+
+"Login.privacypolicy"  = "\"Politique de confidentialité\"";
+"Login.userPrivacyt"  = "\"Accord de l'utilisateur\"";
+
+
+"Label.choiceIdentity" = "choisir l'identité";
+"Label.choiceRoleViewIdentity" = "Veuillez sélectionner une identité";
+"Label.roomid" = "numéro de chambre";
+"Label.roomPlaceholder" = "Numéro de chambre";
+"Label.nicknamePlaceholder" = "s'il vous plait, entrez ton surnom";
+"Label.messageBoard" = "babillard";
+"Label.inputPwdPlaceholder" = "Mot de passe d'entrée";
+
+"Prompt.prompt" = "Conseils";
+"Prompt.Know" = "Sachez le";
+"Prompt.nicknameNotNull" = "Le nom d'utilisateur ne peut pas être vide";
+"Prompt.RoomIDNotNull" = "Le numéro de classe ne peut pas être vide";
+
+"Error.RoomDeletedOrExpired" = "Les salles de classe sont supprimées ou ont expiré！";
+"Error.TimeError" = "L’entrée échoue et le fuseau horaire ou l’heure de l’appareil est mal défini";
+"Error.SignError" = "Échec d’accès, veuillez contacter l’administrateur";
+"ClassRoom.nonsupport" = "Ce caractère n'est pas pris en charge pour entrer";
+"ClassRoom.incorrectPassword" = "Le mot de passe est incorrect, veuillez le saisir à nouveau.";
+"ClassRoom.noPassword" = "Veuillez entrer le mot de passe d'entrée";
+"Error.WaitingForNetwork" = "Votre réseau est temporairement indisponible, veuillez réessayer plus tard";
+
+"Login.EnterPlayback" = "Regarder la rediffusion";
+"Playback.select" = "Sélectionner le clip de lecture";
+"Playback.allTime" = "Tout le temps";
+"Playback.selectDate" = "Sélectionnez la date";
+"Playback.noPlayback" = "La rediffusion n'a pas pu être trouvée.";
+"Playback.nodata"   = "Pas de données！";

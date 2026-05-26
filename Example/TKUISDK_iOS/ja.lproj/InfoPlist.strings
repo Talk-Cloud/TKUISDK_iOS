@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  EduClass
+
+  Created by lyy on 2018/5/9.
+  Copyright © 2018年 talkcloud. All rights reserved.
+*/
+CFBundleDisplayName = "TalkCloud+";
+/*权限声明*/
+NSPhotoLibraryUsageDescription = "教室で地元の写真を選ぶ必要があります。アルバムへのアクセスを許可しますか？";
+NSCameraUsageDescription = "教室でビデオ通話を行う必要があり、カメラを開くことができるかどうか";
+NSPhotoLibraryAddUsageDescription  = "教室に写真をアップロードする必要があります。写真を追加することはできますか？";
+NSMicrophoneUsageDescription  = "教室で音声メッセージとスピーチを送信する必要があります。マイクを開くことを許可しますか";
+NSLocationWhenInUseUsageDescription = "追跡許可をオンにすることをお勧めします。これにより、位置に応じて最適なサーバーが構成されます。 オンにした後は、「アプリの権限 - 位置情報」に移動して、いつでもオフにすることもできます。";
+NSLocationAlwaysAndWhenInUseUsageDescription = "追跡許可をオンにすることをお勧めします。これにより、位置に応じて最適なサーバーが構成されます。 オンにした後は、「アプリの権限 - 位置情報」に移動して、いつでもオフにすることもできます。";
+NSLocationAlwaysUsageDescription = "追跡許可をオンにすることをお勧めします。これにより、位置に応じて最適なサーバーが構成されます。 オンにした後は、「アプリの権限 - 位置情報」に移動して、いつでもオフにすることもできます。";

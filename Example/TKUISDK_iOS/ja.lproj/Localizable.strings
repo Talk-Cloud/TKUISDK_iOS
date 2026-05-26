@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  TKUIDEMO
+
+  Created by Frank on 2022/6/22.
+  Copyright © 2022 李合意. All rights reserved.
+*/
+"TKProjectName"="Talk-Cloud+";
+"TKLog.SubTitle" = "プロフェッショナルなオーディオとビデオのフルシーン ソリューション サービス プロバイダー";
+"TKLog.NoPWD" = "  ルームにパスワードがない場合は、入力する必要はありません   ";
+"TKCompanyName"="Beijing Talk Cloud Network Technology Co.、Ltd。";
+"TKScreenShare.Stop" = "画面共有を停止しました";
+"Role.Teacher"="教師/アンカー";
+"Role.Student"="学生・観客";
+"Role.Auditor"="監査人";
+"Role.Patrol"="授業・校外パトロール";
+"Role.Parent"="両親";
+"Role.Assistant"="支援";
+"Login.OnlineSchool"="オンラインスクールログイン";
+"Login.EnterRoom"="教室に入る";
+"Login.nickName"="ニックネーム";
+"Login.Role"="役割";
+"Login.setting"="設定";
+"Login.userAgreement"="ユーザー規約";
+"Login.privacyAgreement"="プライバシーポリシー";
+"Login.permission"="権限管理";
+"Login.toSetting" = "設定＃セッテイ＃";
+"Login.permissionCameraName"="カメラ許可";
+"Login.permissionCameraDetail"="写真を撮るために使用されていました、ビデオを録音します";
+"Login.permissionMicrophoneName"="マイクの許可";
+"Login.permissionMmicrophoneDetail"="音声コミュニケーションに使用";
+"Login.permissionLocationName"="位置情報許可";
+"Login.permissionLocationDetail"="位置情報を取得するために使用される";
+"Login.permissionPhotoName"="アルバム許可";
+"Login.permissionPhotoDetail"="写真やビデオを見るために使用される";
+
+"Login.deviceDetection"="デバイスの検出を開";
+"Login.deviceDetectionRe"="開いた後、\"Talk Cloudへようこそ\"を使用するたびに、デバイスは自動的に検出されます";
+"Login.versionUpdate"="新しいバージョンの更新";
+
+"Login.aboutUS" = "私たちについて";
+"Login.next"="次のステップ";
+"Login.passwordError"="間違ったパスワード";
+"Login.forgetPasswordAlter"="パスワードがわからない場合は、先生に連絡してください";
+"Login.transfiniteWords"="ワードエクセレンス";
+"TKCopyright" = "Copyright © 2016-2023 Beijing Talk-Cloud Network Technology Co., Ltd.  All Rights Reserved";
+
+"Login.userPrivacyAgreementButton"="同意";
+"Login.userPrivacyDisagreementButton"="同意しない";
+"Login.userPrivacyAgreementAlterTitle"="サービス契約とプライバシーポリシー";
+"Login.userPrivacyAgreementAlter" = "Talk Cloud Plusを使用することをお勧めします！個人情報とプライバシー保護を非常に重要視しています。「ユーザー契約」と「プライバシーポリシー」の条件を読んで完全に理解することを特に思い出させます。同意する場合は、「同意」をクリックしてください。当社の製品とサービスの使用を開始します。個人情報セキュリティを保護するために最善を尽くします。\ n \ nワンクリック共有サービスを提供するために、製品はフレンズリーグ+ UシェアSDKを統合し、youmeng+ sdkは必要ありませんデバイスMACアドレス、一意のデバイス認識コード（IMEI/Android ID/IDFA/OpenUDID/GUID、SIMカードIMSI情報）、および1つの共有サービスを完了するために共有する必要があるソーシャルアカウントの公開情報を収集します。地理的位置のデータの正確性の精度を通じて、基本的なアンチチートサービスを提供します。お客様の情報セキュリティのために、データセキュリティの機密性を3番目のパーティSDKサービスプロバイダーに、データのプライバシーとセキュリティ要件を厳密に順守しています。あなたの同意を得て、私たちはあなたの個人的なアイデンティティ情報を彼らと共有しません。[Friends+]によって収集されたデータ型と使用、およびあなたの個人情報を保護する方法をよりよく理解するために、https：////にログインできますwww.umeng.com/policy [Friend League+]プライバシーポリシーを理解する。";
+"Login.userPrivacyAgreementAlterRed" = "ワンクリック共有サービスを提供するために、当社の製品はFriend League+ U-Share SDKを統合し、Friend League+ SDKはデバイスMacアドレス、ユニークなデバイス認識コードSIMカードIMSI情報を収集する必要があります」 1つのクリック共有サービスを完了するために共有する必要があります。そして、基本的なアンチチートサービスを提供するために、準定義データのデータ精度の精度が提供されます。あなたの情報セキュリティのために、サードパーティのSDKと一緒にいましたサービスプロバイダーは、これらの企業が当社のデータプライバシーとセキュリティ要件を厳密に順守するというデータセキュリティの機密保持契約を持っています。あなたの同意を得ない限り、私たちはあなたの個人的なアイデンティティ情報を彼らと共有することはありません。データ型と用途のコレクション、およびお客様の個人情報を保護する方法は、https://www.ument.com/policyにログインして[Friend League+]プライバシーポリシーを理解できます";
+
+"Login.privacypolicy"  = "《隐私政策》";
+"Login.userPrivacyt"= "ユーザー規約";
+
+"Label.choiceIdentity"="アイデンティティを選択";
+"Label.choiceRoleViewIdentity"="アイデンティティを選択してください";
+"Label.roomid"="部屋番号";
+"Label.roomPlaceholder"="部屋番号";
+"Label.nicknamePlaceholder"="ニックネームを入力してください";
+"Label.messageBoard"="伝言板";
+"Label.inputPwdPlaceholder"="パスワードを入力してください";
+
+"Prompt.prompt"="親切なヒント";
+"Prompt.Know"="それを知っている";
+"Prompt.nicknameNotNull"="ニックネームは記入する必要があります";
+"Prompt.RoomIDNotNull"="教室番号は空にすることはできません";
+
+"Error.RoomDeletedOrExpired"="教室は削除または期限切れです！";
+"Error.SignError" = "アクセスできません,管理人に連絡してください";
+"Error.TimeError" = "入力に失敗したり、デバイスのタイムゾーンや時間設定が間違っています。";
+"ClassRoom.nonsupport" = "この文字の入力はサポートされていません";
+"ClassRoom.incorrectPassword" = "パスワードが間違っています。再入力してください。";
+"ClassRoom.noPassword" = "入場パスワードを入力してください";
+"Error.WaitingForNetwork"="ネットワークは一時的に利用できません。後で試してみてください";
+
+"Login.EnterPlayback" = "リプレイを見る";
+"Playback.select" = "再生クリップを選択";
+"Playback.allTime" = "これまで";
+"Playback.selectDate" = "日付を選択";
+"Playback.noPlayback" = "リプレイが見つかりませんでした。";
+"Playback.nodata"="データなし！";

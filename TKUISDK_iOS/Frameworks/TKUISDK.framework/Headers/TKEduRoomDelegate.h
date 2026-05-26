@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  被踢回调
 
- @param reason 0:被老师踢出（暂时无） 1：重复登录
+ @param reason 1:老师踢出 400:重复登录 401:课程已结束 402:课程已被取消
  */
 - (void)onKitout:(int)reason;
 
@@ -60,6 +60,11 @@ NS_ASSUME_NONNULL_BEGIN
  摄像头打开失败回调
  */
 - (void)onCameraDidOpenError;
+
+/**
+ 关闭设备检测
+ */
+- (void)closeCheckDevice;
 
 
 @end

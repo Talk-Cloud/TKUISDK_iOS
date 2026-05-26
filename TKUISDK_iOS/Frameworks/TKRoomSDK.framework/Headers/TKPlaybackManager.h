@@ -222,6 +222,10 @@ NS_ASSUME_NONNULL_BEGIN
  开始回放
  */
 - (int)playback;
+/**
+ 倍速播放
+ */
+- (int)setPlaybackRate:(CGFloat)rate;
 
 /**
  离开房间 异步退出房间

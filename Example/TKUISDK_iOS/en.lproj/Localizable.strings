@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  TKUIDEMO
+
+  Created by Frank on 2022/6/22.
+  Copyright © 2022 李合意. All rights reserved.
+*/
+"TKProjectName" = "Talk-Cloud+";
+"TKLog.SubTitle" = "A comprehensive solution provider of audio and video services for every scenario";
+"TKLog.NoPWD" = "  There is no need to enter the password if it is an unlimited room   ";
+"TKCompanyName"  = "Beijing Talk-Cloud Network Technology Co., Ltd.";
+"TKScreenShare.Stop" = "You have stopped screen sharing";
+"Role.Teacher" = "Teacher/ Host";
+"Role.Student" = "Student/ Attendee";
+"Role.Auditor" = "Auditor";
+"Role.Patrol"  = "Inspector/ Co-host";
+"Role.Assistant" = "Assistant";
+
+"Login.EnterRoom" = "JOIN";
+"Login.nickName"  = "Name";
+"Login.Role"      = "Role";
+"Login.setting"   = "setting";
+"Login.userAgreement" = "User Agreement";
+"Login.privacyAgreement" = "Privacy Policy";
+"Login.deviceDetection" = "Turn on device detection";
+"Login.deviceDetectionRe" = "Check device automatically after click login";
+"Login.versionUpdate" = "Version update";
+"Login.aboutUS" = "About Us";
+"Login.userPrivacyAgreementButton" = "Agree";
+"Login.userPrivacyDisagreementButton" = "Disagree";
+"TKCopyright" = "Copyright © 2016-2023 Beijing Talk-Cloud Network Technology Co., Ltd.  All Rights Reserved";
+"Login.next" = "Next";
+"Login.passwordError" = "Sorry, wrong password";
+"Login.transfiniteWords" = "Text transfinite";
+"Login.forgetPasswordAlter" = "If you do not know the password, please contact your teacher";
+"Login.userPrivacyAgreementAlterTitle" = "Service agreement and privacy policy";
+"Login.userPrivacyAgreementAlter" = "Welcome to use Talk-Cloud Plus! We attach great importance to the protection of your personal information and privacy, and we especially remind you to read and fully understand the terms of the \"User Agreement\" and \"Privacy Policy\".If you agree to the \"User Agreement\" and \"Privacy Policy\", please click \"Agree\" to start using our products and services, and we will do our best to protect the security of your personal information.\n\nIn order to provide you with a one-click sharing service, our product integrates UMeng + U-Share SDK. UMeng + SDK needs to collect the Mac address of your device, unique device identification code (IMEI/android ID/IDFA/OPENUDID/GUID, SIM Card, and IMSI information), and the public information of the social account you need to share for completing the one-click sharing service.We also calibrate the data accuracy of the report through the geographic location and provide basic anti-cheating services.For your information security, we have entered into data security and confidentiality agreements with third-party SDK service providers, and these companies will strictly abide by our data privacy and security requirements. Unless with your consent, we will not share your personally identifiable information with them. In order for you to better understand the types and uses of data collected by [UMeng+], and how to protect your personal information, you can log in to https://www.umeng.com/policy to understand the [UMeng+] privacy policy.";
+
+"Login.userPrivacyAgreementAlterRed" = "\n\nIn order to provide you with a one-click sharing service, our product integrates UMeng + U-Share SDK. UMeng + SDK needs to collect the Mac address of your device, unique device identification code (IMEI/android ID/IDFA/OPENUDID/GUID, SIM Card, and IMSI information), and the public information of the social account you need to share for completing the one-click sharing service.We also calibrate the data accuracy of the report through the geographic location and provide basic anti-cheating services.For your information security, we have entered into data security and confidentiality agreements with third-party SDK service providers, and these companies will strictly abide by our data privacy and security requirements. Unless with your consent, we will not share your personally identifiable information with them. In order for you to better understand the types and uses of data collected by [UMeng+], and how to protect your personal information, you can log in to https://www.umeng.com/policy to understand the [UMeng+] privacy policy.";
+
+"Login.privacypolicy"  = "Privacy Policy";
+"Login.userPrivacyt"  =  "User Agreement";
+
+"Label.speaker" = "Hosting";
+"Label.choiceIdentity" = "Please select your character";
+"Label.choiceRoleViewIdentity" = "Please select your role";
+"Label.roomid" = "room id";
+"Label.roomPlaceholder" = "Room No";
+"Label.nicknamePlaceholder" = "Please enter your name";
+"Label.inputPwdPlaceholder" = "Password";
+
+"Prompt.prompt" = "Prompt";
+"Prompt.Know" = "Yes,I know";
+"Prompt.nicknameNotNull" = "The nickName cannot be empty";
+"Prompt.onlyNumber" = "The RoomId only be number";
+
+"Error.RoomDeletedOrExpired" = "The class has expired.";
+"Error.TimeError" = "Entry failed. The device time zone or time is set incorrectly.";
+"Error.SignError" = "Entry failed. Please get in touch with the admin.";
+"ClassRoom.nonsupport" = "This character is not supported to enter";
+"ClassRoom.incorrectPassword" = "Wrong password, please enter the password again";
+"ClassRoom.noPassword" = "Please enter the entry password";
+"Error.WaitingForNetwork" = "Your network is temporarily unavailable, please try again later";
+
+"Login.EnterPlayback" = "Watch Recording";
+"Playback.select" = "Select Clip";
+"Playback.allTime" = "All time";
+"Playback.selectDate" = "Select Date";
+"Playback.noPlayback" = "The recording cannot be found";
+"Playback.nodata"   = "No Data！";

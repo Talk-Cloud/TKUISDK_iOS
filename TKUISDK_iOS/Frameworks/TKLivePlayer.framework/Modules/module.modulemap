@@ -1,0 +1,6 @@
+framework module TKLivePlayer {
+  umbrella header "TKLivePlayer.h"
+  export *
+
+  module * { export * }
+}

@@ -77,6 +77,12 @@
 - (TKPublishState)getPublishStateForDeviceId:(NSString *)deviceId;
 
 /**
+ 用户开启双摄像头时，获取切换前摄像头是主摄像头\辅摄像头
+ @param deviceId 设备ID 
+ */
+- (NSString *)getCameraTypeWithDeviceID:(NSString *)deviceId;
+
+/**
  是否开启了多码流
  */
 - (BOOL)enableDualStream;

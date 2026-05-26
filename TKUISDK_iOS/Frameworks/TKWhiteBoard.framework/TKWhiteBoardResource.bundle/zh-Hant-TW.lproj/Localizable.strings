@@ -1,0 +1,22 @@
+/*
+ Meetings.strings
+ Meetings
+ 
+ Created by macmini on 15/2/3.
+ Copyright (c) 2015年 macmini. All rights reserved.
+ */
+
+"TKPreload.downloading" = "正在載入教材";
+"TKPreload.unzipping"   = "正在解壓縮教材";
+"TKPreload.skip"        = "跳過";
+"tool.noUse" = "還未開始上課，暫不能使用工具箱功能";
+"TKWhiteboard.loading" = "網絡異常，課件加載緩慢。";
+"SSL.Error_Title" = "SSL Error";
+"TKWhiteboard.SSL_Error" = "您的網絡存在安全隱患，網絡請求被非法攔截；點擊【確定】系統會自動進行服務器網絡切換，期間手動切換設備網絡仍然生效。";
+"TKWhiteboard.SSL_Error_End" = "您的網路環境不安全，網路請求被非法攔截。請切換到其他網路！";
+
+"Prompt.Restricted" = "網路受限囉！請先點擊「允許網站」授權，5-8 秒後退出重新進入即可正常使用喔！";
+"Prompt.prompt" = "溫馨提示";
+"Prompt.OK" = "確定";
+"TKWhiteBoard.HoldReplay" = "等待答辯中";
+

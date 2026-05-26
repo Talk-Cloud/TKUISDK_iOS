@@ -1,0 +1,18 @@
+/*
+ Meetings.strings
+ Meetings
+ 
+ Created by macmini on 15/2/3.
+ Copyright (c) 2015年 macmini. All rights reserved.
+ */
+
+"TKWhiteboard.loading" = "ネットワーク異常、コースウェアの読み込みが遅い";
+
+"SSL.Error_Title" = "SSL Error";
+"TKWhiteboard.SSL_Error" = "あなたのネットワークのセキュリティの隠れた危険が存在して、ネットワークの要求は不法に遮断されます;[ok]をクリックすると自動的にサーバーネットワークの切り替えが行われます。デバイスネットワークの手動切り替えは有効です。";
+"TKWhiteboard.SSL_Error_End" = "ネットワーク環境が安全ではなく、ネットワーク要求が不正に傍受されています。別のネットワークに切り替えてください。";
+
+"Prompt.Restricted" = "ネットワークが制限されています！「サイトを許可」をタップして認証を行い、5～8 秒待ってから退出し、再度入室すると正常にご利用いただけます。";
+"Prompt.prompt"="親切なヒント";
+"Prompt.OK"="もちろん";
+"TKWhiteBoard.HoldReplay" = "弁論待ち";

@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  TKUIDEMO
+
+  Created by Frank on 2022/6/22.
+  Copyright © 2022 李合意. All rights reserved.
+*/
+"TKProjectName" = "拓課雲Plus";
+"TKLog.SubTitle" = "專業的影音全場景解決方案服務商";
+"TKLog.NoPWD" = "  房間無口令則無須填寫   ";
+"TKCompanyName"  = "北京拓課網路科技有限公司";
+"TKScreenShare.Stop" = "您已停止屏幕共享";
+"Role.Teacher" = "老師/主播";
+"Role.Student" = "學生/觀眾";
+"Role.Auditor" = "旁聽生";
+"Role.Patrol"  = "巡課/巡場";
+"Role.Assistant" = "助教";
+
+"Login.OnlineSchool" = "網校登錄";
+"Login.EnterRoom" = "進入教室";
+"Login.nickName"  = "名稱";
+"Login.Role"      = "角色";
+"Login.setting"   = "設定";
+"Login.userAgreement" = "用戶協議";
+"Login.privacyAgreement" = "隱私政策";
+"Login.deviceDetection" = "開啟設備檢測";
+"Login.deviceDetectionRe" = "開啟後，每次使用“拓課雲plus”時，將自動進行設備檢測";
+"Login.versionUpdate" = "版本更新";
+"Login.aboutUS" = "關於我們";
+"TKCopyright" = "版权所有 © 北京拓课网络科技有限公司";
+"Login.next" = "下一步";
+"Login.passwordError" = "密碼錯誤";
+"Login.forgetPasswordAlter" = "如果不知道密碼，請與您的老師取得聯繫";
+"Login.transfiniteWords" = "文字超限";
+"Login.userPrivacyAgreementButton" = "同意";
+"Login.userPrivacyDisagreementButton" = "不同意";
+"Login.userPrivacyAgreementAlterTitle" = "服務協定和隱私政策";
+"Login.userPrivacyAgreementAlter" = "歡迎您使用拓課雲Plus！我們非常重視您的個人資訊和隱私保護，特別提示您閱讀並充分理解《用戶協議》&《隱私政策》各條款。如您同意《用戶協議》及《隱私政策》，請您點擊“同意”開始使用我們的產品和服務，我們將盡全力保護您的個人資訊安全。\n\n為了向您提供一鍵分享服務，我們的產品集成友盟+ U-Share SDK，友盟+SDK需要收集您的設備Mac位址、唯一設備識別碼（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI資訊）以及您需要分享的社交帳號公開信息，以便完成一鍵分享服務。並通過地理位置校準報表資料準確性，提供基礎反作弊服務。為了您的資訊安全，我們已與協力廠商SDK服務商進行資料安全保密約定，這些公司會嚴格遵守我們的資料隱私和安全要求。除非得到您的同意，我們不會與其共用您的個人身份資訊。為便於您更好地瞭解【友盟+】採集的資料類型及用途，以及如何保護您的個人資訊，您可以登錄https://www.umeng.com/policy瞭解【友盟+】隱私權政策。";
+"Login.userPrivacyAgreementAlterRed" ="為了向您提供一鍵分享服務，我們的產品集成友盟+ U-Share SDK，友盟+SDK需要收集您的設備Mac位址、唯一設備識別碼（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI資訊）以及您需要分享的社交帳號公開信息，以便完成一鍵分享服務。並通過地理位置校準報表資料準確性，提供基礎反作弊服務。為了您的資訊安全，我們已與協力廠商SDK服務商進行資料安全保密約定，這些公司會嚴格遵守我們的資料隱私和安全要求。除非得到您的同意，我們不會與其共用您的個人身份資訊。為便於您更好地瞭解【友盟+】採集的資料類型及用途，以及如何保護您的個人資訊，您可以登錄https://www.umeng.com/policy瞭解【友盟+】隱私權政策。";
+"Login.privacypolicy"  = "《隱私政策》";
+"Login.userPrivacyt"  = "《用戶協議》";
+
+"Label.choiceIdentity" = "選擇身份";
+"Label.choiceRoleViewIdentity" = "請選擇您的身份";
+"Label.roomid" = "教室編號";
+"Label.roomPlaceholder" = "房號";
+"Label.nicknamePlaceholder" = "請輸入您的名稱";
+"Label.messageBoard" = "留言板";
+"Label.inputPwdPlaceholder" = "進入口令";
+
+"Prompt.prompt" = "温馨提示";
+"Prompt.Know" = "知道啦";
+"Prompt.nicknameNotNull" = "姓名不能為空";
+"Prompt.RoomIDNotNull" = "教室號碼不能為空";
+
+"Error.RoomDeletedOrExpired" = "教室已經下課，無法進入！";
+"Error.TimeError" = "進入失敗，設備時區或時間設置有誤";
+"Error.SignError" = "進入失敗，請聯繫管理員";
+"ClassRoom.nonsupport" = "不支援該角色進入";
+"ClassRoom.incorrectPassword" = "口令有誤，請重新輸入";
+"ClassRoom.noPassword" = "請輸入進入口令";
+"Error.WaitingForNetwork" = "您的網路暫時不可用,請稍後重試";
+
+"Login.EnterPlayback" = "觀看回放";
+"Playback.select" = "選擇回放片段";
+"Playback.allTime" = "全部時間";
+"Playback.selectDate" = "選擇日期";
+"Playback.noPlayback" = "查詢不到該回放";
+"Playback.nodata"   = "暫無數據！";

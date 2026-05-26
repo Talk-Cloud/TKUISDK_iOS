@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char TKWhiteBoardVersionString[];
 #import "TKWhiteBoardConfiguration.h"
 #import "TKWhiteBoardManager.h"
 #import "TKWhiteBoardManagerDelegate.h"
+#import "TKFileModel.h"

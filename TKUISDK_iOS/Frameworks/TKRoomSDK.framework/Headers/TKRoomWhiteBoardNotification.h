@@ -78,7 +78,7 @@ FOUNDATION_EXTERN NSString * const TKWhiteBoardUpadteMediaStreamPlayingKey;
 FOUNDATION_EXTERN NSNotificationName const TKWhiteBoardUpdateMediaStreamNotification;
 //收到媒体视频第一帧画面的通知
 FOUNDATION_EXTERN NSNotificationName const TKWhiteBoardMediaFirstFrameLoadedNotification;
-//关于画笔消息列表的通知
+//回放拖拽后画笔消息列表的通知
 FOUNDATION_EXTERN NSNotificationName const TKWhiteBoardOnMsgListNotification;
 
     //关于发送获取白板消息列表通知

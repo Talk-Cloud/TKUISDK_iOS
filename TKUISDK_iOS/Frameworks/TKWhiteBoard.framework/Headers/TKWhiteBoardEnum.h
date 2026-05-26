@@ -16,6 +16,8 @@ typedef enum
     TKEventShapeClean      = 5,    //清屏
     TKEventShapeUndo       = 6,    //撤回
     TKEventShapeRedo       = 7,    //重做
+    TKEventShapesMoved     = 8,    //拖动
+    TKEventShapesDeleteSelect = 9, //整笔删除
 } TKEvent;
 typedef NS_ENUM(NSInteger, TKNativeToolType)
 {
@@ -62,7 +64,8 @@ typedef enum
     Ellipse   = 4,      //椭圆
     Text      = 5,      //文字
     Eraser    = 6,      //橡皮擦
-    Finger    = 7,
+    Finger    = 7, // 手指
+    StrokePen    = 8, // 笔锋
 } DrawType;
 
 
@@ -91,6 +94,13 @@ typedef NS_ENUM(NSInteger, TKDrawType)
     
     TKDrawTypeEraser            = 50,    //橡皮擦
 };
+// 画笔粗细 / 字体大小 / 形状大小
+typedef NS_ENUM(NSInteger, TKBrushSizeType) {
+    TKBrushSizeTypeDefault, // 默认
+    TKBrushSizeTypeLarge, // 大号
+    TKBrushSizeTypeXLarge, // 增大号
+    TKBrushSizeTypeXXLarge, // 最大号
+};
 
 typedef NS_ENUM(NSInteger, TKBrushToolType)
 {
@@ -108,8 +118,8 @@ typedef NS_ENUM(NSUInteger, TKWhiteBoardErrorCode) {
 };
 
 typedef NS_ENUM(NSInteger, TKWhiteBoardRoomType) {
-    TKWhiteBoardRoomTypeOneToOne   = 0,            //小班
-    TKWhiteBoardRoomTypeOneToMore  = 3,           //大班
+    TKWhiteBoardRoomTypeOneToOne   = 0,          //小班1V1
+    TKWhiteBoardRoomTypeOneToMore  = 3,          //小班1V多
     TKWhiteBoardRoomTypeAliveClass = 4,          //直播课
 };
 

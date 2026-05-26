@@ -7,68 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26CD3CB5559F6657C6D5661A /* Pods_TKUISDK_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7C3F98FBD5E276068B8A2C /* Pods_TKUISDK_iOS_Tests.framework */; };
-		549CB6B425F7526200443A1F /* TKUMShareSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CB6B325F7526200443A1F /* TKUMShareSettings.m */; };
+		0480EE692FC57B82004D02A4 /* TKPlaybackTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE5D2FC57B82004D02A4 /* TKPlaybackTimeView.m */; };
+		0480EE6A2FC57B82004D02A4 /* TKLoginPermissionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE532FC57B82004D02A4 /* TKLoginPermissionView.m */; };
+		0480EE6B2FC57B82004D02A4 /* TKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE492FC57B82004D02A4 /* TKLoginViewController.m */; };
+		0480EE6C2FC57B82004D02A4 /* TKLoginSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE552FC57B82004D02A4 /* TKLoginSettingView.m */; };
+		0480EE6D2FC57B82004D02A4 /* TKPlaybackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE5F2FC57B82004D02A4 /* TKPlaybackView.m */; };
+		0480EE6E2FC57B82004D02A4 /* TKJoinClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE472FC57B82004D02A4 /* TKJoinClassViewController.m */; };
+		0480EE6F2FC57B82004D02A4 /* TKPassWordHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE572FC57B82004D02A4 /* TKPassWordHelpView.m */; };
+		0480EE702FC57B82004D02A4 /* TKLoginAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE4F2FC57B82004D02A4 /* TKLoginAlert.m */; };
+		0480EE712FC57B82004D02A4 /* TKLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE512FC57B82004D02A4 /* TKLoginInputView.m */; };
+		0480EE722FC57B82004D02A4 /* TKPrivacyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE612FC57B82004D02A4 /* TKPrivacyView.m */; };
+		0480EE732FC57B82004D02A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE442FC57B82004D02A4 /* AppDelegate.m */; };
+		0480EE742FC57B82004D02A4 /* TKPermissonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE592FC57B82004D02A4 /* TKPermissonCell.m */; };
+		0480EE752FC57B82004D02A4 /* TKSPContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE652FC57B82004D02A4 /* TKSPContentView.m */; };
+		0480EE762FC57B82004D02A4 /* TKChoseRoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE4D2FC57B82004D02A4 /* TKChoseRoleView.m */; };
+		0480EE772FC57B82004D02A4 /* TKAboutUSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE4B2FC57B82004D02A4 /* TKAboutUSView.m */; };
+		0480EE782FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE632FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.m */; };
+		0480EE792FC57B82004D02A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE682FC57B82004D02A4 /* ViewController.m */; };
+		0480EE7A2FC57B82004D02A4 /* TKPlaybackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EE5B2FC57B82004D02A4 /* TKPlaybackCell.m */; };
+		0480EE812FC57BAB004D02A4 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0480EE802FC57BAB004D02A4 /* ReplayKit.framework */; };
+		0480EE982FC57BAC004D02A4 /* TKScreenRecorder.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0480EE7F2FC57BAB004D02A4 /* TKScreenRecorder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0480EEA82FC57BE4004D02A4 /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EEA52FC57BE4004D02A4 /* SampleHandler.m */; };
+		0480EEB42FC57CE9004D02A4 /* TK_SharePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EEAC2FC57CE9004D02A4 /* TK_SharePlugin.m */; };
+		0480EEB52FC57CE9004D02A4 /* TK_SpeechPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EEB12FC57CE9004D02A4 /* TK_SpeechPlugin.m */; };
+		0480EEB62FC57CE9004D02A4 /* TKUMShareSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480EEAE2FC57CE9004D02A4 /* TKUMShareSettings.m */; };
+		0480EEB92FC57D08004D02A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0480EEB72FC57D08004D02A4 /* Localizable.strings */; };
+		0480EEBF2FC57D56004D02A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0480EEB72FC57D08004D02A4 /* Localizable.strings */; };
+		0480EEC52FC57D80004D02A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0480EEC32FC57D80004D02A4 /* InfoPlist.strings */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* TKAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TKViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B37B21AF000B63A2E1F86110 /* Pods_TKScreenRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000EF86B31A50F4EE3D8A693 /* Pods_TKScreenRecorder.framework */; };
 		F38D8769D1F3DED27DD024A1 /* Pods_TKUISDK_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4D5887299F427644BC06F /* Pods_TKUISDK_iOS_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		0480EE962FC57BAC004D02A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = TKUISDK_iOS;
+			remoteGlobalIDString = 0480EE7E2FC57BAB004D02A4;
+			remoteInfo = TKScreenRecorder;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0480EEA12FC57BAC004D02A4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0480EE982FC57BAC004D02A4 /* TKScreenRecorder.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		000EF86B31A50F4EE3D8A693 /* Pods_TKScreenRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKScreenRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480EE432FC57B82004D02A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0480EE442FC57B82004D02A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0480EE452FC57B82004D02A4 /* TKDemoEnumHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKDemoEnumHeader.h; sourceTree = "<group>"; };
+		0480EE462FC57B82004D02A4 /* TKJoinClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKJoinClassViewController.h; sourceTree = "<group>"; };
+		0480EE472FC57B82004D02A4 /* TKJoinClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKJoinClassViewController.m; sourceTree = "<group>"; };
+		0480EE482FC57B82004D02A4 /* TKLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLoginViewController.h; sourceTree = "<group>"; };
+		0480EE492FC57B82004D02A4 /* TKLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLoginViewController.m; sourceTree = "<group>"; };
+		0480EE4A2FC57B82004D02A4 /* TKAboutUSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAboutUSView.h; sourceTree = "<group>"; };
+		0480EE4B2FC57B82004D02A4 /* TKAboutUSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAboutUSView.m; sourceTree = "<group>"; };
+		0480EE4C2FC57B82004D02A4 /* TKChoseRoleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKChoseRoleView.h; sourceTree = "<group>"; };
+		0480EE4D2FC57B82004D02A4 /* TKChoseRoleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKChoseRoleView.m; sourceTree = "<group>"; };
+		0480EE4E2FC57B82004D02A4 /* TKLoginAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLoginAlert.h; sourceTree = "<group>"; };
+		0480EE4F2FC57B82004D02A4 /* TKLoginAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLoginAlert.m; sourceTree = "<group>"; };
+		0480EE502FC57B82004D02A4 /* TKLoginInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLoginInputView.h; sourceTree = "<group>"; };
+		0480EE512FC57B82004D02A4 /* TKLoginInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLoginInputView.m; sourceTree = "<group>"; };
+		0480EE522FC57B82004D02A4 /* TKLoginPermissionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLoginPermissionView.h; sourceTree = "<group>"; };
+		0480EE532FC57B82004D02A4 /* TKLoginPermissionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLoginPermissionView.m; sourceTree = "<group>"; };
+		0480EE542FC57B82004D02A4 /* TKLoginSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLoginSettingView.h; sourceTree = "<group>"; };
+		0480EE552FC57B82004D02A4 /* TKLoginSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLoginSettingView.m; sourceTree = "<group>"; };
+		0480EE562FC57B82004D02A4 /* TKPassWordHelpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPassWordHelpView.h; sourceTree = "<group>"; };
+		0480EE572FC57B82004D02A4 /* TKPassWordHelpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPassWordHelpView.m; sourceTree = "<group>"; };
+		0480EE582FC57B82004D02A4 /* TKPermissonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPermissonCell.h; sourceTree = "<group>"; };
+		0480EE592FC57B82004D02A4 /* TKPermissonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPermissonCell.m; sourceTree = "<group>"; };
+		0480EE5A2FC57B82004D02A4 /* TKPlaybackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPlaybackCell.h; sourceTree = "<group>"; };
+		0480EE5B2FC57B82004D02A4 /* TKPlaybackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPlaybackCell.m; sourceTree = "<group>"; };
+		0480EE5C2FC57B82004D02A4 /* TKPlaybackTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPlaybackTimeView.h; sourceTree = "<group>"; };
+		0480EE5D2FC57B82004D02A4 /* TKPlaybackTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPlaybackTimeView.m; sourceTree = "<group>"; };
+		0480EE5E2FC57B82004D02A4 /* TKPlaybackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPlaybackView.h; sourceTree = "<group>"; };
+		0480EE5F2FC57B82004D02A4 /* TKPlaybackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPlaybackView.m; sourceTree = "<group>"; };
+		0480EE602FC57B82004D02A4 /* TKPrivacyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPrivacyView.h; sourceTree = "<group>"; };
+		0480EE612FC57B82004D02A4 /* TKPrivacyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPrivacyView.m; sourceTree = "<group>"; };
+		0480EE622FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKServiceAndPrivacyAlterView.h; sourceTree = "<group>"; };
+		0480EE632FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKServiceAndPrivacyAlterView.m; sourceTree = "<group>"; };
+		0480EE642FC57B82004D02A4 /* TKSPContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKSPContentView.h; sourceTree = "<group>"; };
+		0480EE652FC57B82004D02A4 /* TKSPContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKSPContentView.m; sourceTree = "<group>"; };
+		0480EE672FC57B82004D02A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0480EE682FC57B82004D02A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0480EE7F2FC57BAB004D02A4 /* TKScreenRecorder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TKScreenRecorder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480EE802FC57BAB004D02A4 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		0480EEA32FC57BE4004D02A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480EEA42FC57BE4004D02A4 /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
+		0480EEA52FC57BE4004D02A4 /* SampleHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleHandler.m; sourceTree = "<group>"; };
+		0480EEA62FC57BE4004D02A4 /* TKScreenRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TKScreenRecorder.entitlements; sourceTree = "<group>"; };
+		0480EEAA2FC57C31004D02A4 /* TKUISDK_iOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TKUISDK_iOS_Example.entitlements; sourceTree = "<group>"; };
+		0480EEAB2FC57CE9004D02A4 /* TK_SharePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TK_SharePlugin.h; sourceTree = "<group>"; };
+		0480EEAC2FC57CE9004D02A4 /* TK_SharePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TK_SharePlugin.m; sourceTree = "<group>"; };
+		0480EEAD2FC57CE9004D02A4 /* TKUMShareSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKUMShareSettings.h; sourceTree = "<group>"; };
+		0480EEAE2FC57CE9004D02A4 /* TKUMShareSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKUMShareSettings.m; sourceTree = "<group>"; };
+		0480EEB02FC57CE9004D02A4 /* TK_SpeechPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TK_SpeechPlugin.h; sourceTree = "<group>"; };
+		0480EEB12FC57CE9004D02A4 /* TK_SpeechPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TK_SpeechPlugin.m; sourceTree = "<group>"; };
+		0480EEB82FC57D08004D02A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0480EEBA2FC57D1F004D02A4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0480EEBB2FC57D2F004D02A4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0480EEBC2FC57D39004D02A4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0480EEBD2FC57D44004D02A4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0480EEBE2FC57D4D004D02A4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0480EEC42FC57D80004D02A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0480EEC62FC57D89004D02A4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0480EEC72FC57D94004D02A4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0480EEC82FC57DA1004D02A4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0480EED02FC57DBA004D02A4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0480EED12FC57DCC004D02A4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0480EED22FC57E49004D02A4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		05A62D5D035F15BA01149278 /* Pods-TKScreenRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKScreenRecorder.release.xcconfig"; path = "Target Support Files/Pods-TKScreenRecorder/Pods-TKScreenRecorder.release.xcconfig"; sourceTree = "<group>"; };
 		14187E814B0EC5DB9DFC3847 /* Pods-TKUISDK_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKUISDK_iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2BB9DF323375D370F531B02C /* Pods-TKUISDK_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKUISDK_iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		410693DD4205C9566D6A1DAA /* Pods-TKUISDK_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKUISDK_iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKUISDK_iOS_Tests/Pods-TKUISDK_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		493987FD805C79F1AA3D99A4 /* TKUISDK_iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKUISDK_iOS.podspec; path = ../TKUISDK_iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		540666E725F753E8004FA33D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		540666E825F753E9004FA33D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		540666E925F753EA004FA33D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		549CB6B225F7526200443A1F /* TKUMShareSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKUMShareSettings.h; sourceTree = "<group>"; };
-		549CB6B325F7526200443A1F /* TKUMShareSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKUMShareSettings.m; sourceTree = "<group>"; };
-		549CB6BE25F753AC00443A1F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		549CB6BF25F753AC00443A1F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		549CB6C025F753AC00443A1F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TKUISDK_iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKUISDK_iOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* TKUISDK_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKUISDK_iOS-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* TKUISDK_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKUISDK_iOS-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* TKUISDK_iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKUISDK_iOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		69209B352EAFD2ACB50DF096 /* Pods-TKScreenRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKScreenRecorder.debug.xcconfig"; path = "Target Support Files/Pods-TKScreenRecorder/Pods-TKScreenRecorder.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BBE239051F565B64D2B05A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +166,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0480EE7C2FC57BAB004D02A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480EE812FC57BAB004D02A4 /* ReplayKit.framework in Frameworks */,
+				B37B21AF000B63A2E1F86110 /* Pods_TKScreenRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,24 +186,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				26CD3CB5559F6657C6D5661A /* Pods_TKUISDK_iOS_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0480EE662FC57B82004D02A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0480EE4A2FC57B82004D02A4 /* TKAboutUSView.h */,
+				0480EE4B2FC57B82004D02A4 /* TKAboutUSView.m */,
+				0480EE4C2FC57B82004D02A4 /* TKChoseRoleView.h */,
+				0480EE4D2FC57B82004D02A4 /* TKChoseRoleView.m */,
+				0480EE4E2FC57B82004D02A4 /* TKLoginAlert.h */,
+				0480EE4F2FC57B82004D02A4 /* TKLoginAlert.m */,
+				0480EE502FC57B82004D02A4 /* TKLoginInputView.h */,
+				0480EE512FC57B82004D02A4 /* TKLoginInputView.m */,
+				0480EE522FC57B82004D02A4 /* TKLoginPermissionView.h */,
+				0480EE532FC57B82004D02A4 /* TKLoginPermissionView.m */,
+				0480EE542FC57B82004D02A4 /* TKLoginSettingView.h */,
+				0480EE552FC57B82004D02A4 /* TKLoginSettingView.m */,
+				0480EE562FC57B82004D02A4 /* TKPassWordHelpView.h */,
+				0480EE572FC57B82004D02A4 /* TKPassWordHelpView.m */,
+				0480EE582FC57B82004D02A4 /* TKPermissonCell.h */,
+				0480EE592FC57B82004D02A4 /* TKPermissonCell.m */,
+				0480EE5A2FC57B82004D02A4 /* TKPlaybackCell.h */,
+				0480EE5B2FC57B82004D02A4 /* TKPlaybackCell.m */,
+				0480EE5C2FC57B82004D02A4 /* TKPlaybackTimeView.h */,
+				0480EE5D2FC57B82004D02A4 /* TKPlaybackTimeView.m */,
+				0480EE5E2FC57B82004D02A4 /* TKPlaybackView.h */,
+				0480EE5F2FC57B82004D02A4 /* TKPlaybackView.m */,
+				0480EE602FC57B82004D02A4 /* TKPrivacyView.h */,
+				0480EE612FC57B82004D02A4 /* TKPrivacyView.m */,
+				0480EE622FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.h */,
+				0480EE632FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.m */,
+				0480EE642FC57B82004D02A4 /* TKSPContentView.h */,
+				0480EE652FC57B82004D02A4 /* TKSPContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0480EEA72FC57BE4004D02A4 /* TKScreenRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				0480EEA32FC57BE4004D02A4 /* Info.plist */,
+				0480EEA42FC57BE4004D02A4 /* SampleHandler.h */,
+				0480EEA52FC57BE4004D02A4 /* SampleHandler.m */,
+				0480EEA62FC57BE4004D02A4 /* TKScreenRecorder.entitlements */,
+			);
+			path = TKScreenRecorder;
+			sourceTree = "<group>";
+		};
+		0480EEAF2FC57CE9004D02A4 /* TK_Share */ = {
+			isa = PBXGroup;
+			children = (
+				0480EEAB2FC57CE9004D02A4 /* TK_SharePlugin.h */,
+				0480EEAC2FC57CE9004D02A4 /* TK_SharePlugin.m */,
+				0480EEAD2FC57CE9004D02A4 /* TKUMShareSettings.h */,
+				0480EEAE2FC57CE9004D02A4 /* TKUMShareSettings.m */,
+			);
+			path = TK_Share;
+			sourceTree = "<group>";
+		};
+		0480EEB22FC57CE9004D02A4 /* TK_Speech */ = {
+			isa = PBXGroup;
+			children = (
+				0480EEB02FC57CE9004D02A4 /* TK_SpeechPlugin.h */,
+				0480EEB12FC57CE9004D02A4 /* TK_SpeechPlugin.m */,
+			);
+			path = TK_Speech;
+			sourceTree = "<group>";
+		};
+		0480EEB32FC57CE9004D02A4 /* PluginClass */ = {
+			isa = PBXGroup;
+			children = (
+				0480EEAF2FC57CE9004D02A4 /* TK_Share */,
+				0480EEB22FC57CE9004D02A4 /* TK_Speech */,
+			);
+			path = PluginClass;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				0480EEAA2FC57C31004D02A4 /* TKUISDK_iOS_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				0480EEA72FC57BE4004D02A4 /* TKScreenRecorder */,
 				6003F593195388D20070C39A /* Example for TKUISDK_iOS */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -120,7 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* TKUISDK_iOS_Example.app */,
-				6003F5AE195388D20070C39A /* TKUISDK_iOS_Tests.xctest */,
+				0480EE7F2FC57BAB004D02A4 /* TKScreenRecorder.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +296,8 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				E1C4D5887299F427644BC06F /* Pods_TKUISDK_iOS_Example.framework */,
 				AF7C3F98FBD5E276068B8A2C /* Pods_TKUISDK_iOS_Tests.framework */,
+				0480EE802FC57BAB004D02A4 /* ReplayKit.framework */,
+				000EF86B31A50F4EE3D8A693 /* Pods_TKScreenRecorder.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,13 +305,19 @@
 		6003F593195388D20070C39A /* Example for TKUISDK_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* TKAppDelegate.h */,
-				6003F59D195388D20070C39A /* TKAppDelegate.m */,
-				549CB6B225F7526200443A1F /* TKUMShareSettings.h */,
-				549CB6B325F7526200443A1F /* TKUMShareSettings.m */,
+				0480EEB72FC57D08004D02A4 /* Localizable.strings */,
+				0480EEB32FC57CE9004D02A4 /* PluginClass */,
+				0480EE432FC57B82004D02A4 /* AppDelegate.h */,
+				0480EE442FC57B82004D02A4 /* AppDelegate.m */,
+				0480EE452FC57B82004D02A4 /* TKDemoEnumHeader.h */,
+				0480EE462FC57B82004D02A4 /* TKJoinClassViewController.h */,
+				0480EE472FC57B82004D02A4 /* TKJoinClassViewController.m */,
+				0480EE482FC57B82004D02A4 /* TKLoginViewController.h */,
+				0480EE492FC57B82004D02A4 /* TKLoginViewController.m */,
+				0480EE662FC57B82004D02A4 /* View */,
+				0480EE672FC57B82004D02A4 /* ViewController.h */,
+				0480EE682FC57B82004D02A4 /* ViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* TKViewController.h */,
-				6003F5A6195388D20070C39A /* TKViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -159,6 +329,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0480EEC32FC57D80004D02A4 /* InfoPlist.strings */,
 				6003F595195388D20070C39A /* TKUISDK_iOS-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -203,6 +374,8 @@
 				14187E814B0EC5DB9DFC3847 /* Pods-TKUISDK_iOS_Example.release.xcconfig */,
 				EA8CB315F8CDD8C3C2B8ABFE /* Pods-TKUISDK_iOS_Tests.debug.xcconfig */,
 				410693DD4205C9566D6A1DAA /* Pods-TKUISDK_iOS_Tests.release.xcconfig */,
+				69209B352EAFD2ACB50DF096 /* Pods-TKScreenRecorder.debug.xcconfig */,
+				05A62D5D035F15BA01149278 /* Pods-TKScreenRecorder.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -210,6 +383,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0480EE7E2FC57BAB004D02A4 /* TKScreenRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0480EE9A2FC57BAC004D02A4 /* Build configuration list for PBXNativeTarget "TKScreenRecorder" */;
+			buildPhases = (
+				DE052A2E7F90B5F6A0CD4D5B /* [CP] Check Pods Manifest.lock */,
+				0480EE7B2FC57BAB004D02A4 /* Sources */,
+				0480EE7C2FC57BAB004D02A4 /* Frameworks */,
+				0480EE7D2FC57BAB004D02A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKScreenRecorder;
+			productName = TKScreenRecorder;
+			productReference = 0480EE7F2FC57BAB004D02A4 /* TKScreenRecorder.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		6003F589195388D20070C39A /* TKUISDK_iOS_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TKUISDK_iOS_Example" */;
@@ -219,35 +410,18 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				96C2669F079CDA2D4F601D20 /* [CP] Embed Pods Frameworks */,
-				9CF028AB95415C9A1D5B1B91 /* [CP] Copy Pods Resources */,
+				0480EEA12FC57BAC004D02A4 /* Embed Foundation Extensions */,
+				375FDB0DB889B06FA922319B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0480EE972FC57BAC004D02A4 /* PBXTargetDependency */,
 			);
 			name = TKUISDK_iOS_Example;
 			productName = TKUISDK_iOS;
 			productReference = 6003F58A195388D20070C39A /* TKUISDK_iOS_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6003F5AD195388D20070C39A /* TKUISDK_iOS_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TKUISDK_iOS_Tests" */;
-			buildPhases = (
-				CD55BE366BD10CC58D1999C5 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = TKUISDK_iOS_Tests;
-			productName = TKUISDK_iOSTests;
-			productReference = 6003F5AE195388D20070C39A /* TKUISDK_iOS_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -259,11 +433,13 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "tksdk@talk-cloud.com";
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = V79RHFRFL3;
+					0480EE7E2FC57BAB004D02A4 = {
+						CreatedOnToolsVersion = 16.3;
+						DevelopmentTeam = 8VXJWE28Q2;
+						ProvisioningStyle = Automatic;
 					};
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8VXJWE28Q2;
 					};
 				};
 			};
@@ -277,6 +453,9 @@
 				Base,
 				"zh-Hans",
 				"zh-Hant",
+				fr,
+				ja,
+				ko,
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -284,16 +463,26 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* TKUISDK_iOS_Example */,
-				6003F5AD195388D20070C39A /* TKUISDK_iOS_Tests */,
+				0480EE7E2FC57BAB004D02A4 /* TKScreenRecorder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0480EE7D2FC57BAB004D02A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480EEBF2FC57D56004D02A4 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0480EEB92FC57D08004D02A4 /* Localizable.strings in Resources */,
+				0480EEC52FC57D80004D02A4 /* InfoPlist.strings in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -301,17 +490,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		375FDB0DB889B06FA922319B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example-resources.sh",
+				"${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		620DD7659F1B236E5EC30E6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,44 +542,38 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
-				"${BUILT_PRODUCTS_DIR}/SakuraKit/SakuraKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TKScreenShareService/TKScreenShareService/Frameworks/TKScreenShareService.framework",
+				"${PODS_ROOT}/../../TKUISDK_iOS/Frameworks/TKExtension.framework",
+				"${PODS_ROOT}/../../TKUISDK_iOS/Frameworks/TKLivePlayer.framework",
+				"${PODS_ROOT}/../../TKUISDK_iOS/Frameworks/TKMediaEngine.framework",
 				"${PODS_ROOT}/../../TKUISDK_iOS/Frameworks/TKRoomSDK.framework",
+				"${PODS_ROOT}/../../TKUISDK_iOS/Frameworks/TKUISDK.framework",
+				"${PODS_ROOT}/../../TKUISDK_iOS/Frameworks/TKWhiteBoard.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MicrosoftCognitiveServicesSpeech-iOS/MicrosoftCognitiveServicesSpeech.framework/MicrosoftCognitiveServicesSpeech",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SakuraKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKScreenShareService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKLivePlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKMediaEngine.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKRoomSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKUISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKWhiteBoard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MicrosoftCognitiveServicesSpeech.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CF028AB95415C9A1D5B1B91 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example-resources.sh",
-				"${PODS_ROOT}/../../TKUISDK_iOS/Bundles/TKResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TKResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TKUISDK_iOS_Example/Pods-TKUISDK_iOS_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD55BE366BD10CC58D1999C5 /* [CP] Check Pods Manifest.lock */ = {
+		DE052A2E7F90B5F6A0CD4D5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,7 +588,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TKUISDK_iOS_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TKScreenRecorder-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,42 +598,83 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0480EE7B2FC57BAB004D02A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480EEA82FC57BE4004D02A4 /* SampleHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* TKAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* TKViewController.m in Sources */,
+				0480EE692FC57B82004D02A4 /* TKPlaybackTimeView.m in Sources */,
+				0480EE6A2FC57B82004D02A4 /* TKLoginPermissionView.m in Sources */,
+				0480EE6B2FC57B82004D02A4 /* TKLoginViewController.m in Sources */,
+				0480EE6C2FC57B82004D02A4 /* TKLoginSettingView.m in Sources */,
+				0480EE6D2FC57B82004D02A4 /* TKPlaybackView.m in Sources */,
+				0480EE6E2FC57B82004D02A4 /* TKJoinClassViewController.m in Sources */,
+				0480EE6F2FC57B82004D02A4 /* TKPassWordHelpView.m in Sources */,
+				0480EE702FC57B82004D02A4 /* TKLoginAlert.m in Sources */,
+				0480EE712FC57B82004D02A4 /* TKLoginInputView.m in Sources */,
+				0480EE722FC57B82004D02A4 /* TKPrivacyView.m in Sources */,
+				0480EE732FC57B82004D02A4 /* AppDelegate.m in Sources */,
+				0480EE742FC57B82004D02A4 /* TKPermissonCell.m in Sources */,
+				0480EE752FC57B82004D02A4 /* TKSPContentView.m in Sources */,
+				0480EE762FC57B82004D02A4 /* TKChoseRoleView.m in Sources */,
+				0480EE772FC57B82004D02A4 /* TKAboutUSView.m in Sources */,
+				0480EEB42FC57CE9004D02A4 /* TK_SharePlugin.m in Sources */,
+				0480EEB52FC57CE9004D02A4 /* TK_SpeechPlugin.m in Sources */,
+				0480EEB62FC57CE9004D02A4 /* TKUMShareSettings.m in Sources */,
+				0480EE782FC57B82004D02A4 /* TKServiceAndPrivacyAlterView.m in Sources */,
+				0480EE792FC57B82004D02A4 /* ViewController.m in Sources */,
+				0480EE7A2FC57B82004D02A4 /* TKPlaybackCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				549CB6B425F7526200443A1F /* TKUMShareSettings.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		0480EE972FC57BAC004D02A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* TKUISDK_iOS_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			target = 0480EE7E2FC57BAB004D02A4 /* TKScreenRecorder */;
+			targetProxy = 0480EE962FC57BAC004D02A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0480EEB72FC57D08004D02A4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480EEB82FC57D08004D02A4 /* en */,
+				0480EEBA2FC57D1F004D02A4 /* fr */,
+				0480EEBB2FC57D2F004D02A4 /* ja */,
+				0480EEBC2FC57D39004D02A4 /* ko */,
+				0480EEBD2FC57D44004D02A4 /* zh-Hans */,
+				0480EEBE2FC57D4D004D02A4 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0480EEC32FC57D80004D02A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480EEC42FC57D80004D02A4 /* en */,
+				0480EEC62FC57D89004D02A4 /* fr */,
+				0480EEC72FC57D94004D02A4 /* ja */,
+				0480EEC82FC57DA1004D02A4 /* ko */,
+				0480EED02FC57DBA004D02A4 /* zh-Hant */,
+				0480EED12FC57DCC004D02A4 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
-				549CB6BF25F753AC00443A1F /* zh-Hans */,
-				540666E825F753E9004FA33D /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -457,8 +693,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
-				549CB6BE25F753AC00443A1F /* zh-Hans */,
-				540666E725F753E8004FA33D /* zh-Hant */,
+				0480EED22FC57E49004D02A4 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -466,6 +701,107 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0480EE9B2FC57BAC004D02A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69209B352EAFD2ACB50DF096 /* Pods-TKScreenRecorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = TKScreenRecorder/TKScreenRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8VXJWE28Q2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TKScreenRecorder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "拓课云Plus";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 tksdk@talk-cloud.com. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkcloud.eduPLUS.TKScreenRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0480EE9C2FC57BAC004D02A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A62D5D035F15BA01149278 /* Pods-TKScreenRecorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = TKScreenRecorder/TKScreenRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8VXJWE28Q2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TKScreenRecorder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "拓课云Plus";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 tksdk@talk-cloud.com. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkcloud.eduPLUS.TKScreenRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -544,13 +880,15 @@
 			baseConfigurationReference = 2BB9DF323375D370F531B02C /* Pods-TKUISDK_iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V79RHFRFL3;
+				CODE_SIGN_ENTITLEMENTS = TKUISDK_iOS_Example.entitlements;
+				DEVELOPMENT_TEAM = 8VXJWE28Q2;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TKUISDK_iOS/TKUISDK_iOS-Prefix.pch";
 				INFOPLIST_FILE = "TKUISDK_iOS/TKUISDK_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkcloud.eduPLUS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -562,68 +900,33 @@
 			baseConfigurationReference = 14187E814B0EC5DB9DFC3847 /* Pods-TKUISDK_iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V79RHFRFL3;
+				CODE_SIGN_ENTITLEMENTS = TKUISDK_iOS_Example.entitlements;
+				DEVELOPMENT_TEAM = 8VXJWE28Q2;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TKUISDK_iOS/TKUISDK_iOS-Prefix.pch";
 				INFOPLIST_FILE = "TKUISDK_iOS/TKUISDK_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkcloud.eduPLUS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA8CB315F8CDD8C3C2B8ABFE /* Pods-TKUISDK_iOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKUISDK_iOS_Example.app/TKUISDK_iOS_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 410693DD4205C9566D6A1DAA /* Pods-TKUISDK_iOS_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKUISDK_iOS_Example.app/TKUISDK_iOS_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0480EE9A2FC57BAC004D02A4 /* Build configuration list for PBXNativeTarget "TKScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480EE9B2FC57BAC004D02A4 /* Debug */,
+				0480EE9C2FC57BAC004D02A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "TKUISDK_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -638,15 +941,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TKUISDK_iOS_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
