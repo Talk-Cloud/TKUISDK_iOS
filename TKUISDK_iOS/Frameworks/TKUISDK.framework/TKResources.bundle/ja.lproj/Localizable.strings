@@ -321,7 +321,7 @@
 "Prompt.NeedCameraNeedMicrophone" = "iPhone の「設定 - プライバシー」オプションで %@ がカメラとマイクにアクセスできるようにしてください";
 "Prompt.CameraNotAvailable"="カメラは利用できません";
 
-"Prompt.DeviceIsntWorking"="デバイスは異常であり、出口後に教室に入ることをお勧めします";
+"Prompt.DeviceIsntWorking" = "音声/ビデオ机器が占有されていますので、他のソフトをいったん閉じてから教室に入り直してください";
 "Prompt.SpeakerIsntWorking"="スピーカーのボリュームは低いので、ボリュームを調整することをお勧めします";
 "Prompt.RoomSocketError" =  "ルーム接続に失敗しました。一旦退出して再度入室してください";
 "Prompt.MicrophoneNoPermission"="マイクを使用できません";
@@ -613,6 +613,8 @@
 "MiniWB.TeacherRecycleMWB"="教師は白いボードをリサイクルしました";
 
 "TKFileScreenShotAlert"="コースウェアゾーンのスクリーンショット";
+"WBCaptureResult.Download"="ダウンロード";
+"WBCaptureResult.AddToMiniWB"="ホワイトボードに追加します";
 
 // 设备检测
 "TKDeviceCheck.Latency"="遅れ";
@@ -914,7 +916,6 @@
 "ScreenShare.SysVersionLow.toast"="現在のシステムバージョンはiOS 12.0よりも低く、スクリーンライブブロードキャスト関数は当面は使用できません。デバイスシステムバージョンをiOS 12.0以上にアップグレードして、画面ライブブロードキャスト機能を使用することを選択できます";
 "ScreenShare.CanShare.tips"="承認されています。デスクトップ共有については、ここをクリックしてください";
 "ScreenShare.Stop"="共有を停止";
-"ScreenShare.OnStageMax.toast"="現在、段階で最も多くの人々がデスクトップ共有を実行することはできません！";
 
 //合影
 "GroupPhotp.title"="グループ写真";

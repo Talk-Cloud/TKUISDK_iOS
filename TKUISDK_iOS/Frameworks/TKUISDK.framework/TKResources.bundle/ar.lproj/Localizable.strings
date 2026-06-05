@@ -266,7 +266,7 @@
 "Prompt.Sure" = "حسناً";
 "Prompt.NeedCameraNeedMicrophone" = "يرجى السماح لـ %@ بالوصول إلى ميكروفون هاتفك في  \"الإعدادات-الخصوصية-الميكروفون \" على iPhone.";
 "Prompt.CameraNotAvailable" = "الكاميرا غير متاحة";
-"Prompt.DeviceIsntWorking" = "الجهاز غير طبيعي، يُنصح بالخروج وإعادة الدخول للفصل";
+"Prompt.DeviceIsntWorking" = "تم شغل المعدات السمعية والبصرية، يرجى إغلاق البرامج الأخرى قبل العودة إلى قاعات الدرس";
 "Prompt.SpeakerIsntWorking" = "صوت السماعة منخفض، يُنصح برفع الصوت";
 "Prompt.RoomSocketError" = "فشل الاتصال بالغرفة بسبب مشكلة في الشبكة، يرجى الخروج وإعادة الدخول.";
 "Prompt.MicrophoneNoPermission" = "لا يمكن استخدام الميكروفون";
@@ -469,6 +469,8 @@
 "MiniWB_Stu.Redispense" = "توزيع";
 "MiniWB.TeacherRecycleMWB" = "المعلم استرجع السبورة الصغيرة";
 "TKFileScreenShotAlert" = "لقطة منطقة المحتوى";
+"WBCaptureResult.Download" = "تحميل";
+"WBCaptureResult.AddToMiniWB" = "أضف إلى اللوح الأبيض الصغير";
 "TKDeviceCheck.Latency" = "التأخير";
 "TKDeviceCheck.Upload" = "سرعة الرفع";
 "TKDeviceCheck.Download" = "سرعة التحميل";
@@ -772,7 +774,6 @@
 "ScreenShare.SysVersionLow.toast" = "إصدار النظام الحالي أقل من iOS 12.0، لا يمكن استخدام وظيفة البث. يمكنك ترقية النظام إلى iOS 12.0 أو أعلى لاستخدام وظيفة البث.";
 "ScreenShare.CanShare.tips" = "تم منحك الإذن، انقر هنا لمشاركة سطح المكتب";
 "ScreenShare.Stop" = "إيقاف المشاركة";
-"ScreenShare.OnStageMax.toast" = "تم الوصول للحد الأقصى للمتحدثين، لا يمكن مشاركة سطح المكتب حالياً!";
 "GroupPhotp.title" = "صورة جماعية";
 "GroupPhotp.timeTip" = "الوقت المتبقي للتصوير";
 "GroupPhotp.UnJoin" = "عدم المشاركة";

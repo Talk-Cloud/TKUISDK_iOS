@@ -279,7 +279,7 @@
 "Prompt.Sure"               = "好";
 "Prompt.NeedCameraNeedMicrophone" = "請在iPhone的\"設定-隱私\"選項中，允許%@訪問你的相機和麥克風。";
 "Prompt.CameraNotAvailable" = "您的相機不可用";
-"Prompt.DeviceIsntWorking" = "設備異常，建議你退出後重新進入教室";
+"Prompt.DeviceIsntWorking" = "音視頻設備被佔用，請先關閉其它軟件後重進教室";
 "Prompt.SpeakerIsntWorking" = "揚聲器音量較低，建議調大音量。";
 "Prompt.RoomSocketError" =  "房間連接失敗，請退出重進";
 "Prompt.MicrophoneNoPermission" = "無法使用麥克風";
@@ -496,6 +496,8 @@
 "MiniWB_Stu.Redispense" = "分發";
 "MiniWB.TeacherRecycleMWB" = "老師已回收小白板";
 "TKFileScreenShotAlert" = "教材區截圖";
+"WBCaptureResult.Download" = "下載";
+"WBCaptureResult.AddToMiniWB" = "添加到小白板";
 // 設備檢測
 "TKDeviceCheck.Latency" = "延遲";
 "TKDeviceCheck.Upload" = "上傳速度";
@@ -817,7 +819,6 @@
 "ScreenShare.SysVersionLow.toast" = "當前系統版本低於iOS 12.0，暫不能使用屏幕直播功能。可以選擇升級設備系統版本至iOS 12.0及以上版本，以便使用屏幕直播功能。";
 "ScreenShare.CanShare.tips" = "您已被授權，點擊此處可進行桌面共享";
 "ScreenShare.Stop" = "停止共享";
-"ScreenShare.OnStageMax.toast" = "當前已到達最大上台人數，暫不能進行桌面共享！";
 "GroupPhotp.title" = "合影";
 "GroupPhotp.timeTip" = "拍照剩餘時間";
 "GroupPhotp.UnJoin" = "不参加";

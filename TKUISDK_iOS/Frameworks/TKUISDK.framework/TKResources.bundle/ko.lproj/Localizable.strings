@@ -318,7 +318,7 @@
 "Prompt.NeedCameraNeedMicrophone" = "iPhone의 \"설정-개인정보\" 옵션에서 %@가 카메라와 마이크에 액세스하도록 허용하세요. ";
 "Prompt.CameraNotAvailable" = "카메라를 사용할 수 없습니다.";
 
-"Prompt.DeviceIsntWorking" = "장비가 비정상적입니다. 로그아웃 후 교실 재입장을 권장합니다.";
+"Prompt.DeviceIsntWorking" = "오디오 및 비디오 장비가 사용 중입니다. 다른 소프트웨어는 끄고 다시 교실로 들어오시기 바랍니다";
 "Prompt.SpeakerIsntWorking" = "스피커의 음량이 비교적 낮으니 음량을 크게 조절하는 것을 권장합니다.";
 "Prompt.RoomSocketError" =  "방 연결에 실패했습니다. 종료했다가 다시 들어가세요";
 "Prompt.MicrophoneNoPermission" = "마이크를 사용할 수 없습니다";
@@ -598,6 +598,8 @@
 "MiniWB.TeacherRecycleMWB" = "선생님이 작은 화이트보드를 재활용했습니다";
 
 "TKFileScreenShotAlert" = "코스웨어 영역의 스크린샷";
+"WBCaptureResult.Download" = "다운로드";
+"WBCaptureResult.AddToMiniWB" = "화이트보드에 추가합니다";
 
 // 장비 검사
 "TKDeviceCheck.Latency" = "지연";
@@ -896,7 +898,6 @@
 "ScreenShare.SysVersionLow.toast" = "현재 시스템 버전이 iOS 12.0 미만이며, 화면 생중계 기능을 일시적으로 사용할 수 없습니다. 화면 라이브 기능을 사용하려면 기기의 시스템 버전을 iOS 12.0 이상으로 업그레이드하도록 선택할 수 있습니다.";
 "ScreenShare.CanShare.tips" = "권한이 있습니다. 데스크톱 공유를 위해 여기를 클릭하세요.";
 "ScreenShare.Stop" = "공유 중지";
-"ScreenShare.OnStageMax.toast" = "현재 무대의 최대 인원에 도달하여 데스크탑 공유가 일시적으로 불가능합니다!";
 
 "GroupPhotp.title" = "단체사진";
 "GroupPhotp.timeTip" = "사진 찍을 수 있는 남은 시간";

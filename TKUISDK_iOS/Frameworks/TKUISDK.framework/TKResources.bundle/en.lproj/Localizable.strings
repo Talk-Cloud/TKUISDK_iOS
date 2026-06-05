@@ -303,7 +303,7 @@
 "Prompt.NeedCameraNeedMicrophone" = "Allow %@ to access your camera and microphone on Settings-privacy on your iPhone";
 "Prompt.CameraNotAvailable" = "Your camera is not available";
 
-"Prompt.DeviceIsntWorking" = "Your device isn't working. Please exit then reenter the classroom.";
+"Prompt.DeviceIsntWorking" = "The audio/video devices are currently in use. Please close other software before re-entering the classroom.";
 "Prompt.SpeakerIsntWorking" = "The volume is too low, please turn it up.";
 "Prompt.RoomSocketError" =  "Room connection failed, please exit and re-enter";
 
@@ -562,6 +562,8 @@
 
 
 "TKFileScreenShotAlert" = "Screenshot";
+"WBCaptureResult.Download" = "Download";
+"WBCaptureResult.AddToMiniWB" = "Add to the small whiteboard";
 
 // 设备检测
 "TKDeviceCheck.Latency" = "Latency";
@@ -932,7 +934,6 @@ Please ask all users update to the latest version as soon as possible;";
 "ScreenShare.SysVersionLow.toast" = " The system version is too old to use screensharing. Please upgrade the system to iOS 12.0 and above if you need to share the screen.";
 "ScreenShare.CanShare.tips" = "You're authorized to share screen. Click here to start.";
 "ScreenShare.Stop" = "Stop Share";
-"ScreenShare.OnStageMax.toast" = " It reaches the maximum number of people on stage so that screensharing is temporarily ";
 
 "GroupPhotp.title" = "Take a Photo";
 "GroupPhotp.timeTip" = "Remaining Time";

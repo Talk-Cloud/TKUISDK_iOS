@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		qEsPHOmZZl0AdSYenrawFw1kIDo=
-		</data>
 		<key>Headers/TKAPPSetConfig.h</key>
 		<data>
 		IXOvRIng2f6yxDpgkBtqk5NAlmE=
@@ -28,9 +24,17 @@
 		<data>
 		ly4L1pZdgyjssJht0tvyI1fGSM8=
 		</data>
+		<key>Headers/TKWBCaptureResultPanelView.h</key>
+		<data>
+		b2l3O14NrIQz6IXAU5Zg56QxdU4=
+		</data>
+		<key>Headers/TKWBCoursewareCaptureHandler.h</key>
+		<data>
+		HjeyZDUNANnvcSQHXwn+IpxoGOg=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		IHzXrif9qAKCg43qSZj/iveZNqI=
+		Y9ykFhuX/1LMBiuRsuJaIe6xfZM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -247,7 +251,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+rEMn2pT+qnfzL1daVKwg0LyhEI=
+			nIHY8BOEAkP+jvEkmum5dfIU2Zw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -256,7 +260,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d/z7AxzTs5q+/uTu8FuXOzKt9nw=
+			+b3clavowbic0IKWGBz5x6ZGez0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -273,7 +277,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JT1dn0lRZ8BUhqOMPgbRtHZRVn8=
+			Yku5pXvkJ29ATANV+wxL/S7oYq4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -605,6 +609,22 @@
 		<key>TKResources.bundle/image/TKChatView/tk_chat_all_up@3x.png</key>
 		<data>
 		bdR4AGu+sqr402zac1KsWMroIr0=
+		</data>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_d@2x.png</key>
+		<data>
+		o3o51FRfmy7+vXmHufs/IlgY6Vw=
+		</data>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_d@3x.png</key>
+		<data>
+		aYwLjw5poi475LPyMzYGJhXphkw=
+		</data>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_r@2x.png</key>
+		<data>
+		aSP4AeqkughwXwXhcgzpHxfWz5I=
+		</data>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_r@3x.png</key>
+		<data>
+		EZPcEiCWSQFJcXd59F29/VP59Fo=
 		</data>
 		<key>TKResources.bundle/image/TKChatView/tk_chat_back.png</key>
 		<data>
@@ -6382,7 +6402,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0xxyZ/DcmZcSYJd+S1XLiwEQUg=
+			WQTR7C63DLF08kMyQ0J6C4ashfU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6391,7 +6411,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1JAF7sciMSwsa/fItlucD8wDLyc=
+			xn9Onuw20T9QoQgvNfY3iW75FT8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6432,7 +6452,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BdZ4+D6XGWCGYkG78U1RC6ODrPc=
+			lO34y2IYBJEszssq0IWPhp04k0A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6441,7 +6461,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XRdlMTBiAnboaeul9+/TnivYRrw=
+			IAod8kgNmoiHPxgI9XYTpyQV+88=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6502,6 +6522,28 @@
 			<key>hash2</key>
 			<data>
 			uLOF2vsuDsjQIp+fIHGQx/wgNJMdRoXXzpeG08qOwf4=
+			</data>
+		</dict>
+		<key>Headers/TKWBCaptureResultPanelView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b2l3O14NrIQz6IXAU5Zg56QxdU4=
+			</data>
+			<key>hash2</key>
+			<data>
+			MwymRgyF/ZO8N7vKkz5rB9yOXZdGjWUk5ZwWKRs1BcI=
+			</data>
+		</dict>
+		<key>Headers/TKWBCoursewareCaptureHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HjeyZDUNANnvcSQHXwn+IpxoGOg=
+			</data>
+			<key>hash2</key>
+			<data>
+			pZWWHlsLm64M5PoCaK0vNSbBgyu4Dum1hqlDTFLxnaE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -7053,11 +7095,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+rEMn2pT+qnfzL1daVKwg0LyhEI=
+			nIHY8BOEAkP+jvEkmum5dfIU2Zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			wcqb4EqTUwScRb3Bi5AuW8daHahrL4LAjADnYYUOxuo=
+			3k8RYszATc5Ecs51yLcMnQsIShQWtdHEAjy4fcVsJFQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7066,11 +7108,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d/z7AxzTs5q+/uTu8FuXOzKt9nw=
+			+b3clavowbic0IKWGBz5x6ZGez0=
 			</data>
 			<key>hash2</key>
 			<data>
-			L33JT8CrbT3tyg2vaYMv6/O02wiUEfDphntn/iHQIS4=
+			PqjmwydsPoe3VVO2wz07e5SMFk4/awOF4laW/dRu9ZI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7101,11 +7143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JT1dn0lRZ8BUhqOMPgbRtHZRVn8=
+			Yku5pXvkJ29ATANV+wxL/S7oYq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fw+ZyUtVuwBKovh7gnm3jR+WPQwSpFGFGQK3snLSY8k=
+			3/mm140AXv+5gK/KAzB8xZtc/Cj65/Oykz6mfBFHwSU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -8010,6 +8052,50 @@
 			<key>hash2</key>
 			<data>
 			1rZJFUCBC8pUDdPNN+9l+UPrEMR+/B2OT2UkRXQFiy4=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_d@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o3o51FRfmy7+vXmHufs/IlgY6Vw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3rWQs3R+TO+u3Ex4L0SPgwf3sFyR5LNoZ+cUN8ngifs=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_d@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aYwLjw5poi475LPyMzYGJhXphkw=
+			</data>
+			<key>hash2</key>
+			<data>
+			FhBBpwIJCy3/ZWJLqqM1hX4a3UYHe08MCLMkd7MK7TQ=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_r@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aSP4AeqkughwXwXhcgzpHxfWz5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			Cux1u1BNWquKoAFagRaGTTn4MUoK9TuImNddZ9JKnwA=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKChatView/tk_chat_arrow_r@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EZPcEiCWSQFJcXd59F29/VP59Fo=
+			</data>
+			<key>hash2</key>
+			<data>
+			i0UZbV9511rcSanzlaDAzZy5hFKtMcv/BXu73/17IFI=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKChatView/tk_chat_back.png</key>
@@ -23889,11 +23975,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0xxyZ/DcmZcSYJd+S1XLiwEQUg=
+			WQTR7C63DLF08kMyQ0J6C4ashfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			q+3dCcEcH9TZzPN/NgqwbTaoBJwGegfeDsH4DdERdhQ=
+			G2YtGg7yC5LbznNl2GVj/kx+iCT2eVjCnU43dDgaKBo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -23902,11 +23988,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1JAF7sciMSwsa/fItlucD8wDLyc=
+			xn9Onuw20T9QoQgvNfY3iW75FT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Mj7WtNFP5SorHbnGAz95m5rSqEvTVZhSHGY06pwh6E=
+			cHogl20MzD+VEzGXsTt4HhHpo+5IWu9NpdbY1wHHB10=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -24003,11 +24089,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BdZ4+D6XGWCGYkG78U1RC6ODrPc=
+			lO34y2IYBJEszssq0IWPhp04k0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			giC9a3t8emExZO+r7OmPh85dOjWapFFrSSKzwPvY6ko=
+			Byj6c/NplrFKYhYBicn/ZsYtOtyouY2odD6J3+NYTrE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -24016,11 +24102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XRdlMTBiAnboaeul9+/TnivYRrw=
+			IAod8kgNmoiHPxgI9XYTpyQV+88=
 			</data>
 			<key>hash2</key>
 			<data>
-			DU/XHx8h/7jAn9tYeCEjXCkIuTuGbAgU9hr6v0R8vGA=
+			K/8uUxDQOL3cWwMZFmPh+Re7J44YWCwR8HT2S6UnoTA=
 			</data>
 			<key>optional</key>
 			<true/>

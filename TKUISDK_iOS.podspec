@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKUISDK_iOS'
-  s.version          = '4.18.3.3'
+  s.version          = '4.18.4.1'
   s.summary          = 'A short description of TKUISDK_iOS.'
 
 # This description is used to generate tags and improve search results.
