@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, readonly) dispatch_queue_t workerQueue;
 @property(nonatomic, readonly, assign) BOOL playing;
 
-- (int)startPlayFFMPEGStream:(TKMediaFileParams *)params onStart:(TKLocalMediaState_block_m)startBlock onComplete:(TKLocalMediaState_block_m)completeBlock onProgress:(TKLocalMediaProgress_block_m)progress uniqueID:(NSString *)uniqueID;
+- (int)startPlayFFMPEGStream:(TKMediaFileParams *)params needHWDecoder:(BOOL)needHWDecoder onStart:(TKLocalMediaState_block_m)startBlock onComplete:(TKLocalMediaState_block_m)completeBlock onProgress:(TKLocalMediaProgress_block_m)progress uniqueID:(NSString *)uniqueID;
 - (void)stopPlayFFMPEGStream:(int)playID;
 - (void)setSpeed:(int)playID speed:(float)speed;
 - (void)setMirror:(int)playID mirror:(BOOL)mirror;
