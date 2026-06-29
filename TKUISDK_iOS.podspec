@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TKUISDK_iOS'
   s.version          = '4.18.4.4'
-  s.summary          = 'A short description of TKUISDK_iOS.'
+  s.summary          = 'TKUISDK_iOS是拓课云提供的一种面向在线教育场景的实时音视频解决方案的SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tksdk@talk-cloud.com/TKUISDK_iOS'
+  s.homepage         = 'https://xinwww.talk-cloud.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tksdk@talk-cloud.com' => 'xlangzhao@sina.com' }
@@ -40,9 +40,9 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 arm64e' }
 
   # 三方库
-  s.dependency 'lottie-ios', '2.5.3'
-  s.dependency 'Masonry'
-  s.dependency 'SDWebImage'
+#  s.dependency 'lottie-ios', '2.5.3'
+#  s.dependency 'Masonry'
+#  s.dependency 'SDWebImage'
   
   # s.resource_bundles = {
   #   'TKUISDK_iOS' => ['TKUISDK_iOS/Assets/*.png']
