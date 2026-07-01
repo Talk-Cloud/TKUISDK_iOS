@@ -339,6 +339,7 @@
 "Prompt.CameraBeingUsed" = "摄像头被占用，建议您只保留需要使用摄像头的应用，关掉其他应用后重新进入教室";
 "Prompt.MicrophoneBeingUsed" = "麦克风被占用，建议您只保留需要使用麦克风的应用，关掉其他应用后重新进入教室";
 "Prompt.CoursewareLoadFail" = "由于您的设备性能不足，导致加载课件失败，建议更换设备";
+"Prompt.MobileWBShellLoadFail" = "白板组件加载失败, 点击重试";
 "Prompt.VA.Undetect" = "设备检测不到";
 "Prompt.VA.Permissions" = "未授权权限";
 "Prompt.VA.Occupied" = "设备被占用";

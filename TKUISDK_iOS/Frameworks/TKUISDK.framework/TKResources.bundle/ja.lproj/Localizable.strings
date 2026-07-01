@@ -336,6 +336,7 @@
 "Prompt.CameraBeingUsed"="カメラは占有されています。カメラを使用するために使用する必要があるアプリケーションのみを保持し、他のアプリケーションをオフにしてから教室を再入力することをお勧めします";
 "Prompt.MicrophoneBeingUsed"="マイクは占有されています。マイクで使用する必要があるアプリケーションのみを保持し、他のアプリケーションをオフにしてから教室を再入力することをお勧めします";
 "Prompt.CoursewareLoadFail"="機器の性能が不十分なため、デバイスを交換することをお勧めします";
+"Prompt.MobileWBShellLoadFail" = "ホワイトボードコンポーネントの読み込みに失敗しました。タップして再試行してください";
 "Prompt.VA.Undetect"="機器を検出できません";
 "Prompt.VA.Permissions"="許可されていない当局";
 "Prompt.VA.Occupied"="機器が占有されています";

@@ -330,6 +330,7 @@
 "Prompt.CameraBeingUsed" = "Your camera is being used by other Apps. Please quit other apps that are using the camera.";
 "Prompt.MicrophoneBeingUsed" = "Your microphone is being used by other Apps. Please quit other apps that are using the microphone.";
 "Prompt.CoursewareLoadFail" = "Fail to load the courseware due to poor performance. Please try another device.";
+"Prompt.MobileWBShellLoadFail" = "Failed to load the whiteboard component. Tap to retry.";
 
 "Prompt.VA.Undetect" = "Can't find the device";
 "Prompt.VA.Permissions" = "Don't have permissions";

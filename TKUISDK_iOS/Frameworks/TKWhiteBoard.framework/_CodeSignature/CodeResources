@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		b2ilsN1xwbhlwAhcu+UMY+nbefo=
+		kxAbksAfIibdJNAe/+tHmANjDeE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -192,10 +192,6 @@
 	<dict>
 		<key>Headers/TKDrawView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/ktEc6Ec5ZAUUdA8g9+PZKpzzC8=
-			</data>
 			<key>hash2</key>
 			<data>
 			fYEaYTrA1NKWJH978Qfjajv5x0nZRJU6b+beSz9kSzo=
@@ -203,10 +199,6 @@
 		</dict>
 		<key>Headers/TKFileModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N95Jyaly1SYYrRGvOLb9SxKJzTk=
-			</data>
 			<key>hash2</key>
 			<data>
 			RUraEsUwTjinKEcC1tpv7TPV21kGthsXAbh6/kEslo4=
@@ -214,10 +206,6 @@
 		</dict>
 		<key>Headers/TKWhiteBoard.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KnNLmpH0dWG/uFHpS/D3cgvKO3g=
-			</data>
 			<key>hash2</key>
 			<data>
 			5j+qXPQvF6nHF9spNZkvBRPvv8SyK2D4G8jNqreVGD4=
@@ -225,10 +213,6 @@
 		</dict>
 		<key>Headers/TKWhiteBoardConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H+QgHUFlXpNADioxQldVDipHdfM=
-			</data>
 			<key>hash2</key>
 			<data>
 			4F4Kd0IJ+kdHF7Qc+AjYGnQwRQBt+F3iCiZGFtJFjSg=
@@ -236,10 +220,6 @@
 		</dict>
 		<key>Headers/TKWhiteBoardEnum.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WumTQ2ffK+W8JSDBIAk7Bq6SjHE=
-			</data>
 			<key>hash2</key>
 			<data>
 			1+aFtHWpG+IGD6ggt61bMySg2fYed8LSueBjM/uAtCQ=
@@ -247,10 +227,6 @@
 		</dict>
 		<key>Headers/TKWhiteBoardManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPN6xlXkgCl8mItNSgSykqOJzN0=
-			</data>
 			<key>hash2</key>
 			<data>
 			BGUEtGB2SfYMT7/s/W4iL9irfNMSRtxWH0at8p82oNQ=
@@ -258,10 +234,6 @@
 		</dict>
 		<key>Headers/TKWhiteBoardManagerDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wU5TbPJRc6R654jKuOSR3yfStJU=
-			</data>
 			<key>hash2</key>
 			<data>
 			yGkPGI3zYAbV7li6/fP2hypIgLrsWrTMiszWUi0VIFo=
@@ -269,10 +241,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tUkNo0GBSkdx0sAVQQ1M42NvcEU=
-			</data>
 			<key>hash2</key>
 			<data>
 			2eIwM7E9K0Emgf1M9XvB1Ive6tA41Hdkj6tdxhC4FkQ=
@@ -280,10 +248,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/TKForward.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kSllI4dbsA3hiEOeUW24djyI5Wc=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vzh0/AJ8LhCkb+0Gvac40ONWTjPaZITagtiwG11irfs=
@@ -291,10 +255,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/TKPlug.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T+EoiWMjc48TfpujUe39WaugSGA=
-			</data>
 			<key>hash2</key>
 			<data>
 			fFgFp6Q7l4AojRoyDIgJQjTh/z+FomWyZV/Q6c6fLGQ=
@@ -302,10 +262,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cK8mYr7qvctxEiyD9tTBKukMTRw=
-			</data>
 			<key>hash2</key>
 			<data>
 			I3Mwg5oPmj3Vo7+KCSOLScz1Y00hOxgNmSpE/Lr/2Ww=
@@ -315,10 +271,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ahMgKhcaASgAZwVo8CQDHe1lnzA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Y+xjGea9FvngQq1ouIr9An+KHULd5zk6d0quvseWMQM=
@@ -328,10 +280,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AbnY0Jpbc69CjbS2dLp9b11M4so=
-			</data>
 			<key>hash2</key>
 			<data>
 			CzmDbpPQp1pONX7EbPiwHU+2POqBXXCqnwT+IYmq1YY=
@@ -341,10 +289,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_blackboard@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9DE59AZiii728e/dmdiQbS/J5EQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			DyW3Od5Vd+ysvBHM0cITppBR1rnlQTK8xkvjHUpaBDs=
@@ -352,10 +296,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_finger_point_wb@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jTx5fTdEjsFyDTYbmeHLj2amzyc=
-			</data>
 			<key>hash2</key>
 			<data>
 			7H42KBFo455y6g0LKpjjiaqEIgHOWr6yzGrrhF7VUyc=
@@ -363,10 +303,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_finger_point_wb@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dj2iSLtAy5Hh+TRTE0QaFZmLn64=
-			</data>
 			<key>hash2</key>
 			<data>
 			jkwg9cdDT/fciHwWzUnNs19KEcYWs7CNNgsvUHRPfe4=
@@ -374,10 +310,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_laser_point_wb@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AzL3W66O18Rzckhqp7U4zqqrZKU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Fy9tvk0GAehL8Ra6ZYoTfET2hEFopSbJj9W793YizbE=
@@ -385,10 +317,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_laser_point_wb@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FFOvPVL9LoFsj/Vfe+Lbvk4GS3I=
-			</data>
 			<key>hash2</key>
 			<data>
 			kdfK3Oh/dH6mO5Bhn3eHjKgjeSi8Zt5Yof0t8oSABH4=
@@ -396,10 +324,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_progressAbove@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4nBHXpk5WCSoGtmUurbOEgQDvq4=
-			</data>
 			<key>hash2</key>
 			<data>
 			B1GTcTwXpa6/UdU1lrRmgP5WKoH69z1ICUsoMxa3PDE=
@@ -407,10 +331,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_progressAbove@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			acdEZe6lWAaoV+bnTN5mrZZ2Cos=
-			</data>
 			<key>hash2</key>
 			<data>
 			zFhaLXH8u1f2NI7KMTUkvxOQ5PuHBTp/JWiiPsL+AF8=
@@ -418,10 +338,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_progressUnder@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xynFOjvagR23vP/3Btok7vmqhJI=
-			</data>
 			<key>hash2</key>
 			<data>
 			+MZF35m/KkGReENlpua/BnjWbELu5AbCpPGn6/GnJd4=
@@ -429,10 +345,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_progressUnder@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GkiyvRjh9tFAvSfpFiIPyobcuQw=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZoY5hVFVET41AICqovD0Nh8G8C76cCDEG+AaR1z/+9I=
@@ -440,10 +352,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_progress_back@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zpws+0YzVU/Ft+yRocdpR2RTVBg=
-			</data>
 			<key>hash2</key>
 			<data>
 			5bLVYMSlOlxQeDDpRU2k5qB46xZUJ1FurYhSiueTlY8=
@@ -451,10 +359,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_progress_back@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WW3sfMa3dzr6bHpJxOVOCTBYCgU=
-			</data>
 			<key>hash2</key>
 			<data>
 			UnHZvyvQuah1GQrrd1OsLpytjeUbp+7tu7m9Xxcy3uM=
@@ -462,10 +366,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_tianzige@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6cEqDPH798H/ua+mKxlbyTlBCAA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xq7z3Y78gUBWvAtavkQAAywoxFl2uDQ748oq0knFel8=
@@ -473,10 +373,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_yingwenben@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5itw34FYan/Duo4XzGeteC7FpZ0=
-			</data>
 			<key>hash2</key>
 			<data>
 			uREujnqIk8Qs5mHbAzfIyQ95DrB/oGyXWDMqmf+ZeXA=
@@ -484,10 +380,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_yingwenben@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0S4/SivoI0ZQ7fBfzlg3//4Heoo=
-			</data>
 			<key>hash2</key>
 			<data>
 			HcmZ2GmtI0To/er1LsycCsbmhK77lBbN3sLnJ2UjvuI=
@@ -495,10 +387,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_zuobiao@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ja6vtkro30mL8L7HTD62aLPgqpQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IjhQNV108FdJDmeLcq4KPphVHRjBMeLOLHAiRnhDaPc=
@@ -506,10 +394,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/image/tk_zuobiao@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8mASD7xhL+HtxA3UgsMP7gsY8CI=
-			</data>
 			<key>hash2</key>
 			<data>
 			/4L2i4jwmDCiQv5q7T6suaJzD4m/j6vnngRJWA3cWZQ=
@@ -517,10 +401,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LqbXi1x9qdKKt+aseSpjxF5vlT8=
-			</data>
 			<key>hash2</key>
 			<data>
 			C498kMy8cQg0ibeM/6smoWqlkgyoUPj8ETthmOWP3fM=
@@ -530,10 +410,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xJN6fJP9jt1g3RnEvIiJgYlI0Dw=
-			</data>
 			<key>hash2</key>
 			<data>
 			8qN7Rhu2HKBzjizhaQkUARH4JvsPoIWrjyEZNJMiJsI=
@@ -543,10 +419,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/mobile-wb/bl.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yyOCagpxloyi/NEwnZ18cidjAaQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			DXmPnt40RI0jqcmVGOEbmGGp2UmRoWzMUXUR1ww6R5I=
@@ -554,10 +426,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/mobile-wb/index.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h4UWvqpaegDLUbH076/wLW3GbA0=
-			</data>
 			<key>hash2</key>
 			<data>
 			sAhgFS5cupgsEnYI/Y/AZLdXATXEfTP/9Ux7iwYtNUk=
@@ -565,10 +433,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/mobile-wb/main.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wAGx96HNulpB0e4ImVwB78KHaV0=
-			</data>
 			<key>hash2</key>
 			<data>
 			6KaXXdkSFwD6sCNVA2fXfGShvwhqpQV2e2UXPdnwRh4=
@@ -576,10 +440,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1WeXbuxLlVDOGplyG6967Lztf00=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZIQ6zjTfIgpN2Y/Qbdwge4ZqYsbF8TJ9/vgq8plETF4=
@@ -589,10 +449,6 @@
 		</dict>
 		<key>TKWhiteBoardResource.bundle/zh-Hant-TW.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mXOi9nmmfUVULsLyEvBhZiVMYRQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			OhX+9u3JdkBW//nL9SLSmfKkXFletOPTjGwaku8G3Ec=

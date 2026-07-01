@@ -304,6 +304,7 @@
 "Prompt.CameraBeingUsed" = "攝像頭被佔用，建議您只保留需要使用攝像頭的應用，關掉其他應用後重新進入教室";
 "Prompt.MicrophoneBeingUsed" = "攝像頭被佔用，建議您只保留需要使用攝像頭的應用，關掉其他應用後重新進入教室";
 "Prompt.CoursewareLoadFail" = "由於您的設備性能不足，導致加載課件失敗，建議更換設備";
+"Prompt.MobileWBShellLoadFail" = "白板組件加載失敗, 點擊重試";
 "Prompt.VA.Undetect" = "設備檢測不到";
 "Prompt.VA.Permissions" = "未授權權限";
 "Prompt.VA.Occupied" = "設備被佔用";

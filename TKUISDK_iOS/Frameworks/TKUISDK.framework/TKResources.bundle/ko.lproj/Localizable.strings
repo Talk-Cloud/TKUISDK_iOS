@@ -343,6 +343,7 @@
 "Prompt.CameraBeingUsed" = "카메라가 사용 중입니다. 카메라를 사용해야 하는 응용 프로그램만 유지하고 다른 응용 프로그램을 닫는 것이 좋습니다.";
 "Prompt.MicrophoneBeingUsed" = "마이크가 사용 중입니다. 마이크를 사용해야 하는 응용 프로그램만 유지하고 다른 응용 프로그램을 닫는 것이 좋습니다.";
 "Prompt.CoursewareLoadFail" = "기기의 성능이 부족하여 코스웨어 로드에 실패했습니다. 기기 교체를 권장합니다.";
+"Prompt.MobileWBShellLoadFail" = "화이트보드 구성 요소를 불러오지 못했습니다. 탭하여 다시 시도하세요.";
 
 "Prompt.VA.Undetect" = "장치가 감지되지 않음";
 "Prompt.VA.Permissions" = "무단 허가";

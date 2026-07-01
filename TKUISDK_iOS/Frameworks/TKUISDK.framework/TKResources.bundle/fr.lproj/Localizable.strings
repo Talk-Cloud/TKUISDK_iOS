@@ -355,6 +355,7 @@
 "Prompt.CameraBeingUsed" = "La caméra est occupée, il est recommandé de ne conserver que les applications nécessitant l'utilisation de la caméra, puis de rentrer dans la classe après avoir fermé les autres applications";
 "Prompt.MicrophoneBeingUsed" = "Le microphone est occupé, il est recommandé de ne conserver que les applications nécessitant l'utilisation du microphone, puis de réintégrer la classe après avoir fermé les autres applications.";
 "Prompt.CoursewareLoadFail" = "En raison des performances insuffisantes de votre appareil, le didacticiel n'a pas pu être chargé, il est recommandé de remplacer l'appareil";
+"Prompt.MobileWBShellLoadFail" = "Échec du chargement du composant tableau blanc. Appuyez pour réessayer.";
 "Prompt.VA.Undetect" = "Appareil non détecté";
 "Prompt.VA.Permissions" = "autorisation non autorisée";
 "Prompt.VA.Occupied" = "l'équipement est occupé";

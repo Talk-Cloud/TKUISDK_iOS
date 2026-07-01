@@ -290,6 +290,7 @@
 "Prompt.CameraBeingUsed" = "الكاميرا مشغولة، يُنصح بإغلاق التطبيقات الأخرى وإعادة الدخول للفصل";
 "Prompt.MicrophoneBeingUsed" = "الميكروفون مشغول، يُنصح بإغلاق التطبيقات الأخرى وإعادة الدخول للفصل";
 "Prompt.CoursewareLoadFail" = "فشل تحميل المحتوى بسبب ضعف أداء جهازك، يُنصح بتغيير الجهاز";
+"Prompt.MobileWBShellLoadFail" = "فشل تحميل مكون السبورة. انقر للمحاولة مرة أخرى.";
 "Prompt.VA.Undetect" = "لا يمكن اكتشاف الجهاز";
 "Prompt.VA.Permissions" = "لم يتم منح الصلاحية";
 "Prompt.VA.Occupied" = "الجهاز مشغول";
