@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKUISDK_iOS'
-  s.version          = '4.18.4.5'
+  s.version          = '4.18.4.6'
   s.summary          = 'TKUISDK_iOS是拓课云提供的一种面向在线教育场景的实时音视频解决方案的SDK'
 
 # This description is used to generate tags and improve search results.

@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		ZoFPZh2f53iinsWClAIK3LYo6Mg=
+		</data>
 		<key>Headers/TKAPPSetConfig.h</key>
 		<data>
 		IXOvRIng2f6yxDpgkBtqk5NAlmE=
@@ -34,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		chiBH9xVbZHP9HB77GnWjmQN9kE=
+		/vDp1N2GPSMfbCgetvUipKXg7Fc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

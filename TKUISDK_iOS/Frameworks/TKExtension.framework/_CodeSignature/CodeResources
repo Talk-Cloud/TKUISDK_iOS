@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		Sp2AU4AJVyafaJ+rno79yoQYDgA=
+		</data>
 		<key>Headers/LTUpdate.h</key>
 		<data>
 		gn8ORpixh71S8vknlmspThBBkN8=
@@ -586,7 +590,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YqrEKQ9I64aQJjXFsez1xMFfosk=
+		b5cgNMTm1P/CC3KGOlMgINrhL1Y=
 		</data>
 		<key>TKExtensionResource.bundle/Root.plist</key>
 		<data>
