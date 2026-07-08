@@ -1018,3 +1018,7 @@
 "PlayBack.Speed"         = "倍速です";
 "TKMiniWBCloseTip"         = "ホワイトボードは閉鎖されました";
 "TKLogin.transfiniteWords" = "ワードエクセレンス";
+
+"MiniWB.Evaluation.CheerUp" = "頑張って！";
+"MiniWB.Evaluation.Awesome" = "すごい！";
+"MiniWB.Evaluation.MiniTip" = "小白板からの評価";

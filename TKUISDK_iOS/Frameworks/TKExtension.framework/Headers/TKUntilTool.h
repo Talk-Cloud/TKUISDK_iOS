@@ -29,11 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取当前系统语言
 +(NSString*)getAgreementLanguage;
 
-/// 刘海屏
-+ (BOOL)isiPhoneX;
-
-
-
 #pragma mark - NSString
 /// 编码
 /// - Parameter string:string

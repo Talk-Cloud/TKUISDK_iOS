@@ -29,10 +29,8 @@
 #define TK_EXTENSION_ImageWithName(s) [NSString stringWithFormat:@"%@/image/%@", TK_EXTENSION_BUNDLE_PATH,s]
 #define TKEX_MTLocalized(s) [TK_EXBUNDLE localizedStringForKey:s value:@"" table:nil]
 
-#define IS_IPHONE_X [TKUntilTool isiPhoneX]
 #define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define IS_PAD (UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPad)
-#define Fit(height) (IS_PAD ? (height) : (height) * 0.8)
 // 屏幕比例，相对pad 1024 * 768
 #define Proportion (ScreenH/768.0)
 
@@ -85,8 +83,8 @@ static inline CGFloat TKStatusBarHeightSceneAware(void) {
 
 //导航栏高度
 #define TKNavHeight (IS_IPHONE ? 45 : 60)
-#define TKNavStatusBarH (IS_IPHONE_X ? 54 : 10)
-#define TKBottomBarH (IS_IPHONE_X ? 34 : 0)
+#define TKNavStatusBarH (IS_IPHONE ? 54 : 10)
+#define TKBottomBarH (IS_IPHONE ? 34 : 0)
 
 // 手机和Ipad适配
 #define Fit(height) (IS_PAD ? (height) : (height) * 0.8)

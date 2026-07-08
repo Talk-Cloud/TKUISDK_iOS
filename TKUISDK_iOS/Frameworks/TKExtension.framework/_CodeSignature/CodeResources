@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		Sp2AU4AJVyafaJ+rno79yoQYDgA=
-		</data>
 		<key>Headers/LTUpdate.h</key>
 		<data>
 		gn8ORpixh71S8vknlmspThBBkN8=
@@ -106,11 +102,11 @@
 		</data>
 		<key>Headers/TKExtenMacro.h</key>
 		<data>
-		g+K5NrQFMKQS/OmKoBORS/gKToA=
+		2O/wf9e9f2DJoO+py6GVhMCOVKY=
 		</data>
 		<key>Headers/TKExtensionHeader.h</key>
 		<data>
-		E/6CmLv+CzD9LmTExFFYEXpZJkQ=
+		7R82XGNP18lR7Qx01O+d/jjPpD0=
 		</data>
 		<key>Headers/TKHUD.h</key>
 		<data>
@@ -410,7 +406,7 @@
 		</data>
 		<key>Headers/TKUntilTool.h</key>
 		<data>
-		ZR4YNgqQbph8LmGASR1wd4fChzQ=
+		xNArm3RkXeexUychmoiq2CYRAiE=
 		</data>
 		<key>Headers/TKUserDefault.h</key>
 		<data>
@@ -487,10 +483,6 @@
 		<key>Headers/UIAlertController+TKTapGesAlertController.h</key>
 		<data>
 		sa3a6GIyhlneVUV0JhOH5ufpT+g=
-		</data>
-		<key>Headers/UIButton+TKClickInterval.h</key>
-		<data>
-		1eaVDHpYG01RgPgEa1xrk6cfQKs=
 		</data>
 		<key>Headers/UIButton+TKEdgeInsets.h</key>
 		<data>
@@ -590,7 +582,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		b5cgNMTm1P/CC3KGOlMgINrhL1Y=
+		hYWiQSMxi1JaiYgHG7UZwo1ot8k=
 		</data>
 		<key>TKExtensionResource.bundle/Root.plist</key>
 		<data>
@@ -1071,14 +1063,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fe77pUAJ0sQLlBJ/9XzCb6lPv/gIy82SIf+ejlKYUKU=
+			D5UfTNxJLoSvLfz+Rotqlen+qaDTLGBSH7Ag1CaddE0=
 			</data>
 		</dict>
 		<key>Headers/TKExtensionHeader.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XOwojS0NBEbMrullh8P1GffWMtIj7b9/aqu2JkVz4Bo=
+			f8v3pIt+/gq4Jl5nozXEFJoYR1seJcIemFFPSjmf8aE=
 			</data>
 		</dict>
 		<key>Headers/TKHUD.h</key>
@@ -1603,7 +1595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QB50lL65MrYt2i0FZY1eQ2am3XKKy41490YYsSBms1k=
+			MgEN4AxfVlLSOqo67PSXum6vsNUhEr7UMAIIyLkZ+LE=
 			</data>
 		</dict>
 		<key>Headers/TKUserDefault.h</key>
@@ -1737,13 +1729,6 @@
 			<key>hash2</key>
 			<data>
 			P0kBr+CCDKuSsLAkjOZXHanTsFQWrzOXP6wici22OYQ=
-			</data>
-		</dict>
-		<key>Headers/UIButton+TKClickInterval.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HykZ9CboOtrjFq2HJSsIyJugEjM39BSHdfgs5p5sVl0=
 			</data>
 		</dict>
 		<key>Headers/UIButton+TKEdgeInsets.h</key>

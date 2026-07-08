@@ -1020,3 +1020,6 @@
 "TKMiniWBCloseTip"         = "서판이 닫혔다";
 "TKLogin.transfiniteWords" = "텍스트가 제한을 초과함";
 
+"MiniWB.Evaluation.CheerUp" = "화이팅!";
+"MiniWB.Evaluation.Awesome" = "대박!";
+"MiniWB.Evaluation.MiniTip" = "소백판의의 평가";

@@ -44,7 +44,6 @@ FOUNDATION_EXPORT const unsigned char TKExtensionVersionString[];
 #import "UIView+Clip.h"
 #import "NSString+TKStringSize.h"
 #import "NSObject+TKUIExt.h"
-#import "UIButton+TKClickInterval.h"
 #import "UIAlertController+TKTapGesAlertController.h"
 #import "UIView+TKRedDot.h"
 #import "UIColor+TKColor.h"

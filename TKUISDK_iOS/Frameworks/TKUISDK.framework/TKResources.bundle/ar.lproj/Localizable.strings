@@ -852,4 +852,6 @@
 "TKMiniWBCloseTip"         = "تم إغلاق السبورة البيضاء";
 "TKLogin.transfiniteWords" = "تجاوز الحد الأقصى للنص";
 
-
+"MiniWB.Evaluation.CheerUp" = "هيا بنا!";
+"MiniWB.Evaluation.Awesome" = "رائع!";
+"MiniWB.Evaluation.MiniTip" = "التقييم من لوحة الصغيرة";

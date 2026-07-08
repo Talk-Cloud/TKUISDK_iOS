@@ -1036,3 +1036,6 @@ Please ask all users update to the latest version as soon as possible;";
 "TKMiniWBCloseTip"         = "The small whiteboard is disabled";
 "TKLogin.transfiniteWords" = "Text transfinite";
 
+"MiniWB.Evaluation.CheerUp" = "Keep it up!";
+"MiniWB.Evaluation.Awesome" = "Awesome!";
+"MiniWB.Evaluation.MiniTip" = "Comments from small whiteboard:%@";

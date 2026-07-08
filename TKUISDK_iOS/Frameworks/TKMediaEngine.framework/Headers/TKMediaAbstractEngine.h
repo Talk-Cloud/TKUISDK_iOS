@@ -45,9 +45,11 @@ typedef NSString *TKEngineUniqueID;
 - (int)startPlayMediaFile:(NSString *)filePath
                    window:(UIView *)window
                      loop:(BOOL)loop
+            needHWDecoder:(BOOL)needHWDecoder
                 userAgent:(NSString * _Nullable)useragent
                  progress:(TKLocalMediaProgress_block_m _Nullable)progress;
 - (int)startPlayMediaFile:(TKMediaFileParams *)mediaParam
+            needHWDecoder:(BOOL)needHWDecoder
                 userAgent:(NSString * _Nullable)useragent
                   onStart:(TKLocalMediaState_block_m _Nullable)startBlock
                onProgress:(TKLocalMediaProgress_block_m _Nullable)progressBlock

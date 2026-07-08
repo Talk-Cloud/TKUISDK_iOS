@@ -921,3 +921,6 @@
 "TKMiniWBCloseTip"         = "小白板已關閉";
 "TKLogin.transfiniteWords" = "文字超限";
 
+"MiniWB.Evaluation.CheerUp" = "要加油！";
+"MiniWB.Evaluation.Awesome" = "超級讚";
+"MiniWB.Evaluation.MiniTip" = "來自小白板的評價";

@@ -1019,3 +1019,7 @@
 "PlayBack.Speed"         = "Fois la vitesse de";
 "TKMiniWBCloseTip"         = "Le petit tableau blanc est fermé";
 "TKLogin.transfiniteWords" = "Débordement de texte";
+
+"MiniWB.Evaluation.CheerUp" = "Courage !";
+"MiniWB.Evaluation.Awesome" = "Génial !";
+"MiniWB.Evaluation.MiniTip" = "Avis de Xiao Bai Ban:";

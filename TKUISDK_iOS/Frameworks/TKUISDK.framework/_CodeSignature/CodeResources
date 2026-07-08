@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		ZoFPZh2f53iinsWClAIK3LYo6Mg=
-		</data>
 		<key>Headers/TKAPPSetConfig.h</key>
 		<data>
 		IXOvRIng2f6yxDpgkBtqk5NAlmE=
@@ -38,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/vDp1N2GPSMfbCgetvUipKXg7Fc=
+		0aDuZIv81x5B1ktqbI01CYUybuk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,6 +223,58 @@
 		<data>
 		yhuiEU2RcDeEHYhUSUrBdvIF1ws=
 		</data>
+		<key>TKResources.bundle/Animation/removeTrophy.gif</key>
+		<data>
+		seekNP3ndtkv4jItciQuU2qwqOA=
+		</data>
+		<key>TKResources.bundle/Animation/tk_book_loading.gif</key>
+		<data>
+		I86uAifcPT1rnFKZlrAttUyKsjI=
+		</data>
+		<key>TKResources.bundle/Animation/tk_cupGif.gif</key>
+		<data>
+		4aeZzQQqsrKt70Z7TbRdK/MYSJA=
+		</data>
+		<key>TKResources.bundle/Audio/evaluation_no_pass.mp3</key>
+		<data>
+		nJw1tRQmZ+cDQ0ciGhvzmV9DCmo=
+		</data>
+		<key>TKResources.bundle/Audio/evaluation_pass.mp3</key>
+		<data>
+		YO20ZV+DSvch5O4XxbC9F1BzJVo=
+		</data>
+		<key>TKResources.bundle/Audio/gift_reward_same_no_bg_extracted.mp3</key>
+		<data>
+		9VS15XwLphOuqnmrz+z6bpQSsgk=
+		</data>
+		<key>TKResources.bundle/Audio/readygo.mp3</key>
+		<data>
+		VjHxUyQtIn837xit1DUYcT5h1wY=
+		</data>
+		<key>TKResources.bundle/Audio/removeTrophy.mp3</key>
+		<data>
+		WBWvyR76/aTV6izMLv4ZL/lCHzM=
+		</data>
+		<key>TKResources.bundle/Audio/timer_default.wav</key>
+		<data>
+		giPF+MoIgwYT67eg9r+K31/z75I=
+		</data>
+		<key>TKResources.bundle/Audio/trophy_tones.wav</key>
+		<data>
+		63WtTdZcO3+VMBAUl7CmPpGGrcE=
+		</data>
+		<key>TKResources.bundle/Audio/zb_timer_default.mp3</key>
+		<data>
+		tWkalvBzW42pwYfvJGtAueoXN48=
+		</data>
+		<key>TKResources.bundle/TKLottieAnimationJson/comeon.json</key>
+		<data>
+		GMYQeNTTN+Mn0CyKKBetu3Jx86U=
+		</data>
+		<key>TKResources.bundle/TKLottieAnimationJson/good.json</key>
+		<data>
+		3KlEcG4M85gK9vLfU7Jgj9qCN+0=
+		</data>
 		<key>TKResources.bundle/TKLottieAnimationJson/loading.json</key>
 		<data>
 		280m+2Bn9Zz1+F5M9to92oVn5Cg=
@@ -255,7 +303,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z6uG676VD4DatVebE+555GlLTnk=
+			h7x9OqqCKlPIkSTchCU9a87sVRQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,24 +312,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+bX4KNQeUjd/4PWiyE5HyUs9Fok=
+			acufzHF6+vyv6o+X29pYn2vz1+k=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>TKResources.bundle/evaluation_no_pass.mp3</key>
-		<data>
-		pztGveW8T1zTLc2xgAVU9OtwMaI=
-		</data>
-		<key>TKResources.bundle/evaluation_pass.mp3</key>
-		<data>
-		RdX66XoAZ5pvsDoigd5eQlT2Hbk=
-		</data>
 		<key>TKResources.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+TolzSySNJtHXg+LFXZwMMv63JM=
+			x17nov+78DmCLBJtyOZRL+rStPA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4474,6 +4514,22 @@
 		<data>
 		QQrJV+PF1nZs740v6BVHzzdXPLM=
 		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_def@2x.png</key>
+		<data>
+		kDwCVD3m7LDDkVS7s59h4PV18w4=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_def@3x.png</key>
+		<data>
+		xJhg1RVh3WGXWidhcOL0DtTLuNc=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_selected@2x.png</key>
+		<data>
+		c75ZOqsjEkL9vaCeoCtDd7Roqi4=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_selected@3x.png</key>
+		<data>
+		RnstMHw3OMZbGQMCasg2X4K1/u4=
+		</data>
 		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_forbin_default@2x.png</key>
 		<data>
 		bRJ+nEwDK8avmgcKU/zGe3b7N3c=
@@ -4489,6 +4545,22 @@
 		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_forbin_select@3x.png</key>
 		<data>
 		/wczcYr7URQBC250KiSxpKdiwM8=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_def@2x.png</key>
+		<data>
+		DKQ3ADBhKZCBDCH8qM1nqOgVNSM=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_def@3x.png</key>
+		<data>
+		5UCmAtBnv2xzDffLep+s3+JLboA=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_selected@2x.png</key>
+		<data>
+		lM14kQdXHGViDIV6y4lkOFLBj9g=
+		</data>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_selected@3x.png</key>
+		<data>
+		UTFfBwmYAljkScyEsGne+S2i2xU=
 		</data>
 		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_left_default@2x.png</key>
 		<data>
@@ -6406,7 +6478,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L/xuu2gbMp+UHFLinQbk/RONwaI=
+			G+eKbEsZxoZv/AdbofKDVbUgoOc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6415,48 +6487,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mvjIOcg7lP6XjHVfAyaOVKgbAGU=
+			P5BrOsHiVcenj43RtQTnZMVW0rs=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>TKResources.bundle/readygo.mp3</key>
-		<data>
-		9ps3GmtuiBWrwPiJ6YZeUdkCtkc=
-		</data>
-		<key>TKResources.bundle/removeTrophy.gif</key>
-		<data>
-		seekNP3ndtkv4jItciQuU2qwqOA=
-		</data>
-		<key>TKResources.bundle/removeTrophy.mp3</key>
-		<data>
-		7fS8Fxv5xW9J0XQvU+IdXqATh2U=
-		</data>
-		<key>TKResources.bundle/timer_default.wav</key>
-		<data>
-		B1wtUpfVhUguwMa9nP+t07r7kuY=
-		</data>
-		<key>TKResources.bundle/tk_book_loading.gif</key>
-		<data>
-		I86uAifcPT1rnFKZlrAttUyKsjI=
-		</data>
-		<key>TKResources.bundle/tk_cupGif.gif</key>
-		<data>
-		4aeZzQQqsrKt70Z7TbRdK/MYSJA=
-		</data>
-		<key>TKResources.bundle/trophy_tones.wav</key>
-		<data>
-		Em2wanA5fzay/4625I0J8+5eeek=
-		</data>
-		<key>TKResources.bundle/zb_timer_default.mp3</key>
-		<data>
-		TEIUZgqLmTvlOrQzAos33NS1Q0w=
-		</data>
 		<key>TKResources.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0rNYKts43WDWPJyaYKkQ5vgqnhM=
+			UiLGH2rKDFT1bAVxjpnyN8sTq8E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6465,7 +6505,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OvBqRIxbIHMy2QFH2vyifP3HGQA=
+			UT3I8CxWXXJ/DN0Zd/uXrn0KNyo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7029,6 +7069,149 @@
 			uM2XDWMRH6S2kJ1E6hFF8839K6ZClQDiFi8slCQEzfQ=
 			</data>
 		</dict>
+		<key>TKResources.bundle/Animation/removeTrophy.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			seekNP3ndtkv4jItciQuU2qwqOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5RjeURR4oyjofVYMyG1vnf20YXheWKJ4xYfWGRqWLYQ=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Animation/tk_book_loading.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I86uAifcPT1rnFKZlrAttUyKsjI=
+			</data>
+			<key>hash2</key>
+			<data>
+			5GNDbhw3N76f9P3BW6vc1NVjD+5AeZ0OnJkjmkikYEM=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Animation/tk_cupGif.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4aeZzQQqsrKt70Z7TbRdK/MYSJA=
+			</data>
+			<key>hash2</key>
+			<data>
+			k3g/V4Ept4bT/rYFJhqyNkBDTh13LDexZWc334X7P/E=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/evaluation_no_pass.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nJw1tRQmZ+cDQ0ciGhvzmV9DCmo=
+			</data>
+			<key>hash2</key>
+			<data>
+			rq0OcBL5qWE2mpyCEXpQx3NH1IJ9pRgnTSUeTDcWUT8=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/evaluation_pass.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YO20ZV+DSvch5O4XxbC9F1BzJVo=
+			</data>
+			<key>hash2</key>
+			<data>
+			x8jzHF5xfR3OfpwReJWrjf0r0+KbOgGPzlBVspdjw48=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/gift_reward_same_no_bg_extracted.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9VS15XwLphOuqnmrz+z6bpQSsgk=
+			</data>
+			<key>hash2</key>
+			<data>
+			3qbSVVE2FvDlWDLZ/JKKcMV2EQlDbcnt5x2R/CDvPs8=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/readygo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VjHxUyQtIn837xit1DUYcT5h1wY=
+			</data>
+			<key>hash2</key>
+			<data>
+			5X07hPwfG/1Xpcbc+0uNtMustx3rwa0rcw0l5JQFRJo=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/removeTrophy.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WBWvyR76/aTV6izMLv4ZL/lCHzM=
+			</data>
+			<key>hash2</key>
+			<data>
+			kxt0t5WGfeuw2xK0l9lkB+y5nmwsAHlhGEDjjLriP6c=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/timer_default.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			giPF+MoIgwYT67eg9r+K31/z75I=
+			</data>
+			<key>hash2</key>
+			<data>
+			k5dvR+wXLx3ed9AR0kaYcymrBBIP3wzs+rKMrNT08rc=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/trophy_tones.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			63WtTdZcO3+VMBAUl7CmPpGGrcE=
+			</data>
+			<key>hash2</key>
+			<data>
+			dZDkhfJ3KYIoclGDmatUJ2DsUcx9mSeCom/uTnQpquM=
+			</data>
+		</dict>
+		<key>TKResources.bundle/Audio/zb_timer_default.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tWkalvBzW42pwYfvJGtAueoXN48=
+			</data>
+			<key>hash2</key>
+			<data>
+			LXeObzvvwhkhvm+YTyMtzDzrqtS0zR/V1DyUnBPdP+g=
+			</data>
+		</dict>
+		<key>TKResources.bundle/TKLottieAnimationJson/comeon.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GMYQeNTTN+Mn0CyKKBetu3Jx86U=
+			</data>
+			<key>hash2</key>
+			<data>
+			FrzVtPNnNBzoQc3zziDHevRMMV0FubfyIrK2SkZgTDY=
+			</data>
+		</dict>
+		<key>TKResources.bundle/TKLottieAnimationJson/good.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3KlEcG4M85gK9vLfU7Jgj9qCN+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			iJLUKTlEkw9iS2yQcxS3EYVdPU2So+5HYbncX3gdPCs=
+			</data>
+		</dict>
 		<key>TKResources.bundle/TKLottieAnimationJson/loading.json</key>
 		<dict>
 			<key>hash</key>
@@ -7099,11 +7282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z6uG676VD4DatVebE+555GlLTnk=
+			h7x9OqqCKlPIkSTchCU9a87sVRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OsXriFghSljP3FFZb7rqMOEi+OASYS+ttWRK2DQTnmo=
+			63ouLygZfLTQ7moXrWulitPGmFXV8gF7O5yPb2Djwts=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7112,46 +7295,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+bX4KNQeUjd/4PWiyE5HyUs9Fok=
+			acufzHF6+vyv6o+X29pYn2vz1+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			t/crGn/U8z/1SpGDNfe+dbi1ahge87QkjQM/aov/hZM=
+			L2OCQ07XHojEexX5cdMrLq5+ThsV4LIdiQeckhZBcak=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>TKResources.bundle/evaluation_no_pass.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pztGveW8T1zTLc2xgAVU9OtwMaI=
-			</data>
-			<key>hash2</key>
-			<data>
-			1yxNnuuNLyqThDlwDRLRAMziqEpAg0RO2jbFxGWNnvg=
-			</data>
-		</dict>
-		<key>TKResources.bundle/evaluation_pass.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RdX66XoAZ5pvsDoigd5eQlT2Hbk=
-			</data>
-			<key>hash2</key>
-			<data>
-			yyx7MtXBcZT9BF5/73ioZyF6rSV8j5qIuG6+jhZz3Gs=
-			</data>
 		</dict>
 		<key>TKResources.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+TolzSySNJtHXg+LFXZwMMv63JM=
+			x17nov+78DmCLBJtyOZRL+rStPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			b1dFgGVI/nTb4bjsnZtAHT0/3lUiRWF9iWoUIub2s70=
+			bci0LRoVw0hOhTRXdN4wgFM5vyBGGbz6Nk24KkOwzyM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -18673,6 +18834,50 @@
 			3yPk3fdCoxCyPl3rZweqcQN8EONvUfGKAsNPKjFY6MU=
 			</data>
 		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_def@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kDwCVD3m7LDDkVS7s59h4PV18w4=
+			</data>
+			<key>hash2</key>
+			<data>
+			9dsLhbh7IPS98Wvr8Vr/kRTe/4qhudkPTTR2/2sQlHU=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_def@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xJhg1RVh3WGXWidhcOL0DtTLuNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			3K/AAwJ+w+tpW9GFzoCMhYk2lfYzHNekr5t1eBXA1GY=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_selected@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c75ZOqsjEkL9vaCeoCtDd7Roqi4=
+			</data>
+			<key>hash2</key>
+			<data>
+			eR+LHHLLS9UDN07WB3jdpjfF9rpCZcknJr+HEzCpc0k=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_dianzan_selected@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RnstMHw3OMZbGQMCasg2X4K1/u4=
+			</data>
+			<key>hash2</key>
+			<data>
+			hRCekaD+SMmOxfRVRS0TMXXBPq9UGS7zuD529jrUp5g=
+			</data>
+		</dict>
 		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_forbin_default@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -18715,6 +18920,50 @@
 			<key>hash2</key>
 			<data>
 			2Mcd2b7ynjSqqrJOQMuN3e1/+Bxwo4dhk3mJ5npDwU8=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_def@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DKQ3ADBhKZCBDCH8qM1nqOgVNSM=
+			</data>
+			<key>hash2</key>
+			<data>
+			H95D61zNBzvFNzBKB02lUVhDWrrdxvdJ5RUoF6yqSiU=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_def@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5UCmAtBnv2xzDffLep+s3+JLboA=
+			</data>
+			<key>hash2</key>
+			<data>
+			orOq2Y8o9TW5LS5u4TERu76+64Cf9/hjnoPTfGiz3dY=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_selected@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lM14kQdXHGViDIV6y4lkOFLBj9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			xvxYG0EaYfhsNRyjqGsq3m4IzrCxu/Oj70czjNvm24o=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_jiayou_selected@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UTFfBwmYAljkScyEsGne+S2i2xU=
+			</data>
+			<key>hash2</key>
+			<data>
+			mVMtUlWnMfhu30+4G3jBqcbkz6Uu/h3ev3LFbl6PSeg=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKToolbox_smallWB/tk_swb_left_default@2x.png</key>
@@ -23979,11 +24228,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L/xuu2gbMp+UHFLinQbk/RONwaI=
+			G+eKbEsZxoZv/AdbofKDVbUgoOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lvmAJrdw4vqX5qReoSVhqw4YotjntFyqd3VQlrFihVc=
+			Fz9en5vn4TfohEmrc6X8GR84ZOdYMacGE5G/ezqQ4ng=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -23992,112 +24241,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mvjIOcg7lP6XjHVfAyaOVKgbAGU=
+			P5BrOsHiVcenj43RtQTnZMVW0rs=
 			</data>
 			<key>hash2</key>
 			<data>
-			n/gzuG9/ODzzXvIxq7tpEYpkfsplHWhzODwopQ5auOE=
+			SWMSGZJXMqFwlBhYyql5F9LmpGEEd28GHehlSpBXgWs=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>TKResources.bundle/readygo.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9ps3GmtuiBWrwPiJ6YZeUdkCtkc=
-			</data>
-			<key>hash2</key>
-			<data>
-			c5hkIcjf0Z7t9f2A2HM+1PdbgMe4X72CEe3ERpyAZaw=
-			</data>
-		</dict>
-		<key>TKResources.bundle/removeTrophy.gif</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			seekNP3ndtkv4jItciQuU2qwqOA=
-			</data>
-			<key>hash2</key>
-			<data>
-			5RjeURR4oyjofVYMyG1vnf20YXheWKJ4xYfWGRqWLYQ=
-			</data>
-		</dict>
-		<key>TKResources.bundle/removeTrophy.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7fS8Fxv5xW9J0XQvU+IdXqATh2U=
-			</data>
-			<key>hash2</key>
-			<data>
-			Yy3qk68RWv1WJV5OYfnC8PlgZJu0tw65wEYfLY6H1vg=
-			</data>
-		</dict>
-		<key>TKResources.bundle/timer_default.wav</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			B1wtUpfVhUguwMa9nP+t07r7kuY=
-			</data>
-			<key>hash2</key>
-			<data>
-			gjUqlHPPblikLXtFYyqDYz6gBbcDI6lGkWA7wyLXjis=
-			</data>
-		</dict>
-		<key>TKResources.bundle/tk_book_loading.gif</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I86uAifcPT1rnFKZlrAttUyKsjI=
-			</data>
-			<key>hash2</key>
-			<data>
-			5GNDbhw3N76f9P3BW6vc1NVjD+5AeZ0OnJkjmkikYEM=
-			</data>
-		</dict>
-		<key>TKResources.bundle/tk_cupGif.gif</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4aeZzQQqsrKt70Z7TbRdK/MYSJA=
-			</data>
-			<key>hash2</key>
-			<data>
-			k3g/V4Ept4bT/rYFJhqyNkBDTh13LDexZWc334X7P/E=
-			</data>
-		</dict>
-		<key>TKResources.bundle/trophy_tones.wav</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Em2wanA5fzay/4625I0J8+5eeek=
-			</data>
-			<key>hash2</key>
-			<data>
-			uU6ByU+ufyj6IN6WwbdxAnHMP+5TjQZzJyAAWH1Rw48=
-			</data>
-		</dict>
-		<key>TKResources.bundle/zb_timer_default.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TEIUZgqLmTvlOrQzAos33NS1Q0w=
-			</data>
-			<key>hash2</key>
-			<data>
-			PH8HK/ukc+Ov7gJ2FSdvcZTU/d1i2EeSHiBjgmWj6gA=
-			</data>
 		</dict>
 		<key>TKResources.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0rNYKts43WDWPJyaYKkQ5vgqnhM=
+			UiLGH2rKDFT1bAVxjpnyN8sTq8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eOYWJ6l8gE2FBmabx0oNttm1mvsgAMv1pHFY1ECsGEE=
+			mk+Iccsi2mohD1yoaVK6XlO7xoLpUUoaDrr5gkATDmE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -24106,11 +24267,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OvBqRIxbIHMy2QFH2vyifP3HGQA=
+			UT3I8CxWXXJ/DN0Zd/uXrn0KNyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wG1xnZ/xLnpYADTQyVMKSl5YxIRkRmLdB1JvZhD0si4=
+			DGr6WyNFlv6/gvt1zjJwrADtlyFYkUh4YxgC9Iv8EVk=
 			</data>
 			<key>optional</key>
 			<true/>
