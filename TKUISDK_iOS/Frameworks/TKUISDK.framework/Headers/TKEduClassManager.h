@@ -53,6 +53,7 @@ FOUNDATION_EXPORT NSInteger const TKJoinRoomResultBusy;
  @param paramDic NSDictionary类型， 键值需要传递serial（NSString * 课堂号）、
  recordtitle(NSString * 根据后台返回的回放标题)、
  userid(NSString * 用户ID，选填 传入后只播放除老师外该id的音视频)、
+ reportUserID(NSString * 用户ID，选填 如需打点上报为必选参数)、
  userids(NSArray *[用户ID,用户ID], 选填 传入后只播放除老师外该id的音视频)
  pauseOnAppBackground(NSString * 0 || 1, 选填 传入控制是否需要回放进入后台停播)
  @param controller 当前页面的控制器，通常与下边delegate相同

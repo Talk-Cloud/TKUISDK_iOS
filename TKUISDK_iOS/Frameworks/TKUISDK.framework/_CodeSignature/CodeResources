@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		zqBAdsWlC2/l6y709RK4kFrqClE=
+		</data>
 		<key>Headers/TKAPPSetConfig.h</key>
 		<data>
 		IXOvRIng2f6yxDpgkBtqk5NAlmE=
 		</data>
 		<key>Headers/TKEduClassManager.h</key>
 		<data>
-		796dopoalcjc4FHtkKWG+MvJSt0=
+		q/YzATHLqvZJBw7bL9Xnxxfozvg=
 		</data>
 		<key>Headers/TKEduRoomDelegate.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0aDuZIv81x5B1ktqbI01CYUybuk=
+		DheUCkCiEJKNuHihcPr4hs7b2d8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6528,11 +6532,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			796dopoalcjc4FHtkKWG+MvJSt0=
+			q/YzATHLqvZJBw7bL9Xnxxfozvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			l1CQgK64nhkUm79ZYzCsiWE3hv2dXuzDhogMfuk+Vow=
+			oQ2B0ZwvzaUbLWCU1zG5KmKCkzc4O+u8YkVj/RU2y3A=
 			</data>
 		</dict>
 		<key>Headers/TKEduRoomDelegate.h</key>
