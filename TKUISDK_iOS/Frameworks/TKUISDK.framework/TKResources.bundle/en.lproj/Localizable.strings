@@ -1032,6 +1032,8 @@ Please ask all users update to the latest version as soon as possible;";
 "Button.MouseSelect"         = "Click to disable the mouse";
 "Button.MouseAllSelect"         = "Enable the mouse for all";
 "Button.MouseAllClose"         = "Disable the mouse for all";
+"Button.videoFull"              = "Enlarge Video";
+"Button.videoDefault"           = "Shrink Video";
 "PlayBack.Speed"         = "Speed";
 "TKMiniWBCloseTip"         = "The small whiteboard is disabled";
 "TKLogin.transfiniteWords" = "Text transfinite";

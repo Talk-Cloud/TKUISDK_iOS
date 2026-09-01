@@ -848,6 +848,8 @@
 "Button.MouseSelect" = "انقر لإيقاف الماوس";
 "Button.MouseAllSelect" = "تفعيل ماوس الجميع";
 "Button.MouseAllClose" = "إغلاق ماوس الجميع";
+"Button.videoFull" = "تكبير الفيديو";
+"Button.videoDefault" = "تصغير الفيديو";
 "PlayBack.Speed" = "مرات أسرع";
 "TKMiniWBCloseTip"         = "تم إغلاق السبورة البيضاء";
 "TKLogin.transfiniteWords" = "تجاوز الحد الأقصى للنص";

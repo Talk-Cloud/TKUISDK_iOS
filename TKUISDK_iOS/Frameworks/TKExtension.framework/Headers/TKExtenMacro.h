@@ -81,6 +81,23 @@ static inline CGFloat TKStatusBarHeightSceneAware(void) {
 }
 #endif
 
+#ifndef TK_SAFE_AREA_INSETS_DEFINED
+#define TK_SAFE_AREA_INSETS_DEFINED
+static inline UIEdgeInsets TKSafeAreaInsets(void) {
+    UIWindow *window = TKCurrentKeyWindow();
+    if (@available(iOS 11.0, *)) {
+        if (window) {
+            return window.safeAreaInsets;
+        }
+    }
+    return UIEdgeInsetsZero;
+}
+#endif
+#define TKSafeAreaTop    TKSafeAreaInsets().top
+#define TKSafeAreaLeft   TKSafeAreaInsets().left
+#define TKSafeAreaRight  TKSafeAreaInsets().right
+#define TKSafeAreaBottom TKSafeAreaInsets().bottom
+
 //导航栏高度
 #define TKNavHeight (IS_IPHONE ? 45 : 60)
 #define TKNavStatusBarH (IS_IPHONE ? 54 : 10)

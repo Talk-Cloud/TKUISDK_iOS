@@ -932,8 +932,8 @@
 
 //白板截图
 "WhiteBoradScreenshot.MaximumLengthText"="最大保存は50ページを超えません";
-"WhiteBoradScreenshot.SaveSuccess"="正常に保存";
-"WhiteBoradScreenshot.SaveFail"="失敗した保存";
+"WhiteBoradScreenshot.SaveSuccess"="保存に成功しました";
+"WhiteBoradScreenshot.SaveFail"="保存に失敗しました";
 "WhiteBoradScreenshot.loading"="ロード...";
 
 // 时移
@@ -1015,6 +1015,8 @@
 "Button.MouseSelect"         = "クリックしてマウスを閉じます。";
 "Button.MouseAllSelect"         = "マウス全体を起動します";
 "Button.MouseAllClose"         = "マウス全体を閉じます";
+"Button.videoFull"              = "動画を拡大";
+"Button.videoDefault"           = "動画を縮小";
 "PlayBack.Speed"         = "倍速です";
 "TKMiniWBCloseTip"         = "ホワイトボードは閉鎖されました";
 "TKLogin.transfiniteWords" = "ワードエクセレンス";

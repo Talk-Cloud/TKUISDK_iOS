@@ -917,6 +917,8 @@
 "Button.MouseSelect"         = "點擊關閉鼠標";
 "Button.MouseAllSelect"         = "全體開啓鼠標";
 "Button.MouseAllClose"         = "全體關閉鼠標";
+"Button.videoFull"              = "放大視頻";
+"Button.videoDefault"           = "縮小視頻";
 "PlayBack.Speed"               = "倍速";
 "TKMiniWBCloseTip"         = "小白板已關閉";
 "TKLogin.transfiniteWords" = "文字超限";

@@ -1016,6 +1016,8 @@
 "Button.MouseSelect"         = "클릭해서 마우스 닫기";
 "Button.MouseAllSelect"         = "전체 마우스 켜기";
 "Button.MouseAllClose"         = "마우스 모두 닫기";
+"Button.videoFull"              = "동영상 확대";
+"Button.videoDefault"           = "동영상 축소";
 "PlayBack.Speed"         = "배 속도";
 "TKMiniWBCloseTip"         = "서판이 닫혔다";
 "TKLogin.transfiniteWords" = "텍스트가 제한을 초과함";

@@ -1030,6 +1030,8 @@
 "Button.MouseSelect"         = "点击关闭鼠标";
 "Button.MouseAllSelect"         = "全体开启鼠标";
 "Button.MouseAllClose"         = "全体关闭鼠标";
+"Button.videoFull"              = "放大视频";
+"Button.videoDefault"           = "缩小视频";
 "PlayBack.Speed"         = "倍速";
 "TKMiniWBCloseTip"         = "小白板已关闭";
 "TKLogin.transfiniteWords" = "文字超限";

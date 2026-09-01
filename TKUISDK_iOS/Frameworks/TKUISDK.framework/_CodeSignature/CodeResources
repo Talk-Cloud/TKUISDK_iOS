@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		VqxrJKjRQDv3HR4RDHq1GQOux1Y=
-		</data>
 		<key>Headers/TKAPPSetConfig.h</key>
 		<data>
 		IXOvRIng2f6yxDpgkBtqk5NAlmE=
@@ -38,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IVcQBTCaJ3b4uAoVu0JkaviA5UE=
+		rolj1HpVDnMNCbm3KlSyq9qgxC4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -307,7 +303,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h7x9OqqCKlPIkSTchCU9a87sVRQ=
+			Iuz6RieAvJUVK54vzGPu0VC8yGM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -316,7 +312,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			acufzHF6+vyv6o+X29pYn2vz1+k=
+			a462KDi5K63hhYIgttjQfPKKzaU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -325,7 +321,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x17nov+78DmCLBJtyOZRL+rStPA=
+			NppnT7sd24X8hCB5dw8ocCZXeZQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5150,6 +5146,14 @@
 		<data>
 		/kLzgpKZ2lNwM0Nn9C64TIEI2Tk=
 		</data>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_default@2x.png</key>
+		<data>
+		XATrlgflGqDRhfuWRzOmb7ieQf0=
+		</data>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_default@3x.png</key>
+		<data>
+		0yP33ykvJ1efFaSnj4lDLnNwM0M=
+		</data>
 		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_draw_default@2x.png</key>
 		<data>
 		th6qFvuMxJhLwdqz60SELRBhf1Y=
@@ -5173,6 +5177,14 @@
 		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_fangda_ico@3x.png</key>
 		<data>
 		rhZRHM1KYzLUXgyKsNNfcJM63cs=
+		</data>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_fullscreen@2x.png</key>
+		<data>
+		9p0vJmYvsBN//roAu+0oAeMSRyE=
+		</data>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_fullscreen@3x.png</key>
+		<data>
+		JhIaK2X2SjirE9VxsXj06dDs+I4=
 		</data>
 		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_hidden_ico@2x.png</key>
 		<data>
@@ -5393,6 +5405,10 @@
 		<key>TKResources.bundle/image/TKWBBrushTools/tk_brush_bootom_default@3x.png</key>
 		<data>
 		QQrJV+PF1nZs740v6BVHzzdXPLM=
+		</data>
+		<key>TKResources.bundle/image/TKWBBrushTools/tk_color_space@3x.png</key>
+		<data>
+		oZfEUyJEfu1U61TkfZvpTiJcZlM=
 		</data>
 		<key>TKResources.bundle/image/TKWBBrushTools/tk_colorselect_bg@2x.png</key>
 		<data>
@@ -6482,7 +6498,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G+eKbEsZxoZv/AdbofKDVbUgoOc=
+			YxTaR2dfmDtH7IEwvfmbTjsbF48=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6491,7 +6507,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P5BrOsHiVcenj43RtQTnZMVW0rs=
+			6mTJ2AxI6n55JDeM+rmBnHxy510=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6500,7 +6516,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UiLGH2rKDFT1bAVxjpnyN8sTq8E=
+			bVn7yPVYkN3VHoo0WI30QlL1GLM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6509,7 +6525,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UT3I8CxWXXJ/DN0Zd/uXrn0KNyo=
+			p+/kKUHjdFkyaZe5XoLvO84w0zs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7286,11 +7302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h7x9OqqCKlPIkSTchCU9a87sVRQ=
+			Iuz6RieAvJUVK54vzGPu0VC8yGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			63ouLygZfLTQ7moXrWulitPGmFXV8gF7O5yPb2Djwts=
+			bndn4tWgEje/wQTc5Aqu7EF9B5JnlM4kZ4J+9vYQCbw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7299,11 +7315,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			acufzHF6+vyv6o+X29pYn2vz1+k=
+			a462KDi5K63hhYIgttjQfPKKzaU=
 			</data>
 			<key>hash2</key>
 			<data>
-			L2OCQ07XHojEexX5cdMrLq5+ThsV4LIdiQeckhZBcak=
+			lWcshEP3ApGw78Wm888HfvrzZm8OzlSR2KqrQBgapAs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7312,11 +7328,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x17nov+78DmCLBJtyOZRL+rStPA=
+			NppnT7sd24X8hCB5dw8ocCZXeZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			bci0LRoVw0hOhTRXdN4wgFM5vyBGGbz6Nk24KkOwzyM=
+			SnndePgFFs9uQgH7iM9hmb2y120WytNT+V1L+yilLiU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -20576,6 +20592,28 @@
 			5QGIeSMtFPj2H2iTqimT3emjT00zRTbnGLkTaQmUBpg=
 			</data>
 		</dict>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_default@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XATrlgflGqDRhfuWRzOmb7ieQf0=
+			</data>
+			<key>hash2</key>
+			<data>
+			yC5jncLPO723vRT+EEQMQkxiBtPZupsERjinstUY7Ic=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_default@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0yP33ykvJ1efFaSnj4lDLnNwM0M=
+			</data>
+			<key>hash2</key>
+			<data>
+			Dqb2Y7W7Js41KLYXseNoDnwlwDCx2VDXqrrhnENa7So=
+			</data>
+		</dict>
 		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_draw_default@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -20640,6 +20678,28 @@
 			<key>hash2</key>
 			<data>
 			KtmcZXCEg9dDlzJQwrss+cz8lY9HkWHw8fKeAf6e/1Q=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_fullscreen@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9p0vJmYvsBN//roAu+0oAeMSRyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			xbBausvzr9FDnpqIT/5iB7/zTaG7YLqmqq5I0O3Kgc8=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_fullscreen@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JhIaK2X2SjirE9VxsXj06dDs+I4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kul8rUx4DxK754QxGKLi324EEbFfSWwI0k67N3Kqitw=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKVideoControll/tk_controlVideo_hidden_ico@2x.png</key>
@@ -21245,6 +21305,17 @@
 			<key>hash2</key>
 			<data>
 			3yPk3fdCoxCyPl3rZweqcQN8EONvUfGKAsNPKjFY6MU=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKWBBrushTools/tk_color_space@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oZfEUyJEfu1U61TkfZvpTiJcZlM=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZJKFwXwiE2W1hsdr890o5c+CGtUiLrjrT1eZW9XohOs=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKWBBrushTools/tk_colorselect_bg@2x.png</key>
@@ -24232,11 +24303,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G+eKbEsZxoZv/AdbofKDVbUgoOc=
+			YxTaR2dfmDtH7IEwvfmbTjsbF48=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fz9en5vn4TfohEmrc6X8GR84ZOdYMacGE5G/ezqQ4ng=
+			ah+kw6shRL+9Q6ew1pbMp+NeyP1eKU4zwzQ1DsRf9a0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -24245,11 +24316,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P5BrOsHiVcenj43RtQTnZMVW0rs=
+			6mTJ2AxI6n55JDeM+rmBnHxy510=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWMSGZJXMqFwlBhYyql5F9LmpGEEd28GHehlSpBXgWs=
+			lrGQt8uaU0ate5xpQfwiXuqXMlQnnrTOMGZB6G0cXCU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -24258,11 +24329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UiLGH2rKDFT1bAVxjpnyN8sTq8E=
+			bVn7yPVYkN3VHoo0WI30QlL1GLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			mk+Iccsi2mohD1yoaVK6XlO7xoLpUUoaDrr5gkATDmE=
+			ZCxFVg2PZklqRUNusRoanOPADaa9SwNRNQX+5cu+HOI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -24271,11 +24342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UT3I8CxWXXJ/DN0Zd/uXrn0KNyo=
+			p+/kKUHjdFkyaZe5XoLvO84w0zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DGr6WyNFlv6/gvt1zjJwrADtlyFYkUh4YxgC9Iv8EVk=
+			Dd33W41sDcayXorsUKg4i6Oz0Hl0dRvVruhsqQK6bfA=
 			</data>
 			<key>optional</key>
 			<true/>

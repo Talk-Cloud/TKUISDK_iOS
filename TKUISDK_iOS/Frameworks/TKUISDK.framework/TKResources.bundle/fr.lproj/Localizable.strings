@@ -1016,6 +1016,8 @@
 "Button.MouseSelect"         = "Cliquez pour fermer la souris";
 "Button.MouseAllSelect"         = "Ouvrir la souris pour tous";
 "Button.MouseAllClose"         = "Tout fermer la souris";
+"Button.videoFull"              = "Agrandir la vidéo";
+"Button.videoDefault"           = "Réduire la vidéo";
 "PlayBack.Speed"         = "Fois la vitesse de";
 "TKMiniWBCloseTip"         = "Le petit tableau blanc est fermé";
 "TKLogin.transfiniteWords" = "Débordement de texte";
