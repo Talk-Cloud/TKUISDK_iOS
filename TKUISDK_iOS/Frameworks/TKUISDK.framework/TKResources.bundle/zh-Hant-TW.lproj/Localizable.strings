@@ -17,7 +17,7 @@
 "Error.NoMeeting" = "教室不存在";
 "Error.NoLiving" = "教室不存在";
 "Error.NotSupportThisType" = "不支持這種教室類型，請用電腦端進入";
-"Error.ServerExpired" = "連線過期！";
+"Error.ServerExpired" = "介面驗證失敗，請檢查設備時區或時間。";
 "Error.CheckmeetingFail" = "檢查會議失敗";
 "Error.CheckserverInformationFail" = "獲取連線資訊失敗";
 "Error.CompanyFreeze" = "連線出現異常，請重新進入教室！";
@@ -909,6 +909,9 @@
 "TKTestDocumentLowVersionTip"            = "檢測到學生用戶端版本較低，無法正常查看，請提醒其升級後再打開課件";
 // 4.17.12
 "TKSubtitle" = "字幕";
+"TKSubtitle.show" = "顯示字幕";
+"TKSubtitle.closed" = "字幕已關閉";
+"TKSubtitle.closedHint" = "可在設置中開啟或關閉字幕";
 "TKForbidStudentUploadImage" = "禁止學生上傳圖片";
 "TKForbidStudentUploadImageTip" = "該功能僅對4.18.0及以上版本生效；老師和助教的操作將同步給對方";
 "TKLowVersionTip" = "舊版本用戶端不支援此功能，請提醒學生升級";
@@ -917,8 +920,6 @@
 "Button.MouseSelect"         = "點擊關閉鼠標";
 "Button.MouseAllSelect"         = "全體開啓鼠標";
 "Button.MouseAllClose"         = "全體關閉鼠標";
-"Button.videoFull"              = "放大視頻";
-"Button.videoDefault"           = "縮小視頻";
 "PlayBack.Speed"               = "倍速";
 "TKMiniWBCloseTip"         = "小白板已關閉";
 "TKLogin.transfiniteWords" = "文字超限";
@@ -926,3 +927,37 @@
 "MiniWB.Evaluation.CheerUp" = "要加油！";
 "MiniWB.Evaluation.Awesome" = "超級讚";
 "MiniWB.Evaluation.MiniTip" = "來自小白板的評價";
+
+// AI情景對話
+"aiChat.title" = "AI主題對話";
+"aiChat.topicLabel" = "對話主題：";
+"aiChat.topicPlaceholder" = "輸入內容";
+"aiChat.durationLabel" = "對話時長：";
+"aiChat.3min" = "3分鐘";
+"aiChat.5min" = "5分鐘";
+"aiChat.10min" = "10分鐘";
+"aiChat.custom" = "自定義";
+"aiChat.customPlaceholder" = "分鐘";
+"aiChat.publish" = "發佈";
+"aiChat.countdown" = "對話倒計時";
+"aiChat.terminate" = "終止";
+"aiChat.maxMinutesHint" = "對話時長最大為30分鐘";
+"aiChat.connecting" = "接通中...";
+"aiChat.speakToInterrupt" = "說話即可打斷";
+"aiChat.listening" = "正在聽,可以開始說話";
+"aiChat.thinking" = "思考中...";
+"aiChat.conversationEnded" = "對話已結束";
+"aiChat.republish" = "重新發佈";
+"tool.aiChat"   = "AI主题";
+"tool.aiChatPop"   = "AI情境對話";
+"TKFileDefault" = "預設";
+"aiChat.connectUnavailable" = "對話暫時無法連接，請稍後再試";
+"TKSubtitle.connectUnavailable" = "字幕暫時無法連接";
+"aiChat.connectFailed" = "連接失敗";
+"TKAiChatStartTip" = "請保持靜音，避免影響學生與 AI 的對話";
+
+"Button.videoFull"              = "放大視頻";
+"Button.videoDefault"           = "縮小視頻";
+
+"record.forbid.title"           = "偵測到錄影";
+"record.forbid.subtitle"        = "為保護課程內容，錄影期間已停止顯示畫面";

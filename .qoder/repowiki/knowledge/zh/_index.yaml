@@ -1,0 +1,15 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: master
+nodes_managed: true
+exported_at: "2026-11-17T08:59:16Z"
+modules:
+    "":
+        dir_name: TKUISDK_iOS
+        title: TKUISDK_iOS
+        scope: []
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

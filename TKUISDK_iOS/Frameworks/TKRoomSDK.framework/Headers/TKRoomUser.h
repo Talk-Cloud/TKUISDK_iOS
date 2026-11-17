@@ -86,5 +86,4 @@
  是否开启了多码流
  */
 - (BOOL)enableDualStream;
-
 @end

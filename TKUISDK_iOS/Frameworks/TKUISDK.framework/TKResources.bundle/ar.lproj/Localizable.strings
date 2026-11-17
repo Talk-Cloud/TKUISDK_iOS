@@ -18,7 +18,7 @@
 "Error.NoMeeting" = "رقم الفصل غير موجود";
 "Error.NoLiving" = "البث غير موجود";
 "Error.NotSupportThisType" = "هذا النوع من البث غير مدعوم، يرجى تسجيل الدخول من الكمبيوتر";
-"Error.ServerExpired" = "انتهت صلاحية الخادم!";
+"Error.ServerExpired" = "فشل التحقق من الواجهة، يرجى التحقق من المنطقة الزمنية أو الوقت للجهاز.";
 "Error.CheckmeetingFail" = "فشل التحقق من الاجتماع";
 "Error.CheckserverInformationFail" = "فشل الحصول على معلومات الخادم";
 "Error.CompanyFreeze" = "الشركة مجمدة!";
@@ -417,6 +417,7 @@
 "tool.WeiQi" = "لوحة الشطرنج";
 "tool.screenShare" = "مشاركة سطح المكتب";
 "tool.redPacket" = "ظرف أحمر";
+"tool.aiChat" = "موضوع الذكاء الاصطناعي";
 "tool.roomLayout" = "تخطيط الغرفة";
 "tool.cameraTurn" = "قلب الكاميرا";
 "tool.videoLoopStart" = "جارٍ بدء تدوير الفيديو";
@@ -840,6 +841,9 @@
 "voiceAnswer.hintContent" = "إعادة التسجيل ستمسح المحتوى المسجل، هل تؤكد إعادة التسجيل؟";
 "TKTestDocumentLowVersionTip" = "تم اكتشاف أن إصدار الطالب قديم، لا يمكنه العرض، يرجى تنبيهه للترقية ثم فتح المحتوى";
 "TKSubtitle" = "الترجمة";
+"TKSubtitle.show" = "عرض الترجمة";
+"TKSubtitle.closed" = "تم إغلاق الترجمة النصية  ";
+"TKSubtitle.closedHint" = "يمكن تفعيل أو إيقاف النصوص التوضيحية في الإعدادات  ";
 "TKForbidStudentUploadImage" = "منع الطلاب من رفع الصور";
 "TKForbidStudentUploadImageTip" = "هذه الوظيفة تعمل على الإصدار 4.18.0 وما فوق؛ عمليات المعلم والمساعد ستتزامن بينهما";
 "TKLowVersionTip" = "العملاء بالإصدار القديم لا يدعمون هذه الوظيفة، يرجى تنبيه الطالب للترقية";
@@ -848,8 +852,6 @@
 "Button.MouseSelect" = "انقر لإيقاف الماوس";
 "Button.MouseAllSelect" = "تفعيل ماوس الجميع";
 "Button.MouseAllClose" = "إغلاق ماوس الجميع";
-"Button.videoFull" = "تكبير الفيديو";
-"Button.videoDefault" = "تصغير الفيديو";
 "PlayBack.Speed" = "مرات أسرع";
 "TKMiniWBCloseTip"         = "تم إغلاق السبورة البيضاء";
 "TKLogin.transfiniteWords" = "تجاوز الحد الأقصى للنص";
@@ -857,3 +859,36 @@
 "MiniWB.Evaluation.CheerUp" = "هيا بنا!";
 "MiniWB.Evaluation.Awesome" = "رائع!";
 "MiniWB.Evaluation.MiniTip" = "التقييم من لوحة الصغيرة";
+
+// AI Scenario Chat
+"aiChat.title" = "محادثة AI موضوعية";
+"aiChat.topicLabel" = "موضوع المحادثة:";
+"aiChat.topicPlaceholder" = "أدخل المحتوى";
+"aiChat.durationLabel" = "مدة المحادثة:";
+"aiChat.3min" = "3 دقائق";
+"aiChat.5min" = "5 دقائق";
+"aiChat.10min" = "10 دقائق";
+"aiChat.custom" = "مخصص";
+"aiChat.customPlaceholder" = "دقيقة";
+"aiChat.publish" = "نشر";
+"aiChat.countdown" = "العد التنازلي للحوار";
+"aiChat.terminate" = "إنهاء";
+"aiChat.maxMinutesHint" = "الحد الأقصى لمدة المحادثة 30 دقيقة";
+"aiChat.connecting" = "جاري الاتصال...";
+"aiChat.speakToInterrupt" = "تحدث للمقاطعة";
+"aiChat.listening" = "جاري الاستماع، يمكنك بدء التحدث";
+"aiChat.thinking" = "جاري التفكير...";
+"aiChat.conversationEnded" = "انتهت المحادثة";
+"aiChat.republish" = "إعادة النشر";
+"TKFileDefault" = "الافتراضي";
+"aiChat.connectUnavailable" = "لا يمكن الاتصال بالمحادثة مؤقتًا، يُرجى المحاولة مرة أخرى لاحقًا";
+"TKSubtitle.connectUnavailable" = "الترجمات النصية غير متاحة مؤقتًا";
+"aiChat.connectFailed" = "فشل الاتصال";
+"TKAiChatStartTip" = "يرجى البقاء في صمت لتجنب التأثير على حوار الطلاب مع الذكاء الاصطناعي";
+
+
+"Button.videoFull"              = "تكبير الفيديو";
+"Button.videoDefault"           = "تصغير الفيديو";
+
+"record.forbid.title"           = "تم اكتشاف تسجيل الشاشة";
+"record.forbid.subtitle"        = "لحماية محتوى الدورة، يتم إخفاء الشاشة أثناء التسجيل";

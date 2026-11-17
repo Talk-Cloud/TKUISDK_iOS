@@ -26,7 +26,7 @@
 "Error.NoMeeting" = "Le numéro de classe n'existe pas";
 "Error.NoLiving" = "Le direct n'existe pas";
 "Error.NotSupportThisType" = "Ce type de diffusion en direct n'est pas pris en charge, veuillez vous connecter avec un ordinateur";
-"Error.ServerExpired" = "Serveur expiré !";
+"Error.ServerExpired" = "Échec de la vérification de l’API. Veuillez vérifier le fuseau horaire ou l’heure de l’appareil.";
 "Error.CheckmeetingFail" = "Échec de la vérification de la réunion";
 "Error.CheckserverInformationFail" = "Échec de l'obtention des informations sur le serveur";
 "Error.CompanyFreeze" = "L'entreprise est gelée !";
@@ -572,6 +572,8 @@
 "tool.WeiQi"    = "Va";
 "tool.screenShare" = "partage de bureau";
 "tool.redPacket" = "Red Packet";
+"tool.aiChat" = "Thème IA";
+"tool.aiChatPop"   = "Conversation d'IA";
 
 "tool.roomLayout" = "disposition de la salle";
 "tool.cameraTurn" = "Retournez l'objectif";
@@ -1008,6 +1010,9 @@
 "TKTestDocumentLowVersionTip"            = "La version du client étudiant est faible et ne peut pas être consultée normalement. Veuillez leur rappeler de mettre à jour leur version avant d'ouvrir le didacticiel.";
 // 4.17.12
 "TKSubtitle" = "Sous-titres";
+"TKSubtitle.show" = "Afficher les sous-titres";
+"TKSubtitle.closed" = "Les sous-titres sont désactivés";
+"TKSubtitle.closedHint" = "Activer ou désactiver les sous-titres dans les paramètres";
 "TKForbidStudentUploadImage" = "Interdit aux étudiants de télécharger des images";
 "TKForbidStudentUploadImageTip" = "Cette fonctionnalité n’est disponible que pour la version 4.18.0 et ultérieure; Les opérations des enseignants et des assistants seront synchronisées l’un avec l’autre";
 "TKLowVersionTip" = "Cette fonction n’est pas prise en charge par les anciens clients de version, veuillez rappeler aux étudiants de mettre à niveau";
@@ -1016,8 +1021,6 @@
 "Button.MouseSelect"         = "Cliquez pour fermer la souris";
 "Button.MouseAllSelect"         = "Ouvrir la souris pour tous";
 "Button.MouseAllClose"         = "Tout fermer la souris";
-"Button.videoFull"              = "Agrandir la vidéo";
-"Button.videoDefault"           = "Réduire la vidéo";
 "PlayBack.Speed"         = "Fois la vitesse de";
 "TKMiniWBCloseTip"         = "Le petit tableau blanc est fermé";
 "TKLogin.transfiniteWords" = "Débordement de texte";
@@ -1025,3 +1028,35 @@
 "MiniWB.Evaluation.CheerUp" = "Courage !";
 "MiniWB.Evaluation.Awesome" = "Génial !";
 "MiniWB.Evaluation.MiniTip" = "Avis de Xiao Bai Ban:";
+
+// AI Scenario Chat
+"aiChat.title" = "Dialogue thématique IA";
+"aiChat.topicLabel" = "Sujet du dialogue :";
+"aiChat.topicPlaceholder" = "Saisir le contenu";
+"aiChat.durationLabel" = "Durée du dialogue :";
+"aiChat.3min" = "3 min";
+"aiChat.5min" = "5 min";
+"aiChat.10min" = "10 min";
+"aiChat.custom" = "Personnalisé";
+"aiChat.customPlaceholder" = "min";
+"aiChat.publish" = "Publier";
+"aiChat.countdown" = "Compte à rebours";
+"aiChat.terminate" = "Terminer";
+"aiChat.maxMinutesHint" = "La durée maximale de la conversation est de 30 minutes";
+"aiChat.connecting" = "Connexion en cours...";
+"aiChat.speakToInterrupt" = "Parlez pour interrompre";
+"aiChat.listening" = "Écoute en cours, vous pouvez commencer à parler";
+"aiChat.thinking" = "Réflexion en cours...";
+"aiChat.conversationEnded" = "Conversation terminée";
+"aiChat.republish" = "Republier";
+"TKFileDefault" = "Par défaut";
+"aiChat.connectUnavailable" = "La connexion du dialogue est temporairement impossible, veuillez réessayer plus tard.";
+"TKSubtitle.connectUnavailable" = "Les sous-titres sont temporairement indisponibles";
+"aiChat.connectFailed" = "Échec de la connexion";
+"TKAiChatStartTip" = "Veuillez rester silencieux afin d'éviter de perturber la conversation entre les étudiants et l'IA.";
+
+"Button.videoFull"              = "Agrandir la vidéo";
+"Button.videoDefault"           = "Réduire la vidéo";
+
+"record.forbid.title"           = "Enregistrement d'écran détecté";
+"record.forbid.subtitle"        = "Pour protéger le contenu du cours, l'écran est masqué pendant l'enregistrement.";

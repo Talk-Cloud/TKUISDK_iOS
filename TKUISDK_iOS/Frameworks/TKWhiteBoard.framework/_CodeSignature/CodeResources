@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		q039RavGsY7ViJug6yz9p325wO0=
+		</data>
 		<key>Headers/TKDrawView.h</key>
 		<data>
 		/ktEc6Ec5ZAUUdA8g9+PZKpzzC8=
 		</data>
 		<key>Headers/TKFileModel.h</key>
 		<data>
-		N95Jyaly1SYYrRGvOLb9SxKJzTk=
+		92lS3wOnwuzjwBfUO3t8Wj6bQp8=
 		</data>
 		<key>Headers/TKWhiteBoard.h</key>
 		<data>
@@ -26,7 +30,7 @@
 		</data>
 		<key>Headers/TKWhiteBoardManager.h</key>
 		<data>
-		LPN6xlXkgCl8mItNSgSykqOJzN0=
+		uqeXa/CMpPn5yzukipVWgq3G2xw=
 		</data>
 		<key>Headers/TKWhiteBoardManagerDelegate.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sGvoT/kCxr1RB5iCUbCkTKIsods=
+		IKlIn8MgT10DL071NqnBWDHXphA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -201,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUraEsUwTjinKEcC1tpv7TPV21kGthsXAbh6/kEslo4=
+			pLdmBrzkibNjds3bxzExqwkd3p6Wzu+9KeyXxphyivc=
 			</data>
 		</dict>
 		<key>Headers/TKWhiteBoard.h</key>
@@ -229,7 +233,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGUEtGB2SfYMT7/s/W4iL9irfNMSRtxWH0at8p82oNQ=
+			qCUAsCxhd3zSuytRoVIij6PP8+hTgnlhXuvuOmevbNg=
 			</data>
 		</dict>
 		<key>Headers/TKWhiteBoardManagerDelegate.h</key>

@@ -46,6 +46,8 @@ typedef void(^handleH5DataBlock)(NSString *);
 @property (nonatomic, copy) NSString * serverDocAddrKey;    //文档服务器地址
 @property (nonatomic, assign) BOOL inhibitTurnPage; //是否禁止翻页
 @property (nonatomic, assign) BOOL isRestricted; //网页是否被限制
+/// 收到其他用户发送的测评课件 showpage 后，临时允许网页课件点击
+@property (nonatomic, assign) BOOL allowTestCourseTouch;
 
 @property (nonatomic, copy, nullable) NSString * recoredId;    //录制音频id
 

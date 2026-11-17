@@ -60,6 +60,10 @@ typedef NSString *TKEngineUniqueID;
 - (int)seekPlayMedia:(int)playID pos:(double)pos;
 - (int)setPlayMediaVolume:(CGFloat)volume playID:(int)playID;
 
+- (void)createAIAuioPlayer:(NSString *)player_extID;
+- (void)writeAIAuioDataAndPlay:(NSString *)player_extID audioDataInfo:(NSDictionary *)audioDataInfo;
+- (void)AIAudioPlayerStopPlay:(NSString *)player_extID immediate:(BOOL)immediate;
+
 - (void)getStatsForTrack:(void (^_Nullable)(TKVideoStats * _Nullable vStats, TKAudioStats * _Nullable aStats, NSDictionary * _Nullable googRemoteAddress, NSString * _Nullable extensionId, BOOL videoEnable))completionHandler;
 
 - (void)destroy;

@@ -25,5 +25,6 @@ FOUNDATION_EXPORT const unsigned char TKRoomSDKVersionString[];
 #import <TKRoomSDK/TKUtils.h>
 #import <TKRoomSDK/TKRoomWhiteBoardNotification.h>
 #import <TKRoomSDK/TKVideoUtils.h>
-
+#import <TKRoomSDK/TKAITranscriberManager.h>
+#import <TKRoomSDK/TKAIConversationManager.h>
 

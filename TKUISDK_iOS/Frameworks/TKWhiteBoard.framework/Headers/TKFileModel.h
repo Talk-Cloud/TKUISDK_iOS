@@ -78,6 +78,9 @@
 /// pubmsg dictionary 转 model
 + (TKFileModel *)creatModelWithData:(NSDictionary *)data;
 
+/// 按 filedata 增量更新。跳过 fileid、nil、NSNull，只写信令里真正带了的字段。
+- (void)tk_applyFileData:(NSDictionary *)fileData;
+
 /// 创建默认白板
 + (TKFileModel *)createWhiteBoardModel;
 

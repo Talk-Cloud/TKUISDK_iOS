@@ -84,7 +84,6 @@ typedef NS_ENUM(NSInteger,TKCheckUpdateDuration) {
 
 // MARK: - 插件
 - (void)registerSharePlusin:(id<TKShareDelegate>)delegate;
-- (void)registerSpeechPlusin:(id<TKSpeechDelegate>)delegate;
 
 //- (void)registerBeautyPlusin:(id<TKBeautyDelegate>)delegate;
 //- (void)registerLivePlusin:(id<TKLiveDelegate>)delegate;

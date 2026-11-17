@@ -18,7 +18,7 @@
 "Error.NoMeeting" = "The classroom doesn't exist.";
 "Error.NoLiving" = "Cannot find this Living";
 "Error.NotSupportThisType" = "Do't Support this Live's type,please use computer login";
-"Error.ServerExpired" = "Server has expired!";
+"Error.ServerExpired" = "API verification failed. Please check the device time zone or time.";
 "Error.CheckmeetingFail" = "Check meeting fail";
 "Error.CheckserverInformationFail" = "Failed to get server information";
 "Error.CompanyFreeze" = "Account of the company has expired.";
@@ -502,6 +502,8 @@
 "tool.WeiQi"    = "Go chess";
 "tool.screenShare" = "Share Screen";
 "tool.redPacket" = "Red Packet";
+"tool.aiChat" = "AI Theme";
+"tool.aiChatPop"   = "AI Situational Dialogue";
 
 "tool.roomLayout" = "Layout style";
 "tool.cameraTurn" = "Lens flip";
@@ -1024,6 +1026,9 @@ Please ask all users update to the latest version as soon as possible;";
 "TKTestDocumentLowVersionTip"            = "It is detected that the student client version is too low to view the courseware. Please remind the student to open the courseware after updating the client ";
 // 4.17.12
 "TKSubtitle" = "Subtitle";
+"TKSubtitle.show" = "Show Subtitles";
+"TKSubtitle.closed" = "Subtitle Off";
+"TKSubtitle.closedHint" = "You can turn subtitles on or off in settings";
 "TKForbidStudentUploadImage" = "Disable Image Upload (Student)";
 "TKForbidStudentUploadImageTip" = "This feature is only available in versions 4.18.0 and above.The teacher's and TA's operations will be synchronised with each other.";
 "TKLowVersionTip" = "Old client versions do not support this feature. Please remind students to upgrade.";
@@ -1032,8 +1037,6 @@ Please ask all users update to the latest version as soon as possible;";
 "Button.MouseSelect"         = "Click to disable the mouse";
 "Button.MouseAllSelect"         = "Enable the mouse for all";
 "Button.MouseAllClose"         = "Disable the mouse for all";
-"Button.videoFull"              = "Enlarge Video";
-"Button.videoDefault"           = "Shrink Video";
 "PlayBack.Speed"         = "Speed";
 "TKMiniWBCloseTip"         = "The small whiteboard is disabled";
 "TKLogin.transfiniteWords" = "Text transfinite";
@@ -1041,3 +1044,35 @@ Please ask all users update to the latest version as soon as possible;";
 "MiniWB.Evaluation.CheerUp" = "Keep it up!";
 "MiniWB.Evaluation.Awesome" = "Awesome!";
 "MiniWB.Evaluation.MiniTip" = "Comments from small whiteboard:%@";
+
+// AI Scenario Chat
+"aiChat.title" = "AI Topic Chat";
+"aiChat.topicLabel" = "Topic:";
+"aiChat.topicPlaceholder" = "Enter content";
+"aiChat.durationLabel" = "Duration:";
+"aiChat.3min" = "3 min";
+"aiChat.5min" = "5 min";
+"aiChat.10min" = "10 min";
+"aiChat.custom" = "Custom";
+"aiChat.customPlaceholder" = "min";
+"aiChat.publish" = "Publish";
+"aiChat.countdown" = "Conversation Countdown";
+"aiChat.terminate" = "End";
+"aiChat.maxMinutesHint" = "Max conversation duration is 30 minutes";
+"aiChat.connecting" = "Connecting...";
+"aiChat.speakToInterrupt" = "Speak to interrupt";
+"aiChat.listening" = "Listening, you can start speaking";
+"aiChat.thinking" = "Thinking...";
+"aiChat.conversationEnded" = "Conversation Ended";
+"aiChat.republish" = "Republish";
+"TKFileDefault" = "Default";
+"aiChat.connectUnavailable" = "The dialogue is temporarily unavailable. Please try again later.";
+"TKSubtitle.connectUnavailable" = "Subtitles are temporarily unavailable";
+"aiChat.connectFailed" = "Connection failed";
+"TKAiChatStartTip" = "Please keep quiet, avoiding disturbing the AI conversation with the student";
+
+"Button.videoFull"              = "Enlarge Video";
+"Button.videoDefault"           = "Shrink Video";
+
+"record.forbid.title"           = "Screen Recording Detected";
+"record.forbid.subtitle"        = "To protect the course content, the screen is hidden while recording.";

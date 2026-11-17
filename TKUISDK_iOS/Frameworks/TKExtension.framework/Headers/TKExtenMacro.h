@@ -29,8 +29,9 @@
 #define TK_EXTENSION_ImageWithName(s) [NSString stringWithFormat:@"%@/image/%@", TK_EXTENSION_BUNDLE_PATH,s]
 #define TKEX_MTLocalized(s) [TK_EXBUNDLE localizedStringForKey:s value:@"" table:nil]
 
-#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
-#define IS_PAD (UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPad)
+// iOS13 起 UI_USER_INTERFACE_IDIOM() 已废弃；最低支持 iOS13，直接用 UIDevice.userInterfaceIdiom，无需可用性判断
+#define IS_IPHONE ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+#define IS_PAD ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
 // 屏幕比例，相对pad 1024 * 768
 #define Proportion (ScreenH/768.0)
 
@@ -80,23 +81,6 @@ static inline CGFloat TKStatusBarHeightSceneAware(void) {
 #pragma clang diagnostic pop
 }
 #endif
-
-#ifndef TK_SAFE_AREA_INSETS_DEFINED
-#define TK_SAFE_AREA_INSETS_DEFINED
-static inline UIEdgeInsets TKSafeAreaInsets(void) {
-    UIWindow *window = TKCurrentKeyWindow();
-    if (@available(iOS 11.0, *)) {
-        if (window) {
-            return window.safeAreaInsets;
-        }
-    }
-    return UIEdgeInsetsZero;
-}
-#endif
-#define TKSafeAreaTop    TKSafeAreaInsets().top
-#define TKSafeAreaLeft   TKSafeAreaInsets().left
-#define TKSafeAreaRight  TKSafeAreaInsets().right
-#define TKSafeAreaBottom TKSafeAreaInsets().bottom
 
 //导航栏高度
 #define TKNavHeight (IS_IPHONE ? 45 : 60)

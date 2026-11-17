@@ -18,7 +18,7 @@
 "Error.NoMeeting" = "교실 번호가 존재하지 않습니다";
 "Error.NoLiving" = "라이브 방송이 존재하지 않습니다";
 "Error.NotSupportThisType" = "이 유형의 라이브 방송은 지원되지 않습니다. 컴퓨터로 로그인하십시오.";
-"Error.ServerExpired" = "서버가 만료되었습니다!";
+"Error.ServerExpired" = "API 검증에 실패했습니다. 기기 시간대 또는 시간을 확인하세요.";
 "Error.CheckmeetingFail" = "회의 확인 실패";
 "Error.CheckserverInformationFail" = "서버 정보를 가져오지 못했습니다.";
 "Error.CompanyFreeze" = "회사가 동결되었습니다!";
@@ -539,6 +539,8 @@
 "tool.WeiQi"    = "가다";
 "tool.screenShare" = "데스크탑 공유";
 "tool.redPacket" = "Red Packet";
+"tool.aiChat" = "AI 테마";
+"tool.aiChatPop"   = "AI 대화 상황";
 
 "tool.roomLayout" = "방 레이아웃";
 "tool.cameraTurn" = "카메라 돌리기";
@@ -1008,6 +1010,9 @@
 // 4.17.10
 "TKTestDocumentLowVersionTip"            = "학생 클라이언트 버전이 낮아 정상적으로 볼 수 없는 것으로 감지되었습니다. 코스웨어를 열기 전에 업그레이드하도록 안내해 주세요.";
 "TKSubtitle" = "자막";
+"TKSubtitle.show" = "자막 표시";
+"TKSubtitle.closed" = "자막이 꺼져 있습니다";
+"TKSubtitle.closedHint" = "설정에서 자막을 켜거나 끌 수 있습니다  ";
 "TKForbidStudentUploadImage" = "학생들이 사진을 올리는 것을 금지하다";
 "TKForbidStudentUploadImageTip" = "이 기능은 4.18.0 이상 버전에서만 작동합니다.교사와 조교가 동시에 조작을 한다";
 "TKLowVersionTip" = "이전 버전의 클라이언트는이 기능을 지원하지 않습니다. 학생들에게 업그레이드하도록 알려 주십시오";
@@ -1016,8 +1021,6 @@
 "Button.MouseSelect"         = "클릭해서 마우스 닫기";
 "Button.MouseAllSelect"         = "전체 마우스 켜기";
 "Button.MouseAllClose"         = "마우스 모두 닫기";
-"Button.videoFull"              = "동영상 확대";
-"Button.videoDefault"           = "동영상 축소";
 "PlayBack.Speed"         = "배 속도";
 "TKMiniWBCloseTip"         = "서판이 닫혔다";
 "TKLogin.transfiniteWords" = "텍스트가 제한을 초과함";
@@ -1025,3 +1028,36 @@
 "MiniWB.Evaluation.CheerUp" = "화이팅!";
 "MiniWB.Evaluation.Awesome" = "대박!";
 "MiniWB.Evaluation.MiniTip" = "소백판의의 평가";
+
+// AI 시나리오 대화
+"aiChat.title" = "AI 주제 대화";
+"aiChat.topicLabel" = "대화 주제:";
+"aiChat.topicPlaceholder" = "내용 입력";
+"aiChat.durationLabel" = "대화 시간:";
+"aiChat.3min" = "3분";
+"aiChat.5min" = "5분";
+"aiChat.10min" = "10분";
+"aiChat.custom" = "사용자 정의";
+"aiChat.customPlaceholder" = "분";
+"aiChat.publish" = "게시";
+"aiChat.countdown" = "대화 카운트다운";
+"aiChat.terminate" = "종료";
+"aiChat.maxMinutesHint" = "대화 시간은 최대 30분입니다";
+"aiChat.connecting" = "연결 중...";
+"aiChat.speakToInterrupt" = "말하면 중단할 수 있습니다";
+"aiChat.listening" = "듣고 있습니다, 말씀해 주세요";
+"aiChat.thinking" = "생각 중...";
+"aiChat.conversationEnded" = "대화가 종료되었습니다";
+"aiChat.republish" = "다시 게시";
+"TKFileDefault" = "기본값";
+"aiChat.connectUnavailable" = "대화 연결이 일시적으로 불가능합니다. 잠시 후 다시 시도해 주세요.";
+"TKSubtitle.connectUnavailable" = "자막이 일시적으로 연결되지 않습니다";
+"aiChat.connectFailed" = "연결 실패";
+"aiChat.gotIt" = "확인";
+"TKAiChatStartTip" = "학생과 AI의 대화에 방해가 되지 않도록 조용히 유지해 주세요.";
+
+"Button.videoFull"              = "동영상 확대";
+"Button.videoDefault"           = "동영상 축소";
+
+"record.forbid.title"           = "화면 녹화 감지됨";
+"record.forbid.subtitle"        = "콘텐츠 보호를 위해 녹화 중에는 화면이 숨겨집니다";

@@ -89,14 +89,6 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotific
                                 fromId:(NSString *)fromId;
 
 /**
-    用户视频状态变化，此回调已经失效
-    @param peerID 用户ID
-    @param state 视频发布状态
- */
-
-- (void)roomManagerPublishStateWithUserID:(NSString *)peerID publishState:(TKPublishState)state TK_Deprecated("Did deprecated, please use '- (void)roomManagerOnUserVideoStatus:state:' '- (void)roomManagerOnUserVideoStatus:deviceId:state:' '- (void)roomManagerOnUserAudioStatus:state:' ");
-
-/**
  用户视频状态变化的通知
 
  @param peerID 用户ID
@@ -292,13 +284,6 @@ FOUNDATION_EXTERN NSNotificationName const TKRoomManagerContinueCheckRoomNotific
  */
 - (void)roomManagerOnFirstAudioFrameWithPeerID:(NSString *)peerID mediaType:(TKMediaType)type;
 
-/**
- 网络测速回调
- @param networkQuality 网速质量 (TKNetQuality_Down 测速失败)
- @param delay 延迟(毫秒)
- */
-- (void)onNetworkQuality:(TKNetQuality)networkQuality
-                   delay:(NSInteger)delay TK_Deprecated("Did deprecated!");
 
 #pragma mark meidia
 /**

@@ -17,7 +17,7 @@
 "Error.NoMeeting" = "教室号不存在";
 "Error.NoLiving" = "直播不存在";
 "Error.NotSupportThisType" = "不支持这种直播类型，请用电脑端登陆";
-"Error.ServerExpired" = "服务器过期！";
+"Error.ServerExpired" = "接口验证失败，请检查设备时区或时间。";
 "Error.CheckmeetingFail" = "检查会议失败";
 "Error.CheckserverInformationFail" = "获取服务器信息失败";
 "Error.CompanyFreeze" = "公司被冻结！";
@@ -562,6 +562,8 @@
 "tool.WeiQi"    = "围棋";
 "tool.screenShare" = "桌面共享";
 "tool.redPacket" = "红包";
+"tool.aiChat" = "AI主题";
+"tool.aiChatPop"   = "AI情景对话";
 
 "tool.roomLayout" = "房间布局";
 "tool.cameraTurn" = "翻转镜头";
@@ -1022,6 +1024,9 @@
 "TKTestDocumentLowVersionTip"            = "检测到学生客户端版本较低，无法正常查看，请提醒其升级后再打开课件";
 // 4.17.12
 "TKSubtitle" = "字幕";
+"TKSubtitle.show" = "显示字幕";
+"TKSubtitle.closed" = "字幕已关闭";
+"TKSubtitle.closedHint" = "可在设置中开启或关闭字幕";
 "TKForbidStudentUploadImage" = "禁止学生上传图片";
 "TKForbidStudentUploadImageTip" = "该功能仅对4.18.0及以上版本生效；老师和助教的操作将同步给对方";
 "TKLowVersionTip" = "旧版本客户端不支持该功能，请提醒学生升级";
@@ -1030,8 +1035,6 @@
 "Button.MouseSelect"         = "点击关闭鼠标";
 "Button.MouseAllSelect"         = "全体开启鼠标";
 "Button.MouseAllClose"         = "全体关闭鼠标";
-"Button.videoFull"              = "放大视频";
-"Button.videoDefault"           = "缩小视频";
 "PlayBack.Speed"         = "倍速";
 "TKMiniWBCloseTip"         = "小白板已关闭";
 "TKLogin.transfiniteWords" = "文字超限";
@@ -1040,3 +1043,35 @@
 "MiniWB.Evaluation.Awesome" = "超级赞";
 "MiniWB.Evaluation.MiniTip" = "来自小白板的评价";
 
+// AI情景对话
+"aiChat.title" = "AI主题对话";
+"aiChat.topicLabel" = "对话主题：";
+"aiChat.topicPlaceholder" = "输入内容";
+"aiChat.durationLabel" = "对话时长：";
+"aiChat.3min" = "3分钟";
+"aiChat.5min" = "5分钟";
+"aiChat.10min" = "10分钟";
+"aiChat.custom" = "自定义";
+"aiChat.customPlaceholder" = "分钟";
+"aiChat.publish" = "发布";
+"aiChat.countdown" = "对话倒计时";
+"aiChat.terminate" = "终止";
+"aiChat.maxMinutesHint" = "对话时长最大为30分钟";
+"aiChat.connecting" = "接通中...";
+"aiChat.speakToInterrupt" = "说话即可打断";
+"aiChat.listening" = "正在听,可以开始说话";
+"aiChat.thinking" = "思考中...";
+"aiChat.conversationEnded" = "对话已结束";
+"aiChat.republish" = "重新发布";
+"TKFileDefault" = "默认";
+
+"aiChat.connectUnavailable" = "对话暂时无法连接，请稍后再试";
+"TKSubtitle.connectUnavailable" = "字幕暂时无法连接";
+"aiChat.connectFailed" = "连接失败";
+"TKAiChatStartTip" = "请保持静音，避免影响学生与 AI 对话";
+
+"Button.videoFull"              = "放大视频";
+"Button.videoDefault"           = "缩小视频";
+
+"record.forbid.title"           = "检测到录屏";
+"record.forbid.subtitle"        = "为保护课程内容，录屏期间已停止显示画面";

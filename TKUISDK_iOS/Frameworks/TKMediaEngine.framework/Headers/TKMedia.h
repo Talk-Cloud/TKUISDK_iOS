@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 - (void)configAudioExt;
 - (void)disableEncryption:(BOOL)disableEncryption;
+- (void)startAudioRecording;
+- (void)stopAudioRecording;
 // 设置 speaker 静音
 - (int)setSpeakerMute:(BOOL)enable;
 - (void)setLocalID:(NSString *)localId;

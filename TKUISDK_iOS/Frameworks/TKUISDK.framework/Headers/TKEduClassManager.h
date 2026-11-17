@@ -90,8 +90,6 @@ FOUNDATION_EXPORT NSInteger const TKJoinRoomResultBusy;
 - (void)showEndClassWebPage:(BOOL)isShow;
 
 /// 更新语音识别的令牌
-- (void)refreshVoiceSign;
-
 /// 课程结束后的web页面, 默认显示后台配置地址.
 /// @param url 地址, 默认拼接 教室号和教室名称
 - (void)endClassUrl:(NSString *)url;

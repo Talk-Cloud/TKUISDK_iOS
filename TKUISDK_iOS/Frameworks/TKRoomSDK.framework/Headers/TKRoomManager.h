@@ -19,6 +19,8 @@
 @class TKVideoProfile;
 @class TKMediaFileParams;
 @class TKLogInfo;
+@class TKAITranscriberManager;
+@class TKAIConversationManager;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TKRoomManager : NSObject
@@ -948,6 +950,10 @@ extensionJson:(NSDictionary * _Nullable)extensionJson
 
 #pragma mark - 获取设备类
 - (TKDeviceManager *)getDeviceManager;
+#pragma mark - 获取AI转录功能管理类
+- (TKAITranscriberManager *)getAITranscriberManager;
+#pragma mark - 获取AI语音对话功能管理类
+- (TKAIConversationManager *)getAIConversationManager;
  
 #pragma mark deprecated
 /**

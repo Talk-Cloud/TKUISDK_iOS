@@ -17,7 +17,7 @@
 "Error.NoMeeting"="教室の番号は存在しません";
 "Error.NoLiving"="ライブブロードキャストは存在しません";
 "Error.NotSupportThisType"="この種のライブブロードキャストをサポートしないでください。コンピューターにログインしてください";
-"Error.ServerExpired"="サーバーは期限切れになります！";
+"Error.ServerExpired"="API認証に失敗しました。デバイスのタイムゾーンまたは時刻を確認してください。";
 "Error.CheckmeetingFail"="検査会議が失敗した";
 "Error.CheckserverInformationFail"="サーバー情報の取得の失敗";
 "Error.CompanyFreeze"="会社は凍結されています！";
@@ -554,6 +554,8 @@
 "tool.WeiQi"="行く";
 "tool.screenShare"="デスクトップ共有";
 "tool.redPacket"="赤い封筒";
+"tool.aiChat"="AIテーマ";
+"tool.aiChatPop"   = "AIシチュエーション対話";
 
 "tool.roomLayout"="ルームレイアウト";
 "tool.cameraTurn"="フリップレンズ";
@@ -1007,6 +1009,9 @@
 "TKTestDocumentLowVersionTip"            = "学生クライアントのバージョンが低いため、正常に表示できません。コースウェアを開く前にアップグレードするよう、学生に伝えてください。";
 // 4.17.12
 "TKSubtitle" = "字幕";
+"TKSubtitle.show" = "字幕を表示";
+"TKSubtitle.closed" = "字幕はオフです";
+"TKSubtitle.closedHint" = "設定で字幕のオン/オフが可能です";
 "TKForbidStudentUploadImage" = "学生の写真投稿を禁止します";
 "TKForbidStudentUploadImageTip" = "この機能は4.18.0以降のバージョンでのみ有効です。先生と助手の操作を同期させます";
 "TKLowVersionTip" = "古いバージョンのクライアントはこの機能をサポートしていません。";
@@ -1015,8 +1020,6 @@
 "Button.MouseSelect"         = "クリックしてマウスを閉じます。";
 "Button.MouseAllSelect"         = "マウス全体を起動します";
 "Button.MouseAllClose"         = "マウス全体を閉じます";
-"Button.videoFull"              = "動画を拡大";
-"Button.videoDefault"           = "動画を縮小";
 "PlayBack.Speed"         = "倍速です";
 "TKMiniWBCloseTip"         = "ホワイトボードは閉鎖されました";
 "TKLogin.transfiniteWords" = "ワードエクセレンス";
@@ -1024,3 +1027,35 @@
 "MiniWB.Evaluation.CheerUp" = "頑張って！";
 "MiniWB.Evaluation.Awesome" = "すごい！";
 "MiniWB.Evaluation.MiniTip" = "小白板からの評価";
+
+// AIシナリオ会話
+"aiChat.title" = "AIテーマ会話";
+"aiChat.topicLabel" = "会話テーマ：";
+"aiChat.topicPlaceholder" = "内容を入力";
+"aiChat.durationLabel" = "会話時間：";
+"aiChat.3min" = "3分";
+"aiChat.5min" = "5分";
+"aiChat.10min" = "10分";
+"aiChat.custom" = "カスタム";
+"aiChat.customPlaceholder" = "分";
+"aiChat.publish" = "公開";
+"aiChat.countdown" = "会話カウントダウン";
+"aiChat.terminate" = "終了";
+"aiChat.maxMinutesHint" = "会話時間は最大30分です";
+"aiChat.connecting" = "接続中...";
+"aiChat.speakToInterrupt" = "話しかけると中断できます";
+"aiChat.listening" = "聞いています、話し始めてください";
+"aiChat.thinking" = "考え中...";
+"aiChat.conversationEnded" = "会話が終了しました";
+"aiChat.republish" = "再公開";
+"TKFileDefault" = "デフォルト";
+"aiChat.connectUnavailable" = "対話が一時的に接続できません。しばらくお待ちください。";
+"TKSubtitle.connectUnavailable" = "字幕は一時的に接続できません";
+"aiChat.connectFailed" = "接続に失敗しました";
+"TKAiChatStartTip" = "静かにしてください。生徒とAIとの会話に影響を与えないようにしてください。";
+
+"Button.videoFull"              = "動画を拡大";
+"Button.videoDefault"           = "動画を縮小";
+
+"record.forbid.title"           = "画面収録を検出しました";
+"record.forbid.subtitle"        = "コンテンツ保護のため、収録中は画面を非表示にしています";
