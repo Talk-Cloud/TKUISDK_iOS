@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		q039RavGsY7ViJug6yz9p325wO0=
-		</data>
 		<key>Headers/TKDrawView.h</key>
 		<data>
 		/ktEc6Ec5ZAUUdA8g9+PZKpzzC8=
@@ -38,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IKlIn8MgT10DL071NqnBWDHXphA=
+		NeuChulNSX6qYcIwNS3L0c6i320=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

@@ -94,6 +94,8 @@
 "AutoAdjustMicVolume"                = "自動調整麥克風音量";
 "Room.msgHint"                       = "花名冊消息提醒";
 "Video.Mirror"                       = "視頻鏡像";
+"RoomSet.whiteboardBackground"       = "白板背景";
+"RoomSet.classroomTheme"             = "教室主題";
 "RoomSet.eyeshield"                  = "護眼模式";
 "RoomSet.rollbackCamera"             = "監視器";
 "SetButton.front"                    = "前";
@@ -402,6 +404,7 @@
 "userList.blacklistremove" = "   移出黑名單";
 "userList.countExceedOnStageLimit" = "教室發言人數超過限制";
 "userList.beSpeakerFial" = "上台人數超過上限人數，無法設為主講人";
+"userList.onlyOneAssistantOnStage" = "同時只能有 1 位助教上台";
 
 "Menu.Copy" = "複製";
 "Label.addFile" = "添加教材";
@@ -961,3 +964,7 @@
 
 "record.forbid.title"           = "偵測到錄影";
 "record.forbid.subtitle"        = "為保護課程內容，錄影期間已停止顯示畫面";
+
+// 4.19.1
+"TKSpeekDuration" = "已發言";
+"TKSpeekDurationLowVersion" = "版本低無法統計";

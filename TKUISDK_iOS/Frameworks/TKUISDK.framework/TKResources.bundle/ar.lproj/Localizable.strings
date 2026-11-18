@@ -95,6 +95,8 @@
 "AutoAdjustMicVolume" = "ضبط مستوى صوت الميكروفون تلقائياً";
 "Room.msgHint" = "تنبيه رسائل قائمة الحضور";
 "Video.Mirror" = "انعكاس الفيديو";
+"RoomSet.whiteboardBackground" = "خلفية السبورة البيضاء";
+"RoomSet.classroomTheme" = "سمة الفصل الدراسي";
 "RoomSet.eyeshield" = "وضع حماية العين";
 "RoomSet.rollbackCamera" = "الكاميرا";
 "SetButton.front" = "أمامي";
@@ -381,6 +383,7 @@
 "userList.blacklistremove" = "   إزالة من القائمة السوداء";
 "userList.countExceedOnStageLimit" = "عدد المتحدثين في الفصل تجاوز الحد";
 "userList.beSpeakerFial" = "عدد المتحدثين تجاوز الحد، لا يمكن تعيينه كمتحدث رئيسي";
+"userList.onlyOneAssistantOnStage" = "يمكن أن يصعد إلى المنصة مساعد واحد فقط في الوقت نفسه";
 "Label.addFile" = "إضافة محتوى";
 "Label.handsup_tips" = "يرجى الضغط المستمر";
 "Res.btn.start" = "مسابقة";
@@ -892,3 +895,7 @@
 
 "record.forbid.title"           = "تم اكتشاف تسجيل الشاشة";
 "record.forbid.subtitle"        = "لحماية محتوى الدورة، يتم إخفاء الشاشة أثناء التسجيل";
+
+// 4.19.1
+"TKSpeekDuration" = "تحدث";
+"TKSpeekDurationLowVersion" = "لا يمكن الإحصاء بسبب انخفاض الإصدار";

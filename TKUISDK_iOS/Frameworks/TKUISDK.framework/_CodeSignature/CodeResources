@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		aOfGPT8n7bzZaHAPtUzLBGUnFC8=
-		</data>
 		<key>Headers/TKAPPSetConfig.h</key>
 		<data>
 		dTVT8eXg0mkeiYwqzwFgxtDBsFo=
@@ -38,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1Mu1oGMeVPIo2Rl8V6vOERHtlHk=
+		ciOdkQKwi/sFYwcGy+jE0Sde3j8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -323,7 +319,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zWNSotG8TXfRvRuNA8Be34gnwZI=
+			nWFZrFAXBL55J8PxnIoDnY2ikzM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -332,7 +328,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			emUP7Q8WILp46TvL8Nag6T6rTnA=
+			RPYEzme44FmRdEreRoZ5ywPy2Oc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -341,7 +337,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a5s13jSC+Rm83S/SlRKa+LwWARQ=
+			7JepF0/iG4wfyakBkTfRW1LGxcQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4602,6 +4598,14 @@
 		<data>
 		cPeedaq3zG27ab6xcZzsTtbkrOs=
 		</data>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_shareScreen_open_disable@2x.png</key>
+		<data>
+		PoYRtJyFHIG+BWRdtYq3WR+62r8=
+		</data>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_shareScreen_open_disable@3x.png</key>
+		<data>
+		bMMtPho4UymwdLtIQLODMv0oXlw=
+		</data>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_speaker_close@2x.png</key>
 		<data>
 		q7UOH7FPPUdB8W6hE4jRbXC6CO8=
@@ -4634,6 +4638,22 @@
 		<data>
 		5VTeO7bcf5dn83XT4va7FloyOM4=
 		</data>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_upload_open_disable@2x.png</key>
+		<data>
+		lMUbBktDrgtx7hsJUsyjUj4s3xM=
+		</data>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_upload_open_disable@3x.png</key>
+		<data>
+		nlkyq6RuxMyOlaHfV0hHu8p/voc=
+		</data>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_videoWhite_open_default@2x.png</key>
+		<data>
+		FAfHUm1nPaDKHmlXQIbFVaWKp40=
+		</data>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_videoWhite_open_default@3x.png</key>
+		<data>
+		dpgoHrBEhoBRmn1F582+Fvb/y2o=
+		</data>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_video_close_default@2x.png</key>
 		<data>
 		6vDB06BImeq+aQQv/FF92L9zCIQ=
@@ -4660,11 +4680,11 @@
 		</data>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_video_open_default_disable@2x.png</key>
 		<data>
-		WtLd4AIbHlFwihavkRyWEChEeSQ=
+		fTPCMLEbMuZIjZu/7a4yiIppGsI=
 		</data>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_video_open_default_disable@3x.png</key>
 		<data>
-		LrtSUm4WpLS5aoTmsgTbU6F58oU=
+		47qC/92/44iWADiKwExcFFecBxk=
 		</data>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_xiatai@2x.png</key>
 		<data>
@@ -5484,11 +5504,11 @@
 		</data>
 		<key>TKResources.bundle/image/TKWhiteBoardCheckBg/tk_whiteboard_kind_select@2x.png</key>
 		<data>
-		v7FI/Pt0g9Abz9wKHpnLDN4SX/g=
+		M/i/1WoG15Y1JEFJb9hDOQyeaZw=
 		</data>
 		<key>TKResources.bundle/image/TKWhiteBoardCheckBg/tk_whiteboard_kind_select@3x.png</key>
 		<data>
-		mCLmFHMfFuKKKjSWveDNXJoyyiM=
+		tHILD2lGzVPHGRZwQTe6x/+Ai9k=
 		</data>
 		<key>TKResources.bundle/image/TKlogin/tk_loginSetting_back@2x.png</key>
 		<data>
@@ -5986,7 +6006,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S2XfcK2FCoVIb4v9MjdGW/pgHR4=
+			2LHoyJqjBLn/3AeEqBM4pS2K8pk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5995,7 +6015,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JpANCNQr3w8dhvCNfgX+gtJoJuI=
+			XL0bUo+PiVdMovMnrNLD6ftkcwo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6004,7 +6024,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U5bdQiSkx7N9GwhjcvNQYkxatMI=
+			AyRbpl4rkAdVnQJuwKBr1ci7uJE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6013,7 +6033,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gQwnHB66IZ4+JoPZOVDBCo0ZHNE=
+			Y1ODdQOpuvEm12nPI5sskZ7/jzo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6542,7 +6562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QelrWVMuFeTDe0tpm4gHCfRxPJ/HS4cxRAvv7DbFb9o=
+			ZrVCKJ2CQ0YIgTMh7IjsNPlrfmQ8FlZWBpBlfnmNT4k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6551,7 +6571,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucRRdA+j6E7C+r7AH/YIuA6gfBe/UgMHFXxyBtylwcE=
+			wI8pnYPU9bMZ/IaaBfKE8IBD9UOTeB4fiapCTsWcGs0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6560,7 +6580,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Uun4FC++FQwjRAheeJ8TWJDea8IsigmwMrXJuOr5/w=
+			J49vJdP8Mgig+mBJfL4D5NQdn8mJA2sHLpvF1apBung=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -14013,6 +14033,20 @@
 			tyaQSeaJBKXvkFYg9hGKzQhMxZWrZ5MMw1DDmuwudEY=
 			</data>
 		</dict>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_shareScreen_open_disable@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3zeT1XmsAajTEokJipAGbYHP/UnOhZKMk3oGde3hnwA=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_shareScreen_open_disable@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gYE+OW8elABBhOrsEDzwT57VOs4gMwSZIf2KTZY4TX4=
+			</data>
+		</dict>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_speaker_close@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -14069,6 +14103,34 @@
 			hpz/UPJRGou/5F/f5h6pyM77sA/eLWOWMP1n+j7PAyE=
 			</data>
 		</dict>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_upload_open_disable@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MxcL1EQjlRPBfCtUgffZt+yPEE/+i+Yx7pcUArBk1b8=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_upload_open_disable@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1HbNaqadDaJhHAkXt2rl9dxz8Qgo+5e+FO1U7M05sXA=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_videoWhite_open_default@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fPwDrzZlumcDKAr7jANvFF+lgE4mGKdzFRBDGXJtbg0=
+			</data>
+		</dict>
+		<key>TKResources.bundle/image/TKUserlist/tk_user_videoWhite_open_default@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2uk58oHmhirfzX5GqlkduxA8a/VVN947L05SxLeQtn0=
+			</data>
+		</dict>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_video_close_default@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -14115,14 +14177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6B5h6+F/7Kii5jYVrtPRiYvfBzGqd1FIOKrzchMs94=
+			kW25zWEGMEhF2KqXkdW2zCg01J3X8yeL45uIT0lUOAU=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_video_open_default_disable@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLwncjbkwJR1vHaMBaUzUJXBMFCl0tV9JWYYBRIhUm8=
+			87OHZXsrbfUXeR7e4T+5Hj6w68MJyyEewfZDQ7lwOcM=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKUserlist/tk_user_xiatai@2x.png</key>
@@ -15557,14 +15619,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ie2o9gjjcbc66coPbYPvAud2mSvH27mMImW5fK6q6cM=
+			ZyHM+hmUm7JFgCCu9DBfrFCViks+aGA2TFU7qulk1RA=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKWhiteBoardCheckBg/tk_whiteboard_kind_select@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xdwyBz9rCekdN9N/yXpqw6UQC1vEN1NUhsPy3biA8Q=
+			bzEwb+38l/oL2g2z3DzA+hITHm8K6LIMmJPmzyXBxv8=
 			</data>
 		</dict>
 		<key>TKResources.bundle/image/TKlogin/tk_loginSetting_back@2x.png</key>
@@ -16432,7 +16494,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			631C/kKaAjrxV4IqFXfPZj2kmbeyC2NuzQCnRCqMrYE=
+			R+8FhjoOblfCzT+xOAvlnQPlbsoL+YDQIrSLS0p508c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -16441,7 +16503,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Cq3C19xb1CqB6eD5hWJz8Z/FyBp1Xybg3zXAMUHBp4=
+			GajBVIFojORIRnqXusaZhPpzGPE1Hn+GhtLyAQbwSU0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -16450,7 +16512,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBIsFUW4Vjari8A4if73tTmv7QQizxiMa7KKjAu35RE=
+			RUPr6N5gh2BBAT8iHAhlIUF9S1jhyFMH4NukzqVeBQk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -16459,7 +16521,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rWzmZDjAfpmWY7xqFUK9NLPCk5xy+DaI34dEB7Fvr/I=
+			T45DFmtbb979/SVFDQ4FzYTNXJDWyDzq8IgGpvjInso=
 			</data>
 			<key>optional</key>
 			<true/>

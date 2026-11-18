@@ -106,6 +106,8 @@
 "AutoAdjustMicVolume"                = "Ajuster automatiquement le volume du microphone";
 "Room.msgHint"                      = "Alerte de message de liste";
 "Video.Mirror"                       = "Mise en miroir vidéo";
+"RoomSet.whiteboardBackground"       = "Fond du tableau blanc";
+"RoomSet.classroomTheme"             = "Thème de la salle de classe";
 "RoomSet.eyeshield"                  = "protection des yeux";
 "RoomSet.rollbackCamera"             = "camera";
 "SetButton.front"                    = "vers l'avant";
@@ -522,6 +524,7 @@
 
 "userList.countExceedOnStageLimit" = "Le nombre d'orateurs dans la classe dépasse la limite";
 "userList.beSpeakerFial" = "Le nombre de personnes présentes sur scène dépasse la limite supérieure et ne peut pas être défini comme présentateur";
+"userList.onlyOneAssistantOnStage" = "Un seul assistant peut monter sur scène en même temps.";
 
 
 
@@ -1060,3 +1063,7 @@
 
 "record.forbid.title"           = "Enregistrement d'écran détecté";
 "record.forbid.subtitle"        = "Pour protéger le contenu du cours, l'écran est masqué pendant l'enregistrement.";
+
+// 4.19.1
+"TKSpeekDuration" = "A parlé";
+"TKSpeekDurationLowVersion" = "Impossible de compter en raison d'une version trop ancienne";

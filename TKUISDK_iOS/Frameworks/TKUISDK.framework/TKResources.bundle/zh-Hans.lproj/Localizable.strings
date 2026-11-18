@@ -98,6 +98,8 @@
 "AutoAdjustMicVolume"                = "自动调整麦克风音量";
 "Room.msgHint"                      = "花名册消息提醒";
 "Video.Mirror"                       = "视频镜像";
+"RoomSet.whiteboardBackground"       = "白板背景";
+"RoomSet.classroomTheme"             = "教室主题";
 "RoomSet.eyeshield"                  = "护眼模式";
 "RoomSet.rollbackCamera"             = "摄像头";
 "SetButton.front"                    = "前";
@@ -510,6 +512,7 @@
 
 "userList.countExceedOnStageLimit" = "教室发言人数超过限制";
 "userList.beSpeakerFial" = "上台人数超过上限人数，无法设为主讲人";
+"userList.onlyOneAssistantOnStage" = "同时只能有 1 位助教上台";
 
 
 
@@ -1075,3 +1078,7 @@
 
 "record.forbid.title"           = "检测到录屏";
 "record.forbid.subtitle"        = "为保护课程内容，录屏期间已停止显示画面";
+
+// 4.19.1
+"TKSpeekDuration" = "已发言";
+"TKSpeekDurationLowVersion" = "版本低无法统计";

@@ -98,6 +98,8 @@
 "AutoAdjustMicVolume" = "マイクの音量を自動的に調整する";
 "Room.msgHint"="流れるレストランのリマインダー";
 "Video.Mirror"="ビデオミラー";
+"RoomSet.whiteboardBackground"="ホワイトボード背景";
+"RoomSet.classroomTheme"="教室テーマ";
 "RoomSet.eyeshield"="目の保護モード";
 "RoomSet.rollbackCamera"="カメラ";
 "SetButton.front"="前方";
@@ -503,6 +505,7 @@
 
 "userList.countExceedOnStageLimit"="教室のスピーカーの数は制限を超えています";
 "userList.beSpeakerFial"="ステージ上の人の数は上限の数を超えており、スピーカーとして設定することはできません";
+"userList.onlyOneAssistantOnStage"="同時に1人のティーチングアシスタントのみが登壇できます";
 
 
 
@@ -1059,3 +1062,7 @@
 
 "record.forbid.title"           = "画面収録を検出しました";
 "record.forbid.subtitle"        = "コンテンツ保護のため、収録中は画面を非表示にしています";
+
+// 4.19.1
+"TKSpeekDuration" = "発言済み";
+"TKSpeekDurationLowVersion" = "バージョンが低いため統計できません";

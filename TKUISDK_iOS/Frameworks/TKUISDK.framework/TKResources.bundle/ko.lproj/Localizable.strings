@@ -100,6 +100,8 @@
 "AutoAdjustMicVolume"                = "마이크 볼륨 자동 조정";
 "Room.msgHint"                       = "명단 메시지 알림";
 "Video.Mirror"                       = "비디오 미러링";
+"RoomSet.whiteboardBackground"       = "화이트보드 배경";
+"RoomSet.classroomTheme"             = "교실 테마";
 "RoomSet.eyeshield"                  = "안구 보호 모드";
 "RoomSet.rollbackCamera"             = "카메라";
 "SetButton.front"                    = "앞쪽";
@@ -490,6 +492,7 @@
 
 "userList.countExceedOnStageLimit" = "교실 발표자의 수가 제한을 초과했습니다.";
 "userList.beSpeakerFial" = "무대에 있는 사람의 수가 상한을 초과하여 스피커로 설정할 수 없습니다.";
+"userList.onlyOneAssistantOnStage" = "동시에 1명의 조교만 무대에 올 수 있습니다";
 
 
 "Label.addFile" = "코스웨어 추가";
@@ -1061,3 +1064,7 @@
 
 "record.forbid.title"           = "화면 녹화 감지됨";
 "record.forbid.subtitle"        = "콘텐츠 보호를 위해 녹화 중에는 화면이 숨겨집니다";
+
+// 4.19.1
+"TKSpeekDuration" = "발언함";
+"TKSpeekDurationLowVersion" = "버전이 낮아 통계할 수 없음";

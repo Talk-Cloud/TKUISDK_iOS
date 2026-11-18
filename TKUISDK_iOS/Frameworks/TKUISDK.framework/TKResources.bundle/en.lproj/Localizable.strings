@@ -106,6 +106,8 @@
 "AutoAdjustMicVolume"                = "microphone auto-adjusting volume";
 "Room.msgHint"                       = "Roster Notification";
 "Video.Mirror"                       = "Mirror";
+"RoomSet.whiteboardBackground"       = "Whiteboard Background";
+"RoomSet.classroomTheme"             = "Classroom Theme";
 "RoomSet.eyeshield"                  = "Eye Protection Mode";
 "RoomSet.rollbackCamera"             = "Camera";
 "SetButton.front"                    = "Front";
@@ -454,6 +456,7 @@
 
 "userList.countExceedOnStageLimit" = "The number of people on stage exceeds the upper limit";
 "userList.beSpeakerFial" = "The number of people on stage exceeds the upper limit and the lecturer cannot be set";
+"userList.onlyOneAssistantOnStage" = "Only one teaching assistant can go on stage at a time.";
 
 
 "Label.addFile" = "AddFile";
@@ -1076,3 +1079,7 @@ Please ask all users update to the latest version as soon as possible;";
 
 "record.forbid.title"           = "Screen Recording Detected";
 "record.forbid.subtitle"        = "To protect the course content, the screen is hidden while recording.";
+
+// 4.19.1
+"TKSpeekDuration" = "Spoken";
+"TKSpeekDurationLowVersion" = "Unable to track due to low version";
